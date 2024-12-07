@@ -1,0 +1,39 @@
+\babel@toc {polish}{}\relax 
+\babel@toc {polish}{}\relax 
+\thispagestyle {empty}
+\contentsline {chapter}{\numberline {1}Wprowadzenie}{4}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Cel i zakres pracy}{6}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Opis technologii}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Usprawnienie formatowania i estetyki}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Marginesy i układ strony }{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Czcionka i interlinia}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Nagłówki i stopki}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Numeracja rozdziałów i sekcji}{12}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Rozmieszczenie grafik i tabel}{13}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Kolory i formatowanie}{13}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Obsługa wzorów matematycznych}{13}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Automatyzacja struktury dokumentu}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Zarządzanie bibliografią i przypisami}{16}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Wspieranie pracy w języku polskim}{18}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Projekt szablonu pracy dyplomowej}{19}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Opracowanie szablonu pracy dyplomowej}{21}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Rysunki}{26}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Odwołania do literatury}{27}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Tabele}{28}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Wzory}{29}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Kody Żródłowe}{31}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Grafy, schematy, rysunki techniczne}{32}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Dodatki}{35}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}Podstawowe style tekstu}{35}{subsection.9.7.1}%
+\contentsline {subsection}{\numberline {9.7.2}Wiszące znaki}{35}{subsection.9.7.2}%
+\contentsline {subsection}{\numberline {9.7.3}Wyliczenia}{36}{subsection.9.7.3}%
+\contentsline {subsection}{\numberline {9.7.4}Akronimy i~symbole}{36}{subsection.9.7.4}%
+\contentsline {subsection}{\numberline {9.7.5}Ozdobniki graficzne w~opisie oprogramowania}{36}{subsection.9.7.5}%
+\contentsline {subsection}{\numberline {9.7.6}Kompilator lokalny}{36}{subsection.9.7.6}%
+\contentsline {subsection}{\numberline {9.7.7}Oświadczenia i wnioski}{37}{subsection.9.7.7}%
+\contentsline {section}{\numberline {9.8}Prezentacja}{37}{section.9.8}%
+\contentsline {chapter}{\numberline {10}Podsumowanie}{39}{chapter.10}%
+\contentsline {chapter}{Bibliografia}{39}{section*.8}%
+\contentsline {chapter}{Spis rysunk\'ow}{41}{chapter*.10}%
+\contentsline {chapter}{Spis tabel}{42}{chapter*.11}%
+\contentsfinish 

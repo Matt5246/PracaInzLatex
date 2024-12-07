@@ -1,0 +1,29 @@
+
+Jest to następny element a także kluczowy aspekt w kontekście tworzenia prac naukowych czy dokumentów akademickich. W tym celu również używane są specjalne pakiety między innymi wspomniany wcześniej \texttt{BibTeX}, a także różne komendy służące do dodawania przypisów w tekście. Narzędzie to wspomaga zarządzanie bibliografia. Gromadzi dane o cytowanych pracach z różnych źródeł. Automatycznie formatuje je zgodnie z wybranym stylem. Pakiet dołączany jest do dokumentu poprzez komendę \texttt{\textbackslash usepackage{\{natbib\}}}. W celu przechowywania informacji o źródłach, które są cytowane w dokumencie należy utworzyć plik \texttt{nazwa\textunderscore bibliografi.bib}. Przykładowa struktura takiego pliku:
+\begin{lstlisting}[caption={Przykłady dodawania do bibliografii}, label=lst:Przykład dodawania do Bibliografii]
+%Artykul
+@article{id,
+  author = {Autor, A.},
+  title = {Tytul artykulu},
+  journal = {Czasopismo},
+  year = {2000},
+  pages = {123-145},
+}
+%Ksiazka
+@book{id,
+	author = {Imie Nazwisko},
+	title = {Tytul ksiazki},
+	publisher = {Wydawnictwo},
+	year = {2005},
+	address = {Miasto},
+	edition = {2},
+}
+%Strona internetowa
+@online{id,
+	author = {Imie Nazwisko},
+	title = {Tytul strony internetowej},
+	year = {2021},
+	url = {http://www.example.com},
+}
+\end{lstlisting}
+Elementy umieszczone w pliku \texttt{nazwabibliografi.bib} można zacytować w dokumencie za pomocą polecenia \texttt{\textbackslash cite{\{id}\}}. Należy również wybrać styl bibliografii, który definiuje jak formatowane są cytowania. Zazwyczaj odbywa się to za pomocą komendy \texttt{\textbackslash bibligraphystyle}. Określenie miejsca, gdzie ma zostać umieszczona bibliografia realizowane jest przez dodanie komendy \texttt{\textbackslash bibliography}. Zarządzanie przypisami umożliwia pakiet \texttt{footnote}. Pozwala on na łatwe dodanie przypisu dolnego. \LaTeX\ pozwala na dodanie przypisów również w obszarze wzorów matematycznych. W celu oznaczenia przypisu należy użyć \texttt{footnotemark}. Dodanie tekstu do przypisu umożliwia z kolei komenda \texttt{\textbackslash footnotetext{\{treść}\}}. Przypisy mogą również być sformatowane zgodnie z odpowiednim stylem. W tym celu należy użyć pakietu \texttt{footmisc}. Zarządzanie bibliografią i przypisami wspomaga efektywne tworzenie dokumentów. Korzystanie z pakietu \texttt{BibTeX} znacząco ułatwia cytowanie prac i zarządzanie przypisami. Więcej informacji na temat tworzenia bibliografii można znaleźć na internetowej platformie edukacyjnej \cite{Vellage2017} lub w artykule \cite{Cleary2004}. 

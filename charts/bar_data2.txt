@@ -1,0 +1,4 @@
+Category Value
+X 14
+Y 10
+Z 2

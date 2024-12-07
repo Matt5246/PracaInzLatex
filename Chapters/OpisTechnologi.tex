@@ -1,0 +1,39 @@
+
+
+Struktura dokumentów \LaTeX\ przedstawiona w listingu \ref{lst:Przykład prostego dokumentu} obejmuje proste i podstawowe polecenia. Dokumenty \LaTeX\ zaczynamy od \textbf{preambuły} która znajdująca się przed właściwą treścią dokumentu. Preambuła zawiera instrukcje i ustawienia, które wpływają na cały dokument. Najczęściej zawiera takie inforamcje jak: klasa dokumentu, ustawienia strony czy pakiety. W przypadku podanego przykładu zaczynamy od wyboru klasy którym jest \texttt{article}, więcej informacji na temat wyboru klas w dokumentach \LaTeX\ można znaleźć w podrozdziale \ref{sec:klassa}. Następnym elementem są pakiety w \LaTeX\ to zestawy makr i definicji, które rozszerzają funkcjonalność języka \LaTeX\. Dzięki pakietom możesz dostosować formatowanie, dodawać nowe polecenia czy obsługiwać specjalne elementy, takie jak tabelki, grafika czy dodatkowe czcionki. Wczytujemy pakietu w \LaTeX\ za pomocą polecenie \texttt{\textbackslash usepackage{\{Nazwa\textunderscore pakietu\}}} jednak należy pamiętać że niektóre pakiety mogą wchodzić z sobą w konflikt. Kolejnym elementem przedstawionym w listingu \ref{lst:Przykład prostego dokumentu} jest makro to niestandardowe polecenia, które można definiować i używać w celu skrócenia i uproszczenia kodu. Makra pozwalają na zdefiniowanie własnych komend, które mogą być używane w dokumencie. Mogą być one przydatne, gdy chcemy wielokrotnie używać tego samego fragmentu kodu, lub gdy chcemy nadać bardziej znaczącą nazwę bardziej skomplikowanym lub długim sekwencjom poleceń. W przedstawionym przykładzie zostało stworzone makro wstawiającą hiperłącze do platformy Overleaf. Kolejnym elementem są metadane dokumentu to informacje charakteryzujące sam dokument, takie jak tytuł, autor, data itp. Ostatnim elementem w przedstawionym przykładzie jest właściwa treść dokumentu która nie jest już częścią preambuły zaczyna się od \texttt{\textbackslash begin\{document\}} a kończy na \texttt{\textbackslash end\{document\}} wszystkie elementy zawarte pomiędzy tworzą treść. Element \texttt{\textbackslash maketitle} generuje stronę tytułową na podstawie zdefiniowanych metadanych. Za pomocą komendy \texttt{\textbackslash section\{Nazwa\textunderscore sekcji\}} tworzona jest nową sekcje w naszym dokumencie.
+\clearpage 
+\begin{lstlisting}[caption={Przykład prostego dokumentu}, label=lst:Przykład prostego dokumentu]
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}  % Kodowanie znaków 
+\usepackage[T1]{fontenc}     % Kodowanie fontu
+\usepackage[polish]{babel}   % Język dokumentu
+\usepackage{graphicx}        % Obsługa grafiki
+\usepackage{hyperref}        % Dodanie pakietu do obsługi hiperłączy
+
+% Makro
+\newcommand{\overleaflink}{\href{https://www.overleaf.com/}{Overleaf }}
+
+\title{Przykładowy Dokument w LaTeX}
+\author{Wojtek Hyl}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Wprowadzenie}
+	Tutaj możesz opisać wprowadzenie do swojego dokumentu.
+	
+	\section{Link do Overleaf}
+	Korzystając z makra, możesz wstawić hiperłącze do Overleaf: \overleaflink
+	
+\end{document}
+
+\end{lstlisting}
+
+
+
+\overleaflink to platforma internetowa umożliwiająca pracę z dokumentami \LaTeX, która ułatwia autorom pisanie i formatowanie tekstów naukowych. Platforma oferuje również dostęp do szablonów udostępnionych przez użytkowników. Dzięki temu, że jest to platforma online nie ma potrzeby instalowania żadnych dodatkowych programów na lokalnym komputerze. Ułatwia to dostępność i pracę z dowolnego miejsca z dostępem do internetu. Możliwość pracy online umożliwia pracę w zespołach nad jednym dokumentem w czasie rzeczywistym co jest bardzo ważnym elementem. \overleaflink umożliwia integracje z platformą GitHub, co umożliwia przechowywanie dokumentów \LaTeX w systemie kontroli wersji. Ułatwia to przechowywanie wersji projektu, śledzenie zmian oraz współpracę z innymi programistami. \overleaflink oferuje również integracje z Dropboxem która umożliwia przechowywania i synchronizacje plików w chmurze. Dropbox jest bardziej intuicyjnym narzędziem do przechowywania kodów niż GitHub jednakże nie posiada kontroli wersji. Platforma oferuje bogaty zasób funkcji takich jak na przykład natychmiastowy podgląd, sprawdzanie poprawności kodu, sugestie poprawek i wiele inny przydatnych funkcjonalności. Dodatkowo strona obsługuje wiele języków, co umożliwia pisanie oraz formatowanie w wybranym języku. Bibliografia na platformie jest zintegrowana z systemem zarządzania bibliografią. Pomaga to w generowaniu bibliografii z wybranym stylem. Posiada integracje z takim portalami jak Mendeley i Zotero, co umożliwia importowanie i eksportowanie bibliografii w różnych formatach, a także pozwala na integrację z zarządzaniem referencjami. \overleaflink oferuje także bardzo bogatą i łatwo dostępną dokumentacje oraz instrukcję obsługi pakietów. Podsumowując platforma ułatwia tworzenie dokumentów \LaTeX dla osób, które nie chcą instalować żadnego dodatkowego oprogramowania swoim komputerze lokalnym i chcą mieć dostęp do swoich dokumentów w każdym miejscu. Jest również świetnym narzędziem do pracy w zespołach które pracują online nad swoimi dokumentami. Należy jednak pamiętać że takie funkcje jak integracja z GitHubem, DropBoxem, Mendeley i Zotero są wyłącznie dostępne w płatnej subskrypcji \overleaflink. Płatna wersja również zawiera wsparcie priorytetowe (ang. priority support) co umożliwia szybsze wsparcie z strony \overleaflink w razie problemów.  
+
+\LaTeX\ umożliwia również pracę w środowisku lokalnym. Istnieje wiele narzędzi używanych do tworzenia, kompilowania i zarządzania dokumentami \LaTeX. Jedną z istotniejszych narzędzi jakie są potrzebne to edytory. Do najczęściej używanych zaliczamy TeXShop, TeXworks i TeXstudio. Edytor TeXShop umożliwiający pracę z \LaTeX{em} na systemy OS X. Posiada prosty interfejs i jest łatwy w użyciu. Natomiast jeżeli chodzi o edytory dostępne na wielu systemach możemy do nich zaliczyć TeXworks i TeXstudio. Kolejną ważna rzeczą jaka jest potrzebna do używania \LaTeX{a} na komputerach lokalnych jest jego dystrybucja. Do najczęściej używanych dystrybucji należą TeX Live i MiKTex. TeX Live jest to dystrybucja \LaTeX\ dostępna na wielu platformach obejmująca pełen zestaw pakietów i narzędzi. MikTex jest dystrybucją \LaTeX\ przeznaczoną dla systemów Windows podobnie jak Tex Live zawiera pełen zestaw pakietów i narzędzi. Ostatnią rzeczą jaka jest potrzebna do pracy z \LaTeX{em} jest kompilator. pdf\LaTeX\ jest najczęściej używanym kompilatorem umożliwiającym bezpośrednio generację plików PDF. Obsługuje nowoczesne funkcje, takie jak przykład na hiperłącza, wbudowane obrazy oraz obsługę różnych fontów. Jednym z kolejnych kompilatorów jest Xe\LaTeX. Obsługuje on fonty systemowe co umożliwia użycie innych fontów niż standardowe w \LaTeX. Obsługuje również Unicode, co pozwala na pracę w wielu językach i kodowań znaków. LuaLa\TeX\ jest edytorem umożliwiające zaawansowane operacje programistyczne używające silnika Lua\TeX\ jest rozwinięciem pdf\LaTeX. 

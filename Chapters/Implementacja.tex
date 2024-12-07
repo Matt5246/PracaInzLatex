@@ -1,0 +1,604 @@
+
+Szablon jest stworzony pod wersje kompilatora Xe\LaTeX\ . Pisząc pracę należy podjąć decyzje w jaki sposób będziemy pracować w sposób lokalny lub poprzez internetowy edytor \overleaflink. Pisząc pracę lokalnie zapoznaj się z podrozdziałem \ref{sec:kompilator_lokalny}. Natomiast decydując się na \overleaflink zapoznaj się z instrukcją poniżej. Używając \overleaflink do pisania pracy należy rozwinąć \texttt{"Menu”} i zjechać do zakładki \texttt{"Settings”} i zmienić \texttt{"Compiler”} na Xe\LaTeX\ ponieważ na starcie wybrany jest inny. 
+
+\begin{figure}[!hb]
+    \centering
+    \includegraphics{IMAGE/Obraz1.png}
+    \caption{Ustawienie kompilatora na platformie \overleaflink}
+    
+\end{figure}
+Następnie należy wybrać z listy pilików \texttt{„Dyplom.tex”} i ustawić typ swojej pracy  w linii \textbackslash \texttt{documentclass} zmieniając \texttt{[thesis=inz]} na jedną z dostępnych opcji inz (praca inżynierska w języku polskim), mgr (praca magisterska w języku polskim), bsc (praca inżynierska w języku angielskim) lub msc (praca magisterka w języku angielskim). 
+\begin{lstlisting}[caption={Ustawienia klasy dokumentu}, label=lst:Ustawienia klasy dokumentu, firstnumber=8]
+\documentclass[thesis=inz]{TemplateCore/Dyplom}
+
+ thesis=[inz|mgr|bsc|msc]
+  * inz - praca inzynierska
+  * mgr - praca magisterska
+  * bsc - bachelor thesis
+  * msc - master thesis
+\end{lstlisting}
+\clearpage
+Poniżej znajduje się kolejna ważna opcja ponieważ wpływa ona na rodzaj sortowania bibliografii w wierszu 19 zmieniając \texttt{sorting=nty} na dostępne opcje: 
+\begin{itemize}
+\item[--] nty (Nazwisko, Tytuł, Rok),
+\item[--] nyt (Nazwisko, Rok, Tytuł),
+\item[--] none (Bez sortowania).
+\end{itemize}
+\begin{lstlisting}[caption={Ustawienia sortowania bibliografii}, label=lst:Ustawienia sortowania bibliografii, firstnumber=19]
+	\usepackage[sorting=nty, bibfile=Dyplom]{TemplateCore/Dyplom} 
+	
+	- nty (Nazwisko, Tytul, Rok):
+	- nyt (Nazwisko, Rok, Tytul):
+	- none (Bez sortowania):
+	 - nty (Author, Title, Year):
+	 - nyt (Author, Year, Title):
+	 - none (No sorting):
+
+\end{lstlisting}
+Nazwa pliku przy \texttt{bibfile=} powinna być zgodna z nazwą pliku naszej bibliografii u autora jest to plik \texttt{Dyplom.bib}
+Po wybraniu odpowiednich opcji należy uzupełnić pola do personalizacji strony tytułowej zaczynające się w wierszu 28 pliku \texttt{Dyplom.tex}.
+\begin{lstlisting}[caption={Ustawienia dotyczące strony tytułowej}, label=lst:Ustawienia dotyczące strony tytułowej ,firstnumber=28]
+ Konfiguracja - do personalizacji
+ Configuration - to be personalized
+
+\kierunek{Informatyka}
+\specjalnosc{Sieci}
+\title{Szablom Pracy Dyplomowej}
+\engtitle{Szablon Pracy Dyplomowej}
+\album{99168}
+\author{Wojciech Hyl}
+\promotor{prof. dr hab. in\.z. Marcin Kowol}
+\date{2023}
+\longdate{2023-11-26}
+
+
+\end{lstlisting}
+\clearpage
+
+W tym samym pliku po spersonalizowaniu należy napisać streszczenie w języku polskim jak i angielskim. Streszczenie  powinno zawierać minimum 100 znaków do maksymalnie 4000 i należy je napisać w formie streszczenia a nie spisu treści 
+W kodzie poniżej użyto pakiet \texttt{lipsum}, który generuje fikcyjny, standardowy tekst.
+\begin{lstlisting}[caption={Miejsce pisania streszczenia pracy}, label=lst:Miejsce pisania streszczenia pracy, firstnumber=47]
+
+ Streszczenie pracy i abstract.
+ Summary of the Thesis and Abstract
+
+\streszczeniepracy{
+
+	
+	\lipsum[1-4]
+}  koniec streszczenia
+
+\slowakluczowe{A, B, C}
+
+\thesisabstract{
+
+	
+	\lipsum[1-4]
+}  end of abstract
+
+\thesiskeywords{X, Y, Z}
+\end{lstlisting}
+\vspace{0.5cm}
+Główna struktóra dokumentu została przedstawiona w listingu \ref{lst:Główna struktura dokumentu}
+\begin{lstlisting}[caption={Główna struktura dokumentu}, label=lst:Główna struktura dokumentu]
+% !TEX program = xelatex
+% !TeX encoding = utf8
+% !TeX spellcheck = pl-PL
+
+% Wybierz rodzaj pracy dyplomowej 
+% Pick thesis type 
+
+\documentclass[thesis=inz]{TemplateCore/Dyplom}
+
+% thesis=[inz|mgr|bsc|msc]
+%  * inz - praca in\.zynierska
+%  * mgr - praca magisterska
+%  * bsc - bachelor thesis
+%  * msc - master thesis
+
+\usepackage[sorting=nty, bibfile=Dyplom]{TemplateCore/Dyplom} 
+
+%- nty (Nazwisko, Tytul, Rok):
+%- nyt (Nazwisko, Rok, Tytul):
+%- none (Bez sortowania):
+% - nty (Author, Title, Year):
+% - nyt (Author, Year, Title):
+% - none (No sorting):
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Konfiguracja - do personalizacji
+% Configuration - to be personalized
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\kierunek{Informatyka}
+%\specjalnosc{Sieci}
+\title{Szablon \LaTeX\ do pracy dyplomowej i prezentacji
+}
+\engtitle{Szablon \LaTeX\ do pracy dyplomowej i prezentacji
+}
+\album{99168}
+\author{Wojciech Hyl}
+\promotor{prof. dr hab. in\.z. Marcin Kowol}
+\date{2023}
+\longdate{2023-11-26}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Streszczenie pracy i abstract.
+% Summary of the Thesis and Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\streszczeniepracy{
+\lipsum[1-4]
+} % koniec streszczenia
+
+\slowakluczowe{Skład tekstu \LaTeX, Praca Dyplomowa, Narzędzia i środowiska pracy}
+
+\thesisabstract{
+\lipsum[1-4]
+} % end of abstract
+
+\thesiskeywords{Text Composition \LaTeX, Dissertation, Tools and working environments.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tu zaczyna sie dokument
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+	% Strony naglówkowe
+	% Headers
+	\frontpages
+	
+	% Wlasciwa tresc jest w pliku Chapters/main.tex
+	% Real contents is in Chapters/main.tex
+	\input{Chapters/main}
+	
+	% Bibliografia - musi byc
+	% Bibliography - must exist
+	\bibliografia
+	
+	% Strony koncowe - mozna zakomentowac, jesli zbedne
+	% Additional pages - comment out if not needed
+	
+	\clearpage
+	% Spis rysunków
+	\clearpage
+	\listoffigures
+	% Spis tabel
+	\clearpage
+	\listoftables
+	
+	\clearpage
+	\lstlistoflistings
+	
+	
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{lstlisting}
+Po zakończeniu ustawiania i napisaniu streszczenia należy rozwinąć katalog \texttt{Chapters} i otworzyć plik \texttt{main.tex} gdzie można umieścić czy napisać poszczególne rozdziały pracy. Autor zaleca pisane rozdziałów w osobnych plikach ponieważ rozdziały napisane w jednym pliku będą  bardzo duże i trudne do zarządzania. Chcąc dodać nowy rozdział należy utworzyć nowy plik w katalogu \texttt{Chapters} po czym w pliku \texttt{main.tex} i dodać go w odpowiednim miejscu. Trzeba pamiętać o tym że pliki umieszczone są w kolejności w jakiej będą prezentowane w pracy. W pliku \texttt{main.tex} żeby dodać nowy rozdział trzeba użyć poleceń \texttt{\textbackslash chapters\{Nazwa Rozdziału\} i \textbackslash input\{ścieżka do pliku\}}. 
+
+\begin{lstlisting}[caption={Tworzenie nowych rozdziałów}, label=lst:Tworzenie nowych rozdziałów]
+
+% Rozdzialy zaczynaja sie od "chapter"
+\chapter{Introduction}
+% Praca podzielona na mniejsze pliki wlaczane za pomoca input
+\input{Chapters/Introduction}
+
+\end{lstlisting}
+\section{Rysunki}\label{sec:grafika}
+
+Rysunki \LaTeX\ umieszczamy w otoczeniu \texttt{"figure"} i za pomocą komendy \texttt{\textbackslash includegraphics} Otoczenie to pozwala na dodanie podpisu \texttt{(caption)} i znacznika \texttt{(label)} dzięki któremu potem można się do nich odnosić za pomocą komendy \texttt{\textbackslash ref\{sec:nazwa znacznika\}}.
+Oto przykład wstawiania rysunku do dokumentu.
+\begin{lstlisting}[caption={Kod wstawiający prosty rysunek}, label=lst:Kod wstawiający prosty rysunek]
+\begin{figure}[!hb]
+    \includegraphics{obraz.jpg}
+    \caption{Podpis do obrazu}
+    \label{fig:moja-etykieta}
+\end{figure}
+\end{lstlisting}
+Rysunki można przenosić jeśli nie trafił tam gdzie powinien. Trzeba wtedy zmienić pozycje rysunku w przykładzie \texttt{[!hb]} na jedną z niżej wymiennych opcji:
+\begin{itemize}
+\item [--] \textbf{h} - umieść rysunek tutaj (here), jeśli to możliwe,
+\item [--] \textbf{t} - umieść rysunek na górze strony (top),
+\item [--] \textbf{b} - umieść rysunek na dole strony (bottom).
+\item [--] \textbf{p} - umieść rysunek na osobnej stronie (page).
+\item [--] \textbf{!} - ignoruj większość zasad pozycjonowania i sugeruje, aby naruszyć pewne domyślne zasady.
+\end{itemize}
+Możesz również łączyć te opcje, na przykład [ht] oznacza "tutaj" lub na górze strony.
+Dodatkowe obcję których można użyć w otoczeniu \texttt{figure}
+\begin{itemize}
+\item scale\\
+Odpowiada za rozmiar, wprowadź [scale=2.0]. Ta liczba może przyjąć dowolną wartość; liczba między 0 a 1 zmniejszy grafikę, a liczba ujemna odwróci ją,
+
+\item angle\\
+ Kąt jest podawany w stopniach i zgodnie z ruchem wskazówek zegara. Grafika jest obracana wokół swojego pochodzenia,
+\item width\\
+Umożliwia ustawienie szerokości obrazu,
+\item height\\
+Daje możliwość zmiany wysokości obrazu.
+\end{itemize}
+
+\begin{figure}[!ht]
+	\centering 
+ \includegraphics[width=0.5\linewidth]{IMAGE/Strona tytułowa pracy.png}
+	\caption{Strona tytułowa pracy}
+	\label{rys:Strona tytułowa pracy}
+\end{figure}
+Poniżej znajdziemy kod poprawinie wstawionego obrazu z przykładu \ref{rys:Strona tytułowa pracy}
+\begin{lstlisting}[caption={Kod poprawnie wstawionego obrazu}, label=lst:Kod poprawnie wstawionego obrazu]
+	\begin{figure}[!h]
+		\includegraphics[width=0.5\linewidth]{IMAGE/Strona tytulowa pracy.png}
+		\caption{Strona tytulowa pracy}
+		\label{rys:Strona tytulowa pracy}
+	\end{figure}
+\end{lstlisting}
+
+
+\section{Odwołania do literatury}
+Zarządzanie bibliografią w \LaTeX\ odbywa się automatycznie. Nie trzeba się przejmować dodawanie czy usuwaniem pozycji z bibliografii. Dzięki wcześniejszym ustawieniom bibliografia sortuje się według ustawionego schematu.W bibliografii pojawiają się tylko te przypisy, do których odwołania istnieją w treści.
+Odniesienia do literatury tworzy się za pomocą komendy \texttt{\textbackslash cite\{id\}} w którym podaje się znacznik przypisany danej pozycji. Noty bibliograficzne powinny znajdować się w osobnym pliku \href{./Dyplom.bib}{\texttt{Dyplom.bib}}. Każda zmiana pliku bibliografii wymaga jego rekompilacji.
+W szablonie używany jest program biber który w \overleaflink uruchamia się automatyczne przy zmianie bibliografii\\
+Oto przykładowe odwołanie do literatury ~\cite{fowler2009} \texttt{\textbackslash cite\{fowler2009\}}.\\
+Wszystkie odwołania robi się praktycznie tak samo. Chcąc odnieść się do kilku pozycji jednocześnie, trzeba ich znaczniki wpisać po przecinku ~\cite{kopka2003guide,fowler2009} \texttt{\textbackslash cite\{kopka2003guide,fowler2009\}}.\\
+Można też odnieść się do konkretnej strony ~\cite[s.~38]{kopka2003guide} \texttt{\textbackslash cite[s.~38]\{kopka2003guide\}}.\\
+Znak tyldy (\keys{\textasciitilde{}}) przed wywołaniem \texttt{cite} ,,skleja'' odnośnik z~poprzedzającym je słowem za pomocą tak zwanej ,,twardej'' spacji.
+
+Ułatwieniem może być to, że serwisy takie jak Google Scholar, Mendeley czy Zoteor pozwalają na pobranie cytowania w postaci BibTeX.
+
+\section{Tabele}\label{sec:tabel}
+
+Aby stworzyć prostą tabelę w \LaTeX\, możesz skorzystać z otoczenia \texttt{table}. 
+Przykład tworzenia prostej tabeli w \LaTeX\
+
+\begin{lstlisting}[caption={Kod prostej tabeli}, label=lst:Kod prostej tabeli]
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{p{2.5cm}c|l}
+			Przyklad  &   Przyklad           &   Przyklad\\\hline\hline
+			Przyklad  &   Przyklad           &   Przyklad\\\hline
+			Przyklad  &   Przyklad           &   Przyklad \\\hline
+			Przyklad  &   Przyklad           &   Przyklad\\\hline
+			Przyklad  &   Przyklad           &   Przyklad\\\hline
+			Przyklad  &   Przyklad           &   Przyklad
+		\end{tabular}
+		\caption{\label{tab:Prosta tabela}Prosta tabela}
+	\end{table}
+\end{lstlisting}
+
+W przykładzie \ref{lst:Kod prostej tabeli} został przedstawiony prosty kod tworzący table mieszczący się w otoczeniu \texttt{table} i \texttt{tabular}. Pozycje tabeli ustawiamy jak w przypadku rysunków \ref{sec:grafika} natomiast jeśli chodzi o otoczenie \texttt{tabular} przy którym specyfikacja kolumn określa liczbę i format kolumn tabeli. Liczbę kolumn i~ułożenie w~nich tekstu określa się jako argumenty polecenia \texttt{tabular}:
+\begin{itemize}
+	\item l -- dosunięcie do lewej,
+	\item r -- dosunięcie do prawej,
+	\item c -- centrowanie,
+	\item p -- styl akapitowy z~szerokością określoną parametrem.
+\end{itemize}
+Wpisując zawartość każdej komórki tabeli, oddzielając je znakiem \textbf{"\&"}. Każdy wiersz kończ \textbf{"\textbackslash"}.
+Komenda \texttt{\textbackslash hline} służy do dodawania poziomych linii w tabelach. Jest to polecenie, które umieszczasz wewnątrz środowiska tabeli.
+Kończąc tabele należy pamiętać aby nadać jej tytuł ora etykietę.
+Tabela poniżej jest przykładem wygenerowanej tabeli z lisingui \ref{lst:Kod prostej tabeli}.
+\begin{table}[H]
+ \centering
+  \begin{tabular}{p{2.5cm}c|l}
+    Przykład  &   Przykład           &   Przykład\\\hline\hline
+    Przykład  &   Przykład           &   Przykład\\\hline
+    Przykład  &   Przykład           &   Przykład \\\hline
+    Przykład  &   Przykład           &   Przykład\\\hline
+    Przykład  &   Przykład           &   Przykład\\\hline
+    Przykład  &   Przykład           &   Przykład
+  \end{tabular}
+ \caption{\label{tab:Tabela wygenerowana kodem z listingu 12}Tabela wygenerowana kodem z listingu 12}
+\end{table}
+Tabele należą do najtrudniejszym elementem do wprowadzenia w~
+\LaTeX{u} ze względu na nagromadzenie znaczników. Dlatego warto rozważyć edytowanie tabel za pomocą dedykowanego edytora takiego jak \href{https://www.tablesgenerator.com}{TablesGenerator} w których tworzymy tabele graficznie a edytor automatycznie generuje nam z tego kod \LaTeX\ który wystarczy wstawić w interesującym nas miejscu.
+
+\section{Wzory}\label{sec:Wzory}
+Wzory matematyczne w \LaTeX\ zapisuje się za pomocą poleceń. Proste i popularne symbole są łatwe do zapamiętania.
+Natomiast, jeśli potrzebne są bardziej złożone wzory lub mniej powszechnie używane symbole, warto sięgnąć po dokumentację, dostępną na przykład na stronach takich jak \href{https://www.overleaf.com/learn/latex/Mathematical_expressions}{Overleaf}. Można  skorzystać z~edytorów równań dostępnych online, takich jak:
+\begin{itemize}
+    \item \href{https://latex.codecogs.com/eqneditor/editor.php}{CodeCogs}
+    \item \href{https://www.latex4technics.com/}{Latex4technics}
+\end{itemize}
+Ich zaletami są natychmiastowe generowane wzory.
+Wzory Matematyczne w \LaTeX\ piszemy w środowisku \texttt{equation} pisane wzory w tym środowisku są w tryb wyłączony (display) czyli występują w osobnej linii. Istnieje również możliwość pisania wzorów matematycznych w Linii teku za pomocą znaków dolara. 
+Poniżej znajduje się kilka przykładów zapisania wzorów. W pierwszym przykładzie użyto dodatkowej opcji otoczenia \texttt{equation} która wyłącza numerowanie poprzez dodanie do otoczenia *. Warto zapoznać się z dokumentacją dotyczącą wzorów na stronie internetowej \cite{overleaf}
+
+\begin{equation*}
+    r = \sqrt{r_x^2 + r_y^2}
+\end{equation*}
+
+\begin{equation}
+    \frac{dx}{dx} = 1
+\end{equation}
+
+\begin{equation}
+    \frac{d}{dx} \ln x = \frac{1}{x}
+\end{equation}
+
+\begin{equation}
+    y = \varphi  (y^\prime)x + \psi(y^\prime)
+\end{equation}
+
+\begin{gather}
+ \begin{bmatrix} \Phi_{11} & \Phi_{12} \\ \Phi_{21} & \Phi_{22} \end{bmatrix}
+ =
+ \frac{1}{\det(X)}
+  \begin{bmatrix}
+   X_{22} Y_{11} - X_{12} Y_{21} &
+   X_{22} Y_{12} - X_{12} Y_{22} \\
+   X_{11} Y_{21} - X_{21} Y_{11} &
+   X_{11} Y_{22} - X_{21} Y_{12} 
+   \end{bmatrix}
+\end{gather}
+
+\clearpage
+\section{Kody Żródłowe}
+Pakiet umożliwiający wstawianie kodów źródłowych z różnych języków programowania do dokumentu to \texttt{listingu}. Więcej informacji można znaleźć na przykład w~dokumentacji \href{https://www.overleaf.com/learn/latex/code_listing}{Overleaf} Poniżej znajdziesz krótką instrukcję używania pakietu listingu:\\
+
+Wstaw kod źródłowy do dokumentu, używając otoczenia lstlisting.
+\begin{lstlisting}[caption={Przykladowy kod}, label=lst:przyklad]
+\begin{lstlisting}[caption={Przykladowy kod}, label=lst:przyklad]
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+end{lstlisting}
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python,
+    caption={Prosty program w~języku python},
+    label={lst:hellopy}]
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""Simple world of hello.
+"""
+
+import sys
+
+def main():
+    """The one and only function"""
+    fib = lambda n: reduce(lambda x, n: [x[1], x[0]+x[1]], range(n), [0, 1])[0]
+    try:
+        print(fib(int(sys.argv[1])))
+    except:
+        print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+\end{lstlisting}
+Kody źródłowe można też dołączać w zewnętrznych plikach i załączać automatycznie.
+Istnieje możliwość wskazania zakresu lini które pojawią się w dokumencie listing \ref{lst:Kod} ma automatycznie ustawiany podpis na podstawie nazwy pliku.
+
+
+\lstinputlisting[language=C,
+    firstnumber=33,
+    firstline=33,
+    lastline=50,
+    caption=Kod pobrany z zewnętrzego pliku,
+    label={lst:Kod}]{Kod.c}
+
+\section{Grafy, schematy, rysunki techniczne}
+
+Pakiet \texttt{tikz} w \LaTeX\ umożliwia rysowanie grafiki wektorowej i tworzenie różnych rodzajów ilustracji, w tym diagramów, grafów, schematów, czy rysunków technicznych.
+W tworzeniu schematów może pomóc internetowy edytor \href{https://tikzmaker.com}{\texttt{Tikzmaker}} który generuje kod na podstawie grafiki. \\
+Poniżej znajdziesz podstawową instrukcję dotyczącą korzystania z otoczenia \texttt{tikzpicture}:\\
+Umieść otoczenie tikzpicture wewnątrz środowiska \texttt{figure}, jeśli chcesz mieć możliwość dodania podpisu i etykiety. Poniżej w listingu 17 został przedstawiony przykład rysujący funkcje kwadratową z rysunku \ref{fig:Funkcja kwadratowa}.
+
+\begin{lstlisting}[caption={Kod rysujący funkcje kwadratową}, label=lst:Kod rysujący funkcje kwadratową]
+\begin{figure}
+	\begin{tikzpicture}
+		\begin{axis}[
+			xlabel=$x$,
+			ylabel=$y$,
+			grid=both,
+			axis lines=middle,
+			enlargelimits,
+			]
+			\addplot[domain=-2:2, color=blue, thick]{x^2};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Funkcja kwadratowa}
+	\label{fig:Funkcja kwadratowa}
+\end{figure}
+\end{lstlisting}
+
+
+\begin{figure}[!h]
+	\centering
+\begin{tikzpicture}
+	\begin{axis}[
+		xlabel=$x$,
+		ylabel=$y$,
+		grid=both,
+		axis lines=middle,
+		enlargelimits,
+		]
+		\addplot[domain=-2:2, color=blue, thick]{x^2};
+	\end{axis}
+\end{tikzpicture}
+\caption{Funkcja kwadratowa z lisingu 16}
+\label{fig:Funkcja kwadratowa}
+\end{figure}
+Szablon umożliwia tworzenie wykresów poprzez wczytywanie danych z plików. Dane do wykresów powinny być umieszczone w folderze \texttt{charts}. Wykres \ref{fig:multiplot} został stworzy poprzez wczytanie danych z pliku za pomocą kodu podanego w listingu \ref{lst:Wykrez wczytany z pliku}
+\begin{figure}[!hb]
+	\centering
+	\begin{tikzpicture}
+		% First subplot
+		\begin{axis}[
+			ybar,
+			xlabel={Category},
+			ylabel={Value},
+			bar width=0.5cm,
+			symbolic x coords={A, B, C},
+			xtick=data,
+			]
+			\addplot table [x index=0, y index=1] {charts/bar_data1.txt};
+			\addlegendentry{Plot 2}
+			\addplot table [x index=0, y index=1] {charts/bar_data3.txt};
+			\addlegendentry{Plot 2}
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Przykład wykresu wczytywanego z pliku}
+	\label{fig:multiplot}
+\end{figure}
+\clearpage
+\begin{lstlisting}[caption={Wykrez wczytany z pliku}, label=lst:Wykrez wczytany z pliku]
+	\begin{figure}[!hb]
+		\centering
+		\begin{tikzpicture}
+			% First subplot
+			\begin{axis}[
+				ybar,
+				xlabel={Category},
+				ylabel={Value},
+				bar width=0.5cm,
+				symbolic x coords={A, B, C},
+				xtick=data,
+				]
+				\addplot table [x index=0, y index=1] {charts/bar_data1.txt};
+				\addlegendentry{Plot 2}
+				\addplot table [x index=0, y index=1] {charts/bar_data3.txt};
+				\addlegendentry{Plot 2}
+			\end{tikzpicture}
+			\caption{Multiplot Example}
+			\label{fig:multiplot}
+		\end{figure}
+	\end{lstlisting}
+Dokumentacja \texttt{TikZ} jest obszerna i zawiera wiele przykładów. Warto ją przeczytać, aby poznać pełne możliwości pakietu. TikZ oferuje wiele zaawansowanych funkcji, a dokładne dostosowania można znaleźć w jego dokumentacji.
+\href{https://tikz.dev}{tikz.dev}\\
+
+Pakiet \texttt{circuitikz} umożliwia rysowanie obwodów elektrycznych. Oto podstawowe instrukcje dotyczące korzystania z circuitikz:
+Rozpoczęcie Środowiska circuitikz:
+Umieść otoczenie circuitikz wewnątrz otoczenia \texttt{figure}, jeśli chcesz mieć możliwość dodania podpisu i etykiety.
+Poniżej w lisnigu \ref{fig:funkcja} został przedstawiony kod rysujący schemat przedstawiony w schemacie \ref{fig:schemat}
+\begin{lstlisting}[caption={Schemat użycia circuitikz}, label=lst:Schemat użycia circuitikz ]
+\begin{figure}[H]
+	\centering
+	\begin{circuitikz}[american voltages]
+		\draw
+		(0,0) to [short, *-] (6,0)
+		to [V, l_=$\mathrm{j}{\omega}_m \underline{\psi}^s_R$] (6,2) 
+		to [R, l_=$R_R$] (6,4) 
+		to [short, i_=$\underline{i}^s_R$] (5,4) 
+		(0,0) to [open, v^>=$\underline{u}^s_s$] (0,4) 
+		to [short, *- ,i=$\underline{i}^s_s$] (1,4) 
+		to [R, l=$R_s$] (3,4)
+		to [L, l=$L_{\sigma}$] (5,4) 
+		to [short, i_=$\underline{i}^s_M$] (5,3) 
+		to [L, l_=$L_M$] (5,0); 
+	\end{circuitikz}
+	\caption{Schemat}
+	\label{fig:funkcja}
+\end{figure}
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \begin{circuitikz}[american voltages]
+        \draw
+        (0,0) to [short, *-] (6,0)
+        to [V, l_=$\mathrm{j}{\omega}_m \underline{\psi}^s_R$] (6,2) 
+        to [R, l_=$R_R$] (6,4) 
+        to [short, i_=$\underline{i}^s_R$] (5,4) 
+        (0,0) to [open, v^>=$\underline{u}^s_s$] (0,4) 
+        to [short, *- ,i=$\underline{i}^s_s$] (1,4) 
+        to [R, l=$R_s$] (3,4)
+        to [L, l=$L_{\sigma}$] (5,4) 
+        to [short, i_=$\underline{i}^s_M$] (5,3) 
+        to [L, l_=$L_M$] (5,0); 
+    \end{circuitikz}
+    \caption{Schemat}
+    \label{fig:schemat}
+\end{figure}
+Dokumentacja:
+Pełna dokumentacja circuitikz zawiera obszerny spis elementów i dostępnych opcji. Można ją znaleźć na 
+\href{https://texdoc.org/serve/circuitikzmanual.pdf/0}{Circuitikz Dokumentacja}\\
+
+
+
+\section{Dodatki}
+
+\subsection{Podstawowe style tekstu}
+\begin{itemize}
+    \item \textbf{tekst wytłuszczony} \textbackslash textbf{\{tekst wytłuszczony\}},
+    \item \textit{tekst pochylony} \textbackslash textit{\{tekst pochylony\}},
+
+    \item \texttt{tekst maszynowy} \textbackslash texttt{\{tekst maszynowy\}},
+     
+    \item \underline{tekst podkreślony} \textbackslash underline{\{tekst podkreślony\}},
+    \item W pracy zostało stworzone makro które zmienia kolor tekstu maszynowego na szary \maszynowy{tekst maszynowy} \textbackslash maszynowy{\{tekst maszynowy\}}.
+\end{itemize}
+\subsection{Wiszące znaki}
+W polskiej tradycji literackiej pojedyncze znaki, takie jak a, i, o, u, w, z, nie powinny występować na końcu linii. Aby uniknąć tego problemu i połączyć tę literę z następującym słowem, używa się znaku tyldy (\keys{\textasciitilde{}}).
+
+Na koniec pisania pracy najlepiej zamienić wszystkie ciągi znaków przy pomocy ,,znajdź i~zamień'' z \keys{\SPACE, znak, \SPACE} na \keys{\SPACE, znak, \textasciitilde{}}.
+
+\subsection{Wyliczenia}
+Tworzenie wyliczeń w \LaTeX\ odbywa się za pomocą otoczenia \texttt{itemize} w którym każdy kolejny punkt dodajemy za pomocą komędy \texttt{\textbackslash item} . Poniżej znajduje się przykład użycia otoczenia \texttt{itemize}
+\begin{itemize}
+    \item standardową "kropke",
+    \item[--] myślnik.
+\end{itemize}
+Podczas używania warto poznać zasady interpunkcji w wyliczeniach z którymi można zapoznać się w artykule \cite{ekorekta24} lub w blogu \cite{contentwriter}.
+\subsection{Akronimy i~symbole}
+Szablon używa pakietu \texttt{glossaries} do zarządzania akronimami i~symbolami. Listę tych elementów należy przygotować w~pliku \href{./glossary.tex}{glossary.tex}, zgodnie z~pokazanym szablonem \textbackslash newacronym\{PO\}\{\{PO\}\{Politechnika Opolska\}.
+
+\subsection{Ozdobniki graficzne w~opisie oprogramowania}
+Szablon wczytuje pakiet pozwalający na wyróżnienie w~tekście informacji o~skrótach klawiszowych, poruszaniu się po menu programu i~ścieżki plików. Aby użyć tego pakietu należy zastosować komendę \texttt{\textbackslash keys{\{Nazwa klawisza\}}}.\\
+W tekście można wyróżnić skróty klawiszowe, takie jak na przykład:
+\begin{itemize} 
+ 	\item \keys{\Alt, F4}, \keys{\ctrl, \Alt, \del},
+    \item \keys{A, a, B, b, C, c, 1, 2, 3, PgUp},
+    \item \keys{\Space} \keys{\SPACE},
+    \item \keys{\backspace} \keys{\del} \keys{\backdel},
+    \item \keys{\return} \keys{\enter},
+    \item \keys{\shift} \keys{\capslock}.
+\end{itemize}
+
+\subsection{Kompilator lokalny}\label{sec:kompilator_lokalny}
+Problemem darmowej wersji Overeleaf jest to, że zapewnia krótki czas kompilowania nie dłuższy niż 1 minute. W przypadku gdy praca jest skomplikowana czas ten może zostać przekroczony i  nie wygeneruje nam pliku wynikowego. Rozwiązaniem tego problemu jest zainstalowanie na własnym komputerze kompilatora lokalnego. Aby to poprawnie zrobić najperw należy zainstalować \href{https://www.ghostscript.com}{\texttt{Ghostscript}}. Ghostscript to interpreter języka PostScript i Portable Document Format (PDF), służący do przetwarzania i wyświetlania plików w tych formatach. Po udanym zainstalowaniu Ghostscript należy zainstalować \href{https://miktex.org/}{\texttt{MiKTeX}} który jest dystrybucją oprogramowania do składu tekstu opartą na \TeX\ / \LaTeX\ . Ostatnim wymaganym programem jest edytor tekstu który możemy wybrać według własnych preferencji. Najczęsciej używane edytory tekstu to:
+\begin{itemize}
+	\item[--]\href{https://www.tug.org/texworks/}{\texttt{TeXworks}},
+	\item[--]\href{https://www.texstudio.org}{\texttt{Texstudio}},
+	\item[--]\href{https://www.winedt.com}{\texttt{WinEdt}},
+	\item[--]\href{https://code.visualstudio.com}{\texttt{Visual Studio Code}} do którego należy dodać rozszerzenie \texttt{\LaTeX\ Workshop}
+\end{itemize}
+Dzięki dodaniu na początku dokument tzw. komentarzy magicznych (ang.magic comments) lub dyrektywy \TeX\ (ang. \TeX\ directives) edytory tekstu automatycznie pobierają informacje jakiego kompilatora powinny użyć, w jakim kodowaniu jest dokument i włączają sprawdzanie pisowni w języku polskim.
+\begin{lstlisting}[caption={Dyrektywy \TeX\ }, label=lst:Komentarze magiczne]
+% !TEX program = xelatex
+% !TeX encoding = utf8
+% !TeX spellcheck = pl-PL
+\end{lstlisting}
+
+\subsection{Oświadczenia i wnioski}
+ Wyborze plików po lewej stronie również są wrzucone oświadczenia i wnioski które mogą się przydać podczas składania pracy.
+ 
+ \section{Prezentacja}
+Podczas tworzenia szablonu do pracy dyplomowej został stworzony szablon do prezentacji dyplomowej. Wygląd prezentacji zostało oparty na podstaiwe zatwierdzonego szablonu przygotowanego w Microsoft PowerPoint. Do tworzenia prezentacji w \LaTeX\ istnieje osobna klasa dokumenty \texttt{beamer}. Używając w ten sposób klasy tworzy nam się prezentacja w rozdzielczości 4:3 dzięki argumentowi \texttt{[aspectratio=169]} jesteśmy wstanie zmienic rozdzielczość naszej prezentacji na 19:4. W stworzonej przez autora prezentacji istnieje kastomizowany slajd tytułowy w którym automatycznie zostają umieszczone tytuł, podtytuł, autor, oraz instutucja podane w odpowiedznich miejscach. 
+\begin{lstlisting}[caption={Prsonalizacja prezentacji}, label=lst:Personalizacja prezentacji]
+\title{Szablon prezentacji \LaTeX}
+\subtitle{Podtytul}
+\author[Autor]{Autor}
+\institute{Instytucja}
+\end{lstlisting}
+
+Nowe slajdy w prezentacji tworzy się za pomocą otoczenia \texttt{frame} w lizingu \ref{lst:Tworzenie pustego slajdu w prezentacji} przykład tworzenia nowego slajdu
+\begin{lstlisting}[caption={Tworzenie pustego slajdu w prezentacji}, label=lst:Tworzenie pustego slajdu w prezentacji]
+\begin{frame}
+	\frametitle{Tytuł slajdu} 
+	Tresc slajdu
+	\end{frame}
+\end{lstlisting}
+W miejscu \texttt{frametitle} należy wpisać tytuł slajdu. W następnym wierszu umieszczamu treść naszego slajdu i całość zamykamy otoczeniem \texttt{frame} 
+Prezentacja posiada pakiety takie same jak szablon do pracy dyplomowej dzięki czemu tworzenie nowych slajdów i dodawanie do nich takich elementów jak wzory, tabele czy rysunki odbywa się w ten sam sposób jak przedstawiony w podrozdziałach \ref{sec:Wzory}. \ref{sec:grafika}, \ref{sec:tabel}. Jednak należy pamiętać aby dodać listing do prezentacji trzeba użyć dodatkowego argumentu \texttt{[fragile]} przy tworzeniu nowego slajdu.
+\begin{lstlisting}[caption={Slajd z kodem źródłowym}, label=lst:Slajd z kodem źródłowym]
+\begin{frame}[fragile]
+\frametitle{Prezentacja w \LaTeX\ } 
+Fragment kodu
+\end{lstlisting}
+ W prezentacjach \LaTeX\ jest możliwość automatycznego podziału długich zawartości slajdów na kilka stron za pomocą opcji \texttt{allowframebreaks}. Jest szczególnie przydatna, gdy zawartość jednego slajdu nie mieści się na ekranie i potrzebny jest automatyczny podział na kolejne strony. Ta opcja pomaga w utrzymaniu czytelności i przejrzystości prezentacji.
+\begin{figure}[!ht]
+\centering 
+\includegraphics[width=1\linewidth]{IMAGE/Strona tytułowa prezentacji.png}
+\caption{Strona tytułowa prezentacji}
+\label{rys:Strona tytułowa prezentacji}
+\end{figure}
+
+

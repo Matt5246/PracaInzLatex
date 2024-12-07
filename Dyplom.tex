@@ -1,0 +1,98 @@
+% !TEX program = xelatex
+% !TeX encoding = utf8
+% !TeX spellcheck = pl-PL
+
+% Wybierz rodzaj pracy dyplomowej 
+% Pick thesis type 
+\documentclass[thesis=inz]{TemplateCore/Dyplom}
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}     
+\usepackage[polish]{babel} 
+
+% thesis=[inz|mgr|bsc|msc]
+%  * inz - praca inżynierska
+%  * mgr - praca magisterska
+%  * bsc - bachelor thesis
+%  * msc - master thesis
+
+
+\usepackage[sorting=nty, bibfile=Dyplom]{TemplateCore/Dyplom} 
+
+%- nty (Nazwisko, Tytuł, Rok):
+%- nyt (Nazwisko, Rok, Tytuł):
+%- none (Bez sortowania):
+% - nty (Author, Title, Year):
+% - nyt (Author, Year, Title):
+% - none (No sorting):
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Konfiguracja - do personalizacji
+% Configuration - to be personalized
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\kierunek{Informatyka}
+%\specjalnosc{Sieci}
+\title{Szablon \LaTeX\ do pracy dyplomowej i prezentacji
+}
+\engtitle{Szablon \LaTeX\ do pracy dyplomowej i prezentacji
+}
+\album{102488}
+\author{Paweł Niziołek}
+\promotor{prof. dr hab. inż. Szczepan Paszkiel}
+\date{2024}
+\longdate{2023-11-26}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Streszczenie pracy i abstract.
+% Summary of the Thesis and Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\streszczeniepracy{
+	
+Praca dyplomowa skupia się na projektowaniu i realizacji szablonu do tworzenia pracy dyplomowej przy użyciu składu tekstu \LaTeX\ . W pracy zostały  przedstawione korzyści korzystania z \LaTeX{a} w porwaniu do innych edytorów tekstu skupiając się na takich rzeczach jak automatyczne formatowania, obsługa bibliograii, profesjonalny wygląd i łatwa edycja struktury dokumentu. Teoretyczna część pracy jest poświęcona przedstawieniu krótkiej historii powstawania \LaTeX{a} oraz  korzyści płynących z korzystania z \LaTeX{a} przy tworzeniu profesjonalnie wyglądających i automatycznie formatujących się prac.
+
+W praktycznej części pracy przedstawiono stworzony szablon z przedstawieniem jego funkcji oraz możliwością  spersonalizowania  go do indywidualnych potrzeb użytkownika. Opisany zostało również jego proces instalacji i konfiguracji tak aby ułatwić korzystanie z niego innym użytkownikom. 
+} % koniec streszczenia
+
+\slowakluczowe{Skład tekstu \LaTeX, Praca Dyplomowa, Narzędzia i środowiska pracy}
+
+\thesisabstract{
+	
+The thesis focuses on the design and implementation of a template for creating a thesis using \LaTeX text composition. The thesis presents the advantages of using \LaTeX{a} in abduction to other text editors focusing on such things as automatic formatting, bibliography support, professional appearance and easy editing of the document structure. The theoretical part of the work is devoted to presenting a brief history of the creation of \LaTeX{a} and the benefits of using \LaTeX{a} to create professional-looking and automatically formatting works.
+
+The practical part of the work presents a ready-made template with a demonstration of its functions and the possibility of personalizing it to individual user needs. Its installation and configuration process is also described so as to facilitate its use by other users.
+} % end of abstract
+
+\thesiskeywords{Text Composition \LaTeX, Dissertation, Tools and working environments.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tu zaczyna się dokument
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    % Strony nagłówkowe
+    % Headers
+    \frontpages
+    % Właściwa treść jest w pliku Chapters/main.tex
+    % Real contents is in Chapters/main.tex
+    \input{Chapters/main}
+
+    % Bibliografia - musi być
+    % Bibliography - must exist
+    \bibliografia
+
+    % Strony końcowe - można zakomentować, jeśli zbędne
+    % Additional pages - comment out if not needed
+    
+   \clearpage
+    % Spis rysunków
+     \clearpage
+    \listoffigures
+    % Spis tabel
+     \clearpage
+    \listoftables
+    
+     \clearpage
+    \lstlistoflistings
+    
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

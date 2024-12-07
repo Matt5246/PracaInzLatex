@@ -1,0 +1,14 @@
+
+Obejmuje kilka elementów, które należy mieć na uwadze realizując ten aspekt. Wpływa to przede wszystkim na poprawne formatowanie i obsługę polskich znaków diakrytycznych. Znakami diakrytycznymi są takie litery jak ą, ę, ó, ć itp. Jeśli chodzi o kodowanie znaków należy się upewnić, że dokument jest zapisywany w kodowaniu UTF-8. Zastosowanie takiego kodowania umożliwia ich poprawną obsługę. Realizowane jest to za pomocą pakietu \texttt{\textbackslash usepackage[utf8]{\{inputenc}\}}. W celu skorzystania z polskich liter należy włączyć pakiet polski lub babel z ustawieniem języka na polski. Jeśli w dokumencie używane są komendy generujące datę, to w takim przypadku trzeba dostosować ją do polskiego formatu. Zrealizować to można pakietem \texttt{\textbackslash usepackage{\{datetime}\}} \texttt{\textbackslash renewcommand{\{dateseparator}\}{\{.}\}}. W zależności od klasy dokumentu, w szczególnym przypadku \texttt{report} lub \texttt{article}, tytuły takie jak rozdział czy sekcja mogą zostać dostosowane do języka polskiego np.
+\begin{lstlisting}[caption={Dostosowywanie nazwa do języka polskiego}, label=lst:Dostosowywanie nazw do języka polskiego]
+\setglossarysection{section}
+\makeglossaries
+\loadglsentries{Glossary}
+\ifnum\strcmp{\locallang}{PL} = 0 
+\newcommand{\acronymstitle}{Wykaz skrótów i symboli}
+\else
+\newcommand{\acronymstitle}{List of Abbreviations and Symbols}
+\fi
+\end{lstlisting}
+Jeśli w dokumencie użyte zostały przypisy należy dostosować je do konwencji polskiej. Także bibliografia powinna być dostosowana do polskich wymagań. Należy upewnić się również czy pozostałe elementy jak stopka, nagłówek czy strona tytułowa są zgodne z polskimi standardami. Wsparcie pracy w języku polskim oferuje konfigurację różnych aspektów. Przede wszystkim należy dostosować je do polskich standardów dla dokumentów akademickich czy naukowych. Odpowiednie ustawienia i dostosowania pozwalają stworzyć spójny a także profesjonalnie wyglądający dokument w języku polskim.
+

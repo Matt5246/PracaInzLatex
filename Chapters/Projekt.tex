@@ -1,0 +1,49 @@
+Podczas tworzenia szablonu do pracy dyplomowej została stworzona klasa dokumentu \LaTeX\ o nazwie \texttt{Dyplom.cls}. Zaprojektowana do tworzenia pracy dyplomowej, umożliwiająca wybór różnych opcji, takich jak typ pracy (inżynierska, magisterska, licencjacka),  język dokumentu (polski, angielski), a także zawiera szereg ustawień dotyczących formatowania tekstu, czcionek, kolorów i innych elementów. Ponadto, dostarcza funkcje takie jak generowanie wykazu skrótów i symboli, konfiguracja języka w zależności od silnika kompilacji oraz ustawienia dotyczące obrazów, tabel i dodatków. W stworzonej klasie zostały użyte następujące pakiety:
+\begin{itemize} 
+\item \href{https://www.ctan.org/pkg/indentfirst}{\textbf{indentfirst}}: Włącza wcięcie pierwszego akapitu w dokumencie.
+\item \href{https://www.ctan.org/pkg/iftex}{\textbf{iftex}}: Pozwala na warunkowe wykonywanie kodu w zależności od używanego silnika \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/pdflscape}{\textbf{pdflscape}}: Umożliwia obracanie stron w układzie poziomym w dokumentach PDF.
+\item \href{https://www.ctan.org/pkg/amsfonts}{\textbf{amsfonts}}: Zapewnia dostęp do dodatkowych fontów matematycznych dostarczanych przez American Mathematical Society (AMS).
+\item \href{https://www.ctan.org/pkg/amsmath}{\textbf{amsmath}}: Rozszerza możliwości składu matematycznego w \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/amssymb}{\textbf{amssymb}}: Zapewnia dostęp do dodatkowych symboli matematycznych dostarczanych przez AMS.
+\item \href{https://www.ctan.org/pkg/amsthm}{\textbf{amsthm}}: Umożliwia definiowanie środowisk teorematycznych i dowodowych.
+\item \href{https://www.ctan.org/pkg/esint}{\textbf{esint}}: Dostarcza symboli całkowych w stylu Euler Script.
+\item \href{https://www.ctan.org/pkg/ifxetex}{\textbf{ifXeTeX}}: Warunkowe wykonanie kodu w zależności od używanego silnika \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/mathspec}{\textbf{mathspec}}: Umożliwia dostosowanie fontów matematycznych w \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/polyglossia}{\textbf{polyglossia}} lub \href{https://www.ctan.org/pkg/babel}{\textbf{babel}} (w zależności od używanego silnika): Pakiety do obsługi wielojęzyczności w \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/tocbibind}{\textbf{tocbibind}}: Kontroluje zawartość spisu treści, listy ilustracji itp.
+\item \href{https://www.ctan.org/pkg/titletoc}{\textbf{titletoc}}: Pozwala na dostosowanie wyglądu spisu treści.
+\item \href{https://www.ctan.org/pkg/xcolor}{\textbf{xcolor}}: Umożliwia obsługę kolorów w dokumentach \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/circuitikz}{\textbf{circuitikz}}: Pakiet do rysowania obwodów elektrycznych w \LaTeX\  przy użyciu pakietu TikZ.
+\item \href{https://www.ctan.org/pkg/pgfplots}{\textbf{pgfplots}}: Narzędzie do tworzenia wykresów w \LaTeX\  przy użyciu pakietu TikZ.
+\item \href{https://www.ctan.org/pkg/float}{\textbf{float}}: Umożliwia kontrolę położenia floatów (np. obrazków i tabel) w dokumencie.
+\item \href{https://www.ctan.org/pkg/graphicx}{\textbf{graphicx}}: Obsługuje wstawianie grafik (obrazków) do dokumentów \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/etoolbox}{\textbf{etoolbox}}: Zapewnia narzędzia do manipulacji listami i warunkami logicznymi w \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/enumitem}{\textbf{enumitem}}: Rozszerza możliwości konfiguracji list w \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/pgf}{\textbf{tikz}}: Narzędzie do rysowania grafiki wektorowej w \LaTeX\ .
+\item \href{https://www.ctan.org/pkg/glossaries}{\textbf{glossaries}}: Umożliwia zarządzanie indeksem pojęć (glosariuszem) w dokumentach \LaTeX\ .
+\end{itemize}
+
+Został stworzony również plik \texttt{Dyplom.sty} który stanowi rozszerzenie dla1 klasy dokumentu. Zawiera konfiguracje związane z bibliografią, formatem strony, nagłówkami i stopkami, a także ustawienia dotyczące akapitów, tabel, listingów programów i ozdobników ścieżek. Ponadto, definiuje makra ułatwiające korzystanie z często używanych elementów, takich jak linki do Overleaf czy wyróżniony tekst maszynowy. Podczas tworzenia rozszerzenia do klasy \texttt{Dyplom} zostały użyte takie pakiety jak:
+\begin{itemize} 
+\item \href{https://www.ctan.org/pkg/kvoptions}{\textbf{kvoptions}}: Obsługa opcji konfiguracyjnych w pakietach LaTeX.
+\item \href{https://www.ctan.org/pkg/biblatex}{\textbf{bibLaTeX}}: Zaawansowany system zarządzania bibliografią.
+\item \href{https://www.ctan.org/pkg/chngcntr}{\textbf{chngcntr}}: Kontrola numeracji w sekcjach, rysunkach itp.
+\item \href{https://www.ctan.org/pkg/geometry}{\textbf{geometry}}: Umożliwia konfigurację układu strony.
+\item \href{https://www.ctan.org/pkg/setspace}{\textbf{setspace}}: Zapewnia łatwą kontrolę interlinii.
+\item \href{https://www.ctan.org/pkg/fancyhdr}{\textbf{fancyhdr}}: Pozwala na dostosowywanie nagłówków i stopoków w dokumencie.
+\item \href{https://www.ctan.org/pkg/emptypage}{\textbf{emptypage}}: Automatycznie wstawia puste strony na końcu rozdziałów.
+\item \href{https://www.ctan.org/pkg/caption}{\textbf{caption}}: Umożliwia dostosowanie podpisów pod rysunkami i tabelami.
+\item \href{https://www.ctan.org/pkg/subcaption}{\textbf{subcaption}}: Dodaje wsparcie dla podpisów dla podobrazków.
+\item \href{https://www.ctan.org/pkg/multirow}{\textbf{multirow}}: Umożliwia łączenie komórek w tabelach w pionie.
+\item \href{https://www.ctan.org/pkg/multicol}{\textbf{multicol}}: Pozwala na tworzenie wielokolumnowych bloków tekstu.
+\item \href{https://www.ctan.org/pkg/longtable}{\textbf{longtable}}: Obsługuje długie tabele rozciągające się przez kilka stron.
+\item \href{https://www.ctan.org/pkg/colortbl}{\textbf{colortbl}}: Dodaje kolorowanie do tabel.
+\item \href{https://www.ctan.org/pkg/listings}{\textbf{listings}}: Wstawia kod źródłowy z odpowiednią kolorystyką i numeracją linii.
+\item \href{https://www.ctan.org/pkg/menukeys}{\textbf{menukeys}}: Pozwala na dodawanie klawiszy i skrótów klawiaturowych do dokumentów.
+\item \href{https://www.ctan.org/pkg/hyperref}{\textbf{hyperref}}: Tworzy hiperłącza w dokumencie PDF.
+\item \href{https://www.ctan.org/pkg/csquotes}{\textbf{csquotes}}: Obsługuje cytaty i cudzysłowy w zależności od języka.
+\item \href{https://www.ctan.org/pkg/lipsum}{\textbf{lipsum}}: Generuje losowy tekst (lorem ipsum) do testowania układu.
+\item \href{https://www.ctan.org/pkg/bredzenie}{\textbf{bredzenie}}: Pakiet do generowania losowych treści.
+\end{itemize}
+Klasa \texttt{Dyplom.cls} oraz rozszerzenie \texttt{Dyplom.sty} są kompleksowe i mają na celu ułatwienie tworzenia pracy dyplomowej w \LaTeX\, dostarczając spójnych i konfigurowalnych rozwiązań dla różnych aspektów składu dokumentu.
