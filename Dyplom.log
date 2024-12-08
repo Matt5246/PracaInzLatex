@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.7)  7 DEC 2024 15:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.7)  8 DEC 2024 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/matt5246/github/Szablon pracy dyplomowej/Dyplom.tex"
-(/home/matt5246/github/Szablon pracy dyplomowej/Dyplom.tex
+**/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex
+(/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (./TemplateCore/Dyplom.cls
@@ -18,15 +18,15 @@ Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@chapter=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -53,13 +53,13 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
 )
-\XKV@depth=\count196
+\XKV@depth=\count192
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count197
+\etb@tempcnta=\count193
 )
 \@glsmfirst=\toks20
 \@glsmrest=\toks21
@@ -84,14 +84,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count198
+\inf@bad=\count194
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count199
-\leftroot@=\count266
+\uproot@=\count195
+\leftroot@=\count196
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count267
-\DOTSCASE@=\count268
+\classnum@=\count197
+\DOTSCASE@=\count198
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -104,20 +104,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count269
+\macc@depth=\count199
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count270
+\c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
-\c@parentequation=\count271
-\dspbrk@lvl=\count272
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
 \tag@help=\toks23
-\row@=\count273
-\column@=\count274
-\maxfields@=\count275
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
 \andhelp@=\toks24
 \eqnshift@=\dimen144
 \alignsep@=\dimen145
@@ -133,25 +133,25 @@ LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count276
+\c@su@anzahl=\count272
 ) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
  `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count277
+\actioncount=\count273
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count278
-\FP@xia=\count279
-\FP@xib=\count280
-\FP@xfa=\count281
-\FP@xfb=\count282
-\FP@rega=\count283
-\FP@regb=\count284
-\FP@regs=\count285
-\FP@times=\count286
+\FP@xs=\count274
+\FP@xia=\count275
+\FP@xib=\count276
+\FP@xfa=\count277
+\FP@xfb=\count278
+\FP@rega=\count279
+\FP@regb=\count280
+\FP@regs=\count281
+\FP@times=\count282
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
@@ -164,7 +164,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count287
+\FPseed=\count283
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
@@ -173,16 +173,16 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks27
-\@dtl@tmpcount=\count288
+\@dtl@tmpcount=\count284
 \dtl@tmplength=\skip53
-\dtl@sortresult=\count289
-\@dtl@numgrpsepcount=\count290
-\@dtl@datatype=\count291
-\dtl@codeA=\count292
-\dtl@codeB=\count293
-\@dtl@foreach@level=\count294
+\dtl@sortresult=\count285
+\@dtl@numgrpsepcount=\count286
+\@dtl@datatype=\count287
+\dtl@codeA=\count288
+\dtl@codeB=\count289
+\@dtl@foreach@level=\count290
 )
-\gls@level=\count295
+\gls@level=\count291
 \@gls@tmpb=\toks28
 \gls@tmplen=\skip54
 \glskeylisttok=\toks29
@@ -202,17 +202,17 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip57
 \LTpre=\skip58
 \LTpost=\skip59
-\LTchunksize=\count296
+\LTchunksize=\count292
 \LTcapwidth=\dimen150
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
 \LT@lastfoot=\box56
 \LT@gbox=\box57
-\LT@cols=\count297
-\LT@rows=\count298
-\c@LT@tables=\count299
-\c@LT@chunks=\count300
+\LT@cols=\count293
+\LT@rows=\count294
+\c@LT@tables=\count295
+\c@LT@chunks=\count296
 \LT@p@ftn=\toks33
 )
 \glsdescwidth=\skip60
@@ -221,7 +221,7 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 Package: glossary-super 2023/09/29 v4.53 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count301
+\c@tracingst=\count297
 \ST@wd=\dimen151
 \ST@rightskip=\skip62
 \ST@leftskip=\skip63
@@ -276,80 +276,183 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
 Package: esint 
 \symlargesymbolsA=\mathgroup6
-) (/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 112.
- (/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) (/usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
-Package: polski 2021/08/25 v1.3.6 Polish language package
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count302
-\U@D=\dimen161
-\l@unhyphenated=\language89
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count303
- (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language59). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language59). Reported on input line 108.
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-polish/polish.ldf
-Language: polish 2022/03/12 1.3 Babel support for Polish
-Package babel Info: Making " an active character on input line 101.
-)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/pl/babel-polish.tex
-Package babel Info: Importing font and identification data for polish
-(babel)             from babel-pl.ini. Reported on input line 11.
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks40
-\inpenc@posthook=\toks41
+) (/usr/share/texlive/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection for XeLaTeX)
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
+\g__graphics_track_int=\count298
+\l__pdf_internal_box=\box59
+\g__pdf_backend_object_int=\count299
+\g__pdf_backend_annotation_int=\count300
+\g__pdf_backend_link_int=\count301
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
 )
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00D7 (decimal 215)
- (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count302
+\l__fontspec_language_int=\count303
+\l__fontspec_strnum_int=\count304
+\l__fontspec_tmp_int=\count305
+\l__fontspec_tmpa_int=\count306
+\l__fontspec_tmpb_int=\count307
+\l__fontspec_tmpc_int=\count308
+\l__fontspec_em_int=\count309
+\l__fontspec_emdef_int=\count310
+\l__fontspec_strong_int=\count311
+\l__fontspec_strongdef_int=\count312
+\l__fontspec_tmpa_dim=\dimen161
+\l__fontspec_tmpb_dim=\dimen162
+\l__fontspec_tmpc_dim=\dimen163
+ (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+\c@eu@=\count313
+\c@eu@i=\count314
+\c@mkern=\count315
+)
+
+Package fontspec Info: Font family 'LatinModernRoman(0)' created for font
+(fontspec)             'Latin Modern Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Latin Modern
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Latin
+(fontspec)             Modern
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'LatinModernSans(0)' created for font
+(fontspec)             'Latin Modern Sans' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Sans/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Latin Modern
+(fontspec)             Sans/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Latin
+(fontspec)             Modern
+(fontspec)             Sans/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Could not resolve font "Latin Modern Mono/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'LatinModernMono(0)' created for font
+(fontspec)             'Latin Modern Mono' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Mono/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Latin Modern
+(fontspec)             Mono/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Latin
+(fontspec)             Modern Mono/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+ (/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscripts
+\subsupersep=\dimen164
+) (/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
+)
+\xl@everylogo=\toks40
+\xl@@everylogo=\toks41
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\l__xetex_show_hyphens_wrapping_box=\box60
+\l__xetex_show_hyphens_temp_box=\box61
+\l__xetex_show_hyphens_final_box=\box62
+\g__xetex_show_hyphens_word_box=\box63
+) (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2023/12/11 v1.66 Modern multilingual typesetting with XeLaTeX and LuaLaTeX
+\xpg@normalclass=\XeTeXcharclass1
+ (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.lde
+Package: gloss-latex 2023/12/11 v1.66 polyglossia: module for default language
+)
+Package polyglossia Info: Default language is latex.
+) (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-polish.ldf
+File: gloss-polish.ldf polyglossia: module for Polish
+ (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2022/06/21 Babel common definitions for shorthands
+ Taken verbatim from babel files (2022/06/06 v3.76)
+)
+Package babel Info: Making " an active character on input line 42.
+\polish@hyphen=\XeTeXcharclass2
+\polish@openpunctuation=\XeTeXcharclass3
+\polish@nonsyllabicpreposition=\XeTeXcharclass4
+)
+Package polyglossia Info: Default language is polish.
+ (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+Package polyglossia Info: Option: English, variant=american.
+) (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
@@ -358,7 +461,7 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
-\ttl@leftsep=\dimen162
+\ttl@leftsep=\dimen167
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -367,12 +470,9 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 
 Package xcolor Warning: Package option `usenames' is obsolete and ignored on input line 266.
 
-Package xcolor Info: Driver file: pdftex.def on input line 274.
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
@@ -386,28 +486,15 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 Package: circuitikz 2023/12/09{} The CircuiTikz circuit drawing package version 1.6.6
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks42
-\pgfutil@tempdima=\dimen163
-\pgfutil@tempdimb=\dimen164
+\pgfutil@tempdima=\dimen168
+\pgfutil@tempdimb=\dimen169
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box59
+\pgfutil@abb=\box64
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-)
-\Gin@req@height=\dimen165
-\Gin@req@width=\dimen166
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks43
@@ -415,89 +502,93 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks45
 ))
-\pgf@x=\dimen167
-\pgf@y=\dimen168
-\pgf@xa=\dimen169
-\pgf@ya=\dimen170
-\pgf@xb=\dimen171
-\pgf@yb=\dimen172
-\pgf@xc=\dimen173
-\pgf@yc=\dimen174
-\pgf@xd=\dimen175
-\pgf@yd=\dimen176
+\pgf@x=\dimen170
+\pgf@y=\dimen171
+\pgf@xa=\dimen172
+\pgf@ya=\dimen173
+\pgf@xb=\dimen174
+\pgf@yb=\dimen175
+\pgf@xc=\dimen176
+\pgf@yc=\dimen177
+\pgf@xd=\dimen178
+\pgf@yd=\dimen179
 \w@pgf@writea=\write7
-\r@pgf@reada=\read3
-\c@pgf@counta=\count304
-\c@pgf@countb=\count305
-\c@pgf@countc=\count306
-\c@pgf@countd=\count307
+\r@pgf@reada=\read2
+\c@pgf@counta=\count316
+\c@pgf@countb=\count317
+\c@pgf@countc=\count318
+\c@pgf@countd=\count319
 \t@pgf@toka=\toks46
 \t@pgf@tokb=\toks47
 \t@pgf@tokc=\toks48
-\pgf@sys@id@count=\count308
+\pgf@sys@id@count=\count320
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-Driver file for pgf: pgfsys-pdftex.def
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+Driver file for pgf: pgfsys-xetex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count321
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count309
-\pgfsyssoftpath@bigbuffer@items=\count310
+\pgfsyssoftpath@smallbuffer@items=\count322
+\pgfsyssoftpath@bigbuffer@items=\count323
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen177
-\pgfmath@count=\count311
-\pgfmath@box=\box60
+\pgfmath@dimen=\dimen180
+\pgfmath@count=\count324
+\pgfmath@box=\box65
 \pgfmath@toks=\toks49
 \pgfmath@stack@operand=\toks50
 \pgfmath@stack@operation=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count312
+\c@pgfmathroundto@lastzeros=\count325
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen178
-\pgf@picmaxx=\dimen179
-\pgf@picminy=\dimen180
-\pgf@picmaxy=\dimen181
-\pgf@pathminx=\dimen182
-\pgf@pathmaxx=\dimen183
-\pgf@pathminy=\dimen184
-\pgf@pathmaxy=\dimen185
-\pgf@xx=\dimen186
-\pgf@xy=\dimen187
-\pgf@yx=\dimen188
-\pgf@yy=\dimen189
-\pgf@zx=\dimen190
-\pgf@zy=\dimen191
+\pgf@picminx=\dimen181
+\pgf@picmaxx=\dimen182
+\pgf@picminy=\dimen183
+\pgf@picmaxy=\dimen184
+\pgf@pathminx=\dimen185
+\pgf@pathmaxx=\dimen186
+\pgf@pathminy=\dimen187
+\pgf@pathmaxy=\dimen188
+\pgf@xx=\dimen189
+\pgf@xy=\dimen190
+\pgf@yx=\dimen191
+\pgf@yy=\dimen192
+\pgf@zx=\dimen193
+\pgf@zy=\dimen194
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen192
-\pgf@path@lasty=\dimen193
+\pgf@path@lastx=\dimen195
+\pgf@path@lasty=\dimen196
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen194
-\pgf@shorten@start@additional=\dimen195
+\pgf@shorten@end@additional=\dimen197
+\pgf@shorten@start@additional=\dimen198
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count313
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count326
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen196
+\pgflinewidth=\dimen199
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen197
-\pgf@pt@y=\dimen198
-\pgf@pt@temp=\dimen199
+\pgf@pt@x=\dimen256
+\pgf@pt@y=\dimen257
+\pgf@pt@temp=\dimen258
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -506,17 +597,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen256
+\pgfarrowsep=\dimen259
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen257
-\pgf@sys@shading@range@num=\count314
-\pgf@shadingcount=\count315
+\pgf@max=\dimen260
+\pgf@sys@shading@range@num=\count327
+\pgf@shadingcount=\count328
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box64
+\pgfexternal@startupbox=\box69
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -527,165 +618,165 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box65
+\pgfnodeparttextbox=\box70
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen258
-\pgf@nodesepend=\dimen259
+\pgf@nodesepstart=\dimen261
+\pgf@nodesepend=\dimen262
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen260
-\pgffor@skip=\dimen261
+\pgffor@iter=\dimen263
+\pgffor@skip=\dimen264
 \pgffor@stack=\toks52
 \pgffor@toks=\toks53
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count316
-\pgfplotmarksize=\dimen262
+\pgf@plot@mark@count=\count329
+\pgfplotmarksize=\dimen265
 )
-\tikz@lastx=\dimen263
-\tikz@lasty=\dimen264
-\tikz@lastxsaved=\dimen265
-\tikz@lastysaved=\dimen266
-\tikz@lastmovetox=\dimen267
-\tikz@lastmovetoy=\dimen268
-\tikzleveldistance=\dimen269
-\tikzsiblingdistance=\dimen270
-\tikz@figbox=\box66
-\tikz@figbox@bg=\box67
-\tikz@tempbox=\box68
-\tikz@tempbox@bg=\box69
-\tikztreelevel=\count317
-\tikznumberofchildren=\count318
-\tikznumberofcurrentchild=\count319
-\tikz@fig@count=\count320
+\tikz@lastx=\dimen266
+\tikz@lasty=\dimen267
+\tikz@lastxsaved=\dimen268
+\tikz@lastysaved=\dimen269
+\tikz@lastmovetox=\dimen270
+\tikz@lastmovetoy=\dimen271
+\tikzleveldistance=\dimen272
+\tikzsiblingdistance=\dimen273
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count330
+\tikznumberofchildren=\count331
+\tikznumberofcurrentchild=\count332
+\tikz@fig@count=\count333
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count321
-\pgfmatrixcurrentcolumn=\count322
-\pgf@matrix@numberofcolumns=\count323
+\pgfmatrixcurrentrow=\count334
+\pgfmatrixcurrentcolumn=\count335
+\pgf@matrix@numberofcolumns=\count336
 )
-\tikz@expandcount=\count324
+\tikz@expandcount=\count337
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen271
-\pgfarrowlength=\dimen272
-\pgfarrowwidth=\dimen273
-\pgfarrowlinewidth=\dimen274
+\pgfarrowinset=\dimen274
+\pgfarrowlength=\dimen275
+\pgfarrowwidth=\dimen276
+\pgfarrowlinewidth=\dimen277
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybending.code.tex
 File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
 File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgftransformnonlinearflatness=\dimen275
+\pgftransformnonlinearflatness=\dimen278
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@curvilinear@time@a=\dimen276
-\pgf@curvilinear@length@a=\dimen277
-\pgf@curvilinear@length@b=\dimen278
-\pgf@curvilinear@length@c=\dimen279
-\pgf@curvilinear@length@d=\dimen280
+\pgf@curvilinear@time@a=\dimen279
+\pgf@curvilinear@length@a=\dimen280
+\pgf@curvilinear@length@b=\dimen281
+\pgf@curvilinear@length@c=\dimen282
+\pgf@curvilinear@length@d=\dimen283
 )
-\pgf@arrows@the@rigidity=\dimen281
+\pgf@arrows@the@rigidity=\dimen284
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfpu.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count325
-\pgf@circ@count@b=\count326
-\pgf@circ@count@c=\count327
-\pgf@circ@res@up=\dimen282
-\pgf@circ@res@down=\dimen283
-\pgf@circ@res@zero=\dimen284
-\pgf@circ@res@left=\dimen285
-\pgf@circ@res@right=\dimen286
-\pgf@circ@res@other=\dimen287
-\pgf@circ@res@step=\dimen288
-\pgf@circ@res@temp=\dimen289
-\pgf@circ@Rlen=\dimen290
-\pgf@circ@scaled@Rlen=\dimen291
-\pgfstartlinewidth=\dimen292
+\pgf@circ@count@a=\count338
+\pgf@circ@count@b=\count339
+\pgf@circ@count@c=\count340
+\pgf@circ@res@up=\dimen285
+\pgf@circ@res@down=\dimen286
+\pgf@circ@res@zero=\dimen287
+\pgf@circ@res@left=\dimen288
+\pgf@circ@res@right=\dimen289
+\pgf@circ@res@other=\dimen290
+\pgf@circ@res@step=\dimen291
+\pgf@circ@res@temp=\dimen292
+\pgf@circ@Rlen=\dimen293
+\pgf@circ@scaled@Rlen=\dimen294
+\pgfstartlinewidth=\dimen295
 ) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
-\ctikz@scratchbox=\box70
+\ctikz@scratchbox=\box75
 ) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count328
+\pgf@circ@res@count=\count341
 ) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen293
+\pgfcirc@labelshift=\dimen296
 ) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks54
 \t@pgfplots@tokb=\toks55
 \t@pgfplots@tokc=\toks56
-\pgfplots@tmpa=\dimen294
-\c@pgfplots@coordindex=\count329
-\c@pgfplots@scanlineindex=\count330
+\pgfplots@tmpa=\dimen297
+\c@pgfplots@coordindex=\count342
+\c@pgfplots@scanlineindex=\count343
  (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks57
 \t@pgf@tokb=\toks58
 \t@pgf@tokc=\toks59
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count331
+\c@pgfplotsarray@tmp=\count344
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count332
+\c@pgfplotstable@counta=\count345
 \t@pgfplotstable@a=\toks60
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count333
- (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen295
-\pgfdecoratedremainingdistance=\dimen296
-\pgfdecoratedinputsegmentcompleteddistance=\dimen297
-\pgfdecoratedinputsegmentremainingdistance=\dimen298
-\pgf@decorate@distancetomove=\dimen299
-\pgf@decorate@repeatstate=\count334
-\pgfdecorationsegmentamplitude=\dimen300
-\pgfdecorationsegmentlength=\dimen301
+\c@pgfplotslibrarysurf@no=\count346
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-xetex.def (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count347
+)))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen298
+\pgfdecoratedremainingdistance=\dimen299
+\pgfdecoratedinputsegmentcompleteddistance=\dimen300
+\pgfdecoratedinputsegmentremainingdistance=\dimen301
+\pgf@decorate@distancetomove=\dimen302
+\pgf@decorate@repeatstate=\count348
+\pgfdecorationsegmentamplitude=\dimen303
+\pgfdecorationsegmentlength=\dimen304
 )
-\tikz@lib@dec@box=\box71
+\tikz@lib@dec@box=\box76
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count335
-\pgfplots@xmin@reg=\dimen302
-\pgfplots@xmax@reg=\dimen303
-\pgfplots@ymin@reg=\dimen304
-\pgfplots@ymax@reg=\dimen305
-\pgfplots@zmin@reg=\dimen306
-\pgfplots@zmax@reg=\dimen307
+\pgfplots@numplots=\count349
+\pgfplots@xmin@reg=\dimen305
+\pgfplots@xmax@reg=\dimen306
+\pgfplots@ymin@reg=\dimen307
+\pgfplots@ymax@reg=\dimen308
+\pgfplots@zmin@reg=\dimen309
+\pgfplots@zmax@reg=\dimen310
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count336
+\c@float@type=\count350
 \float@exts=\toks61
-\float@box=\box72
+\float@box=\box77
 \@float@everytoks=\toks62
-\@floatcapt=\box73
+\@floatcapt=\box78
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.groupplots.code.tex
-\pgfplots@group@current@plot=\count337
-\pgfplots@group@current@row=\count338
-\pgfplots@group@current@column=\count339
+\pgfplots@group@current@plot=\count351
+\pgfplots@group@current@row=\count352
+\pgfplots@group@current@column=\count353
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip69
-\enit@outerparindent=\dimen308
+\enit@outerparindent=\dimen311
 \enit@toks=\toks63
-\enit@inbox=\box74
-\enit@count@id=\count340
-\enitdp@description=\count341
+\enit@inbox=\box79
+\enit@count@id=\count354
+\enitdp@description=\count355
 )
 \docparskip=\skip70
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (./TemplateCore/Dyplom.sty
 
 LaTeX Warning: You have requested package `TemplateCore/Dyplom',
@@ -701,59 +792,59 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count342
+\lrq@indent=\count356
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count343
-\c@listtotal=\count344
-\c@listcount=\count345
-\c@liststart=\count346
-\c@liststop=\count347
-\c@citecount=\count348
-\c@citetotal=\count349
-\c@multicitecount=\count350
-\c@multicitetotal=\count351
-\c@instcount=\count352
-\c@maxnames=\count353
-\c@minnames=\count354
-\c@maxitems=\count355
-\c@minitems=\count356
-\c@citecounter=\count357
-\c@maxcitecounter=\count358
-\c@savedcitecounter=\count359
-\c@uniquelist=\count360
-\c@uniquename=\count361
-\c@refsection=\count362
-\c@refsegment=\count363
-\c@maxextratitle=\count364
-\c@maxextratitleyear=\count365
-\c@maxextraname=\count366
-\c@maxextradate=\count367
-\c@maxextraalpha=\count368
-\c@abbrvpenalty=\count369
-\c@highnamepenalty=\count370
-\c@lownamepenalty=\count371
-\c@maxparens=\count372
-\c@parenlevel=\count373
-\blx@tempcnta=\count374
-\blx@tempcntb=\count375
-\blx@tempcntc=\count376
-\c@blx@maxsection=\count377
-\blx@maxsegment@0=\count378
-\blx@notetype=\count379
-\blx@parenlevel@text=\count380
-\blx@parenlevel@foot=\count381
-\blx@sectionciteorder@0=\count382
-\blx@sectionciteorderinternal@0=\count383
-\blx@entrysetcounter=\count384
-\blx@biblioinstance=\count385
+\c@tabx@nest=\count357
+\c@listtotal=\count358
+\c@listcount=\count359
+\c@liststart=\count360
+\c@liststop=\count361
+\c@citecount=\count362
+\c@citetotal=\count363
+\c@multicitecount=\count364
+\c@multicitetotal=\count365
+\c@instcount=\count366
+\c@maxnames=\count367
+\c@minnames=\count368
+\c@maxitems=\count369
+\c@minitems=\count370
+\c@citecounter=\count371
+\c@maxcitecounter=\count372
+\c@savedcitecounter=\count373
+\c@uniquelist=\count374
+\c@uniquename=\count375
+\c@refsection=\count376
+\c@refsegment=\count377
+\c@maxextratitle=\count378
+\c@maxextratitleyear=\count379
+\c@maxextraname=\count380
+\c@maxextradate=\count381
+\c@maxextraalpha=\count382
+\c@abbrvpenalty=\count383
+\c@highnamepenalty=\count384
+\c@lownamepenalty=\count385
+\c@maxparens=\count386
+\c@parenlevel=\count387
+\blx@tempcnta=\count388
+\blx@tempcntb=\count389
+\blx@tempcntc=\count390
+\c@blx@maxsection=\count391
+\blx@maxsegment@0=\count392
+\blx@notetype=\count393
+\blx@parenlevel@text=\count394
+\blx@parenlevel@foot=\count395
+\blx@sectionciteorder@0=\count396
+\blx@sectionciteorderinternal@0=\count397
+\blx@entrysetcounter=\count398
+\blx@biblioinstance=\count399
 \labelnumberwidth=\skip71
 \labelalphawidth=\skip72
 \biblabelsep=\skip73
@@ -762,12 +853,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibinitsep=\skip76
 \bibparsep=\skip77
 \bibhang=\skip78
-\blx@bcfin=\read4
+\blx@bcfin=\read3
 \blx@bcfout=\write8
-\blx@langwohyphens=\language90
-\c@mincomprange=\count386
-\c@maxcomprange=\count387
-\c@mincompwidth=\count388
+\blx@langwohyphens=\language89
+\c@mincomprange=\count400
+\c@maxcomprange=\count401
+\c@mincompwidth=\count402
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -777,74 +868,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count389
-\c@savedafterword=\count390
-\c@annotator=\count391
-\c@savedannotator=\count392
-\c@author=\count393
-\c@savedauthor=\count394
-\c@bookauthor=\count395
-\c@savedbookauthor=\count396
-\c@commentator=\count397
-\c@savedcommentator=\count398
-\c@editor=\count399
-\c@savededitor=\count400
-\c@editora=\count401
-\c@savededitora=\count402
-\c@editorb=\count403
-\c@savededitorb=\count404
-\c@editorc=\count405
-\c@savededitorc=\count406
-\c@foreword=\count407
-\c@savedforeword=\count408
-\c@holder=\count409
-\c@savedholder=\count410
-\c@introduction=\count411
-\c@savedintroduction=\count412
-\c@namea=\count413
-\c@savednamea=\count414
-\c@nameb=\count415
-\c@savednameb=\count416
-\c@namec=\count417
-\c@savednamec=\count418
-\c@translator=\count419
-\c@savedtranslator=\count420
-\c@shortauthor=\count421
-\c@savedshortauthor=\count422
-\c@shorteditor=\count423
-\c@savedshorteditor=\count424
-\c@labelname=\count425
-\c@savedlabelname=\count426
-\c@institution=\count427
-\c@savedinstitution=\count428
-\c@lista=\count429
-\c@savedlista=\count430
-\c@listb=\count431
-\c@savedlistb=\count432
-\c@listc=\count433
-\c@savedlistc=\count434
-\c@listd=\count435
-\c@savedlistd=\count436
-\c@liste=\count437
-\c@savedliste=\count438
-\c@listf=\count439
-\c@savedlistf=\count440
-\c@location=\count441
-\c@savedlocation=\count442
-\c@organization=\count443
-\c@savedorganization=\count444
-\c@origlocation=\count445
-\c@savedoriglocation=\count446
-\c@origpublisher=\count447
-\c@savedorigpublisher=\count448
-\c@publisher=\count449
-\c@savedpublisher=\count450
-\c@language=\count451
-\c@savedlanguage=\count452
-\c@origlanguage=\count453
-\c@savedoriglanguage=\count454
-\c@pageref=\count455
-\c@savedpageref=\count456
+\c@afterword=\count403
+\c@savedafterword=\count404
+\c@annotator=\count405
+\c@savedannotator=\count406
+\c@author=\count407
+\c@savedauthor=\count408
+\c@bookauthor=\count409
+\c@savedbookauthor=\count410
+\c@commentator=\count411
+\c@savedcommentator=\count412
+\c@editor=\count413
+\c@savededitor=\count414
+\c@editora=\count415
+\c@savededitora=\count416
+\c@editorb=\count417
+\c@savededitorb=\count418
+\c@editorc=\count419
+\c@savededitorc=\count420
+\c@foreword=\count421
+\c@savedforeword=\count422
+\c@holder=\count423
+\c@savedholder=\count424
+\c@introduction=\count425
+\c@savedintroduction=\count426
+\c@namea=\count427
+\c@savednamea=\count428
+\c@nameb=\count429
+\c@savednameb=\count430
+\c@namec=\count431
+\c@savednamec=\count432
+\c@translator=\count433
+\c@savedtranslator=\count434
+\c@shortauthor=\count435
+\c@savedshortauthor=\count436
+\c@shorteditor=\count437
+\c@savedshorteditor=\count438
+\c@labelname=\count439
+\c@savedlabelname=\count440
+\c@institution=\count441
+\c@savedinstitution=\count442
+\c@lista=\count443
+\c@savedlista=\count444
+\c@listb=\count445
+\c@savedlistb=\count446
+\c@listc=\count447
+\c@savedlistc=\count448
+\c@listd=\count449
+\c@savedlistd=\count450
+\c@liste=\count451
+\c@savedliste=\count452
+\c@listf=\count453
+\c@savedlistf=\count454
+\c@location=\count455
+\c@savedlocation=\count456
+\c@organization=\count457
+\c@savedorganization=\count458
+\c@origlocation=\count459
+\c@savedoriglocation=\count460
+\c@origpublisher=\count461
+\c@savedorigpublisher=\count462
+\c@publisher=\count463
+\c@savedpublisher=\count464
+\c@language=\count465
+\c@savedlanguage=\count466
+\c@origlanguage=\count467
+\c@savedoriglanguage=\count468
+\c@pageref=\count469
+\c@savedpageref=\count470
 \shorthandwidth=\skip79
 \shortjournalwidth=\skip80
 \shortserieswidth=\skip81
@@ -859,6 +950,9 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip90
 \localshortauthorwidth=\skip91
 \localshorteditorwidth=\skip92
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -868,19 +962,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count457
-\c@textcitetotal=\count458
-\c@textcitemaxnames=\count459
-\c@biburlbigbreakpenalty=\count460
-\c@biburlbreakpenalty=\count461
-\c@biburlnumpenalty=\count462
-\c@biburlucpenalty=\count463
-\c@biburllcpenalty=\count464
+\c@textcitecount=\count471
+\c@textcitetotal=\count472
+\c@textcitemaxnames=\count473
+\c@biburlbigbreakpenalty=\count474
+\c@biburlbreakpenalty=\count475
+\c@biburlnumpenalty=\count476
+\c@biburlucpenalty=\count477
+\c@biburllcpenalty=\count478
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count465
+\c@smartand=\count479
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -898,17 +992,17 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count466
-\c@bbx:relatedtotal=\count467
+\c@bbx:relatedcount=\count480
+\c@bbx:relatedtotal=\count481
 ))))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count468
-\c@cbx@tempcntb=\count469
-\c@cbx@tempcntc=\count470
-\c@cbx@tempcntd=\count471
+\c@cbx@tempcnta=\count482
+\c@cbx@tempcntb=\count483
+\c@cbx@tempcntc=\count484
+\c@cbx@tempcntd=\count485
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -926,22 +1020,14 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
- (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-01-22 L3 programming layer (loader) 
- (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count472
-\l__pdf_internal_box=\box75
-))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-01-22 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-10-10 L3 Experimental document command parser
-)
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -952,17 +1038,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count473
-\Gm@cntv=\count474
-\c@Gm@tempcnt=\count475
-\Gm@bindingoffset=\dimen309
-\Gm@wd@mp=\dimen310
-\Gm@odd@mp=\dimen311
-\Gm@even@mp=\dimen312
-\Gm@layoutwidth=\dimen313
-\Gm@layoutheight=\dimen314
-\Gm@layouthoffset=\dimen315
-\Gm@layoutvoffset=\dimen316
+\Gm@cnth=\count486
+\Gm@cntv=\count487
+\c@Gm@tempcnt=\count488
+\Gm@bindingoffset=\dimen312
+\Gm@wd@mp=\dimen313
+\Gm@odd@mp=\dimen314
+\Gm@even@mp=\dimen315
+\Gm@layoutwidth=\dimen316
+\Gm@layoutheight=\dimen317
+\Gm@layouthoffset=\dimen318
+\Gm@layoutvoffset=\dimen319
 \Gm@dimlist=\toks64
 ) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -992,18 +1078,18 @@ Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty p
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen317
-\captionmargin=\dimen318
-\caption@leftmargin=\dimen319
-\caption@rightmargin=\dimen320
-\caption@width=\dimen321
-\caption@indent=\dimen322
-\caption@parindent=\dimen323
-\caption@hangindent=\dimen324
+\caption@tempdima=\dimen320
+\captionmargin=\dimen321
+\caption@leftmargin=\dimen322
+\caption@rightmargin=\dimen323
+\caption@width=\dimen324
+\caption@indent=\dimen325
+\caption@parindent=\dimen326
+\caption@hangindent=\dimen327
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count476
-\c@continuedfloat=\count477
+\c@caption@flags=\count489
+\c@continuedfloat=\count490
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1013,19 +1099,19 @@ Package caption Info: supertabular package is loaded.
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count478
+\c@subfigure=\count491
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count479
+\c@subtable=\count492
 )
 \@float@every@table=\toks65
  (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count480
-\csq@gtype=\count481
-\csq@glevel=\count482
-\csq@qlevel=\count483
-\csq@maxlvl=\count484
-\csq@tshold=\count485
+\csq@reset=\count493
+\csq@gtype=\count494
+\csq@glevel=\count495
+\csq@qlevel=\count496
+\csq@maxlvl=\count497
+\csq@tshold=\count498
 \csq@ltx@everypar=\toks66
  (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -1054,23 +1140,19 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count486
+\c@section@level=\count499
 )
-\@linkdim=\dimen325
-\Hy@linkcounter=\count487
-\Hy@pagecounter=\count488
+\@linkdim=\dimen328
+\Hy@linkcounter=\count500
+\Hy@pagecounter=\count501
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 ) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count489
+\Hy@SavedSpaceFactor=\count502
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4179.
 Package hyperref Info: Link nesting OFF on input line 4184.
@@ -1079,17 +1161,17 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count490
+\c@Hy@tempcnt=\count503
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen326
+\XeTeXLinkMargin=\dimen329
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count491
-\Field@Width=\dimen327
-\Fld@charsize=\dimen328
+\Fld@menulength=\count504
+\Field@Width=\dimen330
+\Fld@charsize=\dimen331
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -1101,22 +1183,27 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count492
-\c@Item=\count493
-\c@Hfootnote=\count494
+\Hy@abspage=\count505
+\c@Item=\count506
+\c@Hfootnote=\count507
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hxetex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box80
+\c@Hy@AnnotLevel=\count508
+\HyField@AnnotCount=\count509
+\Fld@listcount=\count510
+\c@bookmark@seq@number=\count511
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-)
-\Fld@listcount=\count495
-\c@bookmark@seq@number=\count496
- (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
@@ -1133,46 +1220,41 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 168.
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count497
-\l__lipsum_a_int=\count498
-\l__lipsum_b_int=\count499
+\g__lipsum_par_int=\count512
+\l__lipsum_a_int=\count513
+\l__lipsum_b_int=\count514
  (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/share/texlive/texmf-dist/tex/latex/bredzenie/bredzenie.sty
 Package: bredzenie 2017/05/03 v1.0 Package providing quasi-Polish text
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip103
-\multirow@cntb=\count500
+\multirow@cntb=\count515
 \multirow@dima=\skip104
-\bigstrutjot=\dimen329
+\bigstrutjot=\dimen332
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count501
-\mult@box=\box76
-\multicol@leftmargin=\dimen330
-\c@unbalance=\count502
-\c@collectmore=\count503
-\doublecol@number=\count504
-\multicoltolerance=\count505
-\multicolpretolerance=\count506
-\full@width=\dimen331
-\page@free=\dimen332
-\premulticols=\dimen333
-\postmulticols=\dimen334
+\c@tracingmulticols=\count516
+\mult@box=\box81
+\multicol@leftmargin=\dimen333
+\c@unbalance=\count517
+\c@collectmore=\count518
+\doublecol@number=\count519
+\multicoltolerance=\count520
+\multicolpretolerance=\count521
+\full@width=\dimen334
+\page@free=\dimen335
+\premulticols=\dimen336
+\postmulticols=\dimen337
 \multicolsep=\skip105
 \multicolbaselineskip=\skip106
-\partial@page=\box77
-\last@line=\box78
-\mc@boxedresult=\box79
-\maxbalancingoverflow=\dimen335
-\mult@rightbox=\box80
-\mult@grightbox=\box81
-\mult@firstbox=\box82
-\mult@gfirstbox=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
+\partial@page=\box82
+\last@line=\box83
+\mc@boxedresult=\box84
+\maxbalancingoverflow=\dimen338
+\mult@rightbox=\box85
+\mult@grightbox=\box86
+\mult@firstbox=\box87
+\mult@gfirstbox=\box88
 \@tempa=\box89
 \@tempa=\box90
 \@tempa=\box91
@@ -1204,48 +1286,53 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box117
 \@tempa=\box118
 \@tempa=\box119
-\c@minrows=\count507
-\c@columnbadness=\count508
-\c@finalcolumnbadness=\count509
-\last@try=\dimen336
-\multicolovershoot=\dimen337
-\multicolundershoot=\dimen338
-\mult@nat@firstbox=\box120
-\colbreak@box=\box121
-\mc@col@check@num=\count510
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\c@minrows=\count522
+\c@columnbadness=\count523
+\c@finalcolumnbadness=\count524
+\last@try=\dimen339
+\multicolovershoot=\dimen340
+\multicolundershoot=\dimen341
+\mult@nat@firstbox=\box125
+\colbreak@box=\box126
+\mc@col@check@num=\count525
 ) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen339
-\ar@mcellbox=\box122
-\extrarowheight=\dimen340
+\col@sep=\dimen342
+\ar@mcellbox=\box127
+\extrarowheight=\dimen343
 \NC@list=\toks67
 \extratabsurround=\skip107
 \backup@length=\skip108
-\ar@cellbox=\box123
+\ar@cellbox=\box128
 )
 \everycr=\toks68
 \minrowclearance=\skip109
-\rownum=\count511
+\rownum=\count526
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count512
-\lst@gtempboxa=\box124
+\lst@mode=\count527
+\lst@gtempboxa=\box129
 \lst@token=\toks69
-\lst@length=\count513
-\lst@currlwidth=\dimen341
-\lst@column=\count514
-\lst@pos=\count515
-\lst@lostspace=\dimen342
-\lst@width=\dimen343
-\lst@newlines=\count516
-\lst@lineno=\count517
-\lst@maxwidth=\dimen344
+\lst@length=\count528
+\lst@currlwidth=\dimen344
+\lst@column=\count529
+\lst@pos=\count530
+\lst@lostspace=\dimen345
+\lst@width=\dimen346
+\lst@newlines=\count531
+\lst@lineno=\count532
+\lst@maxwidth=\dimen347
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count518
-\lst@skipnumbers=\count519
-\lst@framebox=\box125
+\c@lstnumber=\count533
+\lst@skipnumbers=\count534
+\lst@framebox=\box130
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
@@ -1253,8 +1340,8 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (/usr/share/texlive/texmf-dist/tex/latex/menukeys/menukeys.sty
 Package: menukeys 2022/07/01 v1.6.2 -- A package to format menus, paths and shortcuts
  (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count520
-\xs_countb=\count521
+\xs_counta=\count535
+\xs_countb=\count536
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
@@ -1275,91 +1362,89 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box126
+\collectedbox=\box131
 )
-\tc@llx=\dimen345
-\tc@lly=\dimen346
-\tc@urx=\dimen347
-\tc@ury=\dimen348
-Package trimclip Info: Using driver 'tc-pdftex.def'.
- (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+\tc@llx=\dimen348
+\tc@lly=\dimen349
+\tc@urx=\dimen350
+\tc@ury=\dimen351
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 ))
-\adjbox@Width=\dimen349
-\adjbox@Height=\dimen350
-\adjbox@Depth=\dimen351
-\adjbox@Totalheight=\dimen352
-\adjbox@pwidth=\dimen353
-\adjbox@pheight=\dimen354
-\adjbox@pdepth=\dimen355
-\adjbox@ptotalheight=\dimen356
+\adjbox@Width=\dimen352
+\adjbox@Height=\dimen353
+\adjbox@Depth=\dimen354
+\adjbox@Totalheight=\dimen355
+\adjbox@pwidth=\dimen356
+\adjbox@pheight=\dimen357
+\adjbox@pdepth=\dimen358
+\adjbox@ptotalheight=\dimen359
  (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count522
+\c@checkoddpage=\count537
 ) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box127
-\sift@deathcycles=\count523
-\@vwid@loff=\dimen357
-\@vwid@roff=\dimen358
+\@vwid@box=\box132
+\sift@deathcycles=\count538
+\@vwid@loff=\dimen360
+\@vwid@roff=\dimen361
 )) (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__twmk_indris_int=\count524
-\c@tw@hyphen@char@num=\count525
+\l__twmk_indris_int=\count539
+\c@tw@hyphen@char@num=\count540
 )) (./Dyplom.aux)
 \openout1 = `Dyplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count526
-\scratchdimen=\dimen359
-\scratchbox=\box128
-\nofMPsegments=\count527
-\nofMParguments=\count528
-\everyMPshowfont=\toks70
-\MPscratchCnt=\count529
-\MPscratchDim=\dimen360
-\MPnumerator=\count530
-\makeMPintoPDFobject=\count531
-\everyMPtoPDFconversion=\toks71
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 69.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package biblatex Info: Trying to load language 'polish'...
-Package biblatex Info: ... file 'polish.lbx' found.
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/polish.lbx
-File: polish.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'polish'...
+Package biblatex Info: ... file 'polish.lbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/polish.lbx
+File: polish.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout8 = `Dyplom.bcf'.
@@ -1367,13 +1452,13 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Dyplom.bbl' found.
  (./Dyplom.bbl)
-Package biblatex Info: Reference section=0 on input line 70.
-Package biblatex Info: Reference segment=0 on input line 70.
+Package biblatex Info: Reference section=0 on input line 69.
+Package biblatex Info: Reference segment=0 on input line 69.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1408,923 +1493,150 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 69.
+(./Dyplom.out) (./Dyplom.out)
 \@outlinefile=\write9
 \openout9 = `Dyplom.out'.
 
-\c@lstlisting=\count532
-<TemplateCore/PNG/HeadPL.png, id=31, 351.56343pt x 81.30376pt>
-File: TemplateCore/PNG/HeadPL.png Graphic file (type png)
-<use TemplateCore/PNG/HeadPL.png>
-Package pdftex.def Info: TemplateCore/PNG/HeadPL.png  used on input line 73.
-(pdftex.def)             Requested size: 273.14923pt x 63.16853pt.
-<TemplateCore/PNG/inzhead.png, id=32, 1392.20125pt x 303.1325pt>
-File: TemplateCore/PNG/inzhead.png Graphic file (type png)
-<use TemplateCore/PNG/inzhead.png>
-Package pdftex.def Info: TemplateCore/PNG/inzhead.png  used on input line 73.
-(pdftex.def)             Requested size: 455.24411pt x 99.12282pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 73.
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 73.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 73.
- (/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 73.
- (/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 73.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+esint on input line 73.
- (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
-File: uesint.fd 
-) [1
+\c@lstlisting=\count541
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \sffamily on input line 69.
+LaTeX Info: Redefining \ttfamily on input line 69.
+
+Package fontspec Info: Font family 'LatinModernSans(1)' created for font
+(fontspec)             'Latin Modern Sans' with options
+(fontspec)             [Ligatures=TeX,Language=Polish].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Sans/OT:script=latn;language=PLK;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Sans/B/OT:script=latn;language=PLK;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Latin Modern
+(fontspec)             Sans/I/OT:script=latn;language=PLK;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Latin
+(fontspec)             Modern
+(fontspec)             Sans/BI/OT:script=latn;language=PLK;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+File: TemplateCore/PNG/HeadPL.png Graphic file (type bmp)
+<TemplateCore/PNG/HeadPL.png>
+File: TemplateCore/PNG/inzhead.png Graphic file (type bmp)
+<TemplateCore/PNG/inzhead.png>
+ [1
 
 \openout3 = `Dyplom.ist'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} <./TemplateCore/PNG/HeadPL.png> <./TemplateCore/PNG/inzhead.png (PNG copy)>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 73.
- [2
-
 ]
-No file Dyplom.toc.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+esint on input line 72.
+ (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+) [2
+
+] (./Dyplom.toc
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+ [3
+
+
+])
 \tf@toc=\write10
 \openout10 = `Dyplom.toc'.
 
 
+
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 73.
+(fancyhdr)                Please consider using the `twoside' option on input line 72.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 73.
+(fancyhdr)                Please consider using the `twoside' option on input line 72.
 
-(./Chapters/main.tex
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 2.
-
-[3
-
-
-]
-Rozdzia\l  1.
+(./Chapters/main.tex [4]
+Rozdzia艂 1.
 (./Chapters/Wprowadzenie.tex
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 8.
 
-[4
+[5
 
-])
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 5.
- [5]
-Rozdzia\l  2.
+] [6]) [7]
+Rozdzia艂 2.
 (./Chapters/CeliZakres.tex
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 21.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 23.
-
-[6
-
-]) [7]
-Rozdzia\l  3.
-(./Chapters/OpisTechnologi.tex
-
-LaTeX Warning: Reference `lst:Przyk艂ad prostego dokumentu' on page 8 undefined on input line 3.
-
-
-LaTeX Warning: Reference `sec:klassa' on page 8 undefined on input line 3.
-
-
-LaTeX Warning: Reference `lst:Przyk艂ad prostego dokumentu' on page 8 undefined on input line 3.
-
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 4.
-
-[8
-
-]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 5.
-
-
-./Chapters/OpisTechnologi.tex:8: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...ackage[utf8]{inputenc}  % Kodowanie znak贸w
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:8: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...ackage[utf8]{inputenc}  % Kodowanie znak贸w
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:10: LaTeX Error: Invalid UTF-8 byte sequence (腬expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \usepackage[polish]{babel}   % J臋zyk 
-                                           dokumentu
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:11: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \usepackage{graphicx}        % Obs艂uga 
-                                             grafiki
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:12: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...ref}        % Dodanie pakietu do obs艂ugi 
-                                                  hiper艂膮czy
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:12: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...% Dodanie pakietu do obs艂ugi hiper艂膮czy
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:12: LaTeX Error: Invalid UTF-8 byte sequence (腬expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...% Dodanie pakietu do obs艂ugi hiper艂膮czy
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:12: LaTeX Error: Invalid UTF-8 byte "85.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...% Dodanie pakietu do obs艂ugi hiper艂膮czy
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:17: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \title{Przyk艂adowy 
-                         Dokument w LaTeX}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:26: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 	Tutaj mo偶esz 
-                    opisa膰 wprowadzenie do swojego dokumentu.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:26: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 	Tutaj mo偶esz 
-                    opisa膰 wprowadzenie do swojego dokumentu.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:26: LaTeX Error: Invalid UTF-8 byte sequence (腬expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 	Tutaj mo偶esz opisa膰 
-                            wprowadzenie do swojego dokumentu.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:26: LaTeX Error: Invalid UTF-8 byte "87.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 	Tutaj mo偶esz opisa膰 
-                            wprowadzenie do swojego dokumentu.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte sequence (腬expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 	Korzystaj膮c 
-                   z makra, mo偶esz wstawi膰 hiper艂膮cze do Overleaf: \over...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte "85.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 	Korzystaj膮c 
-                   z makra, mo偶esz wstawi膰 hiper艂膮cze do Overleaf: \over...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 	Korzystaj膮c z makra, mo偶esz 
-                                    wstawi膰 hiper艂膮cze do Overleaf: \over...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 	Korzystaj膮c z makra, mo偶esz 
-                                    wstawi膰 hiper艂膮cze do Overleaf: \over...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte sequence (腬expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 	Korzystaj膮c z makra, mo偶esz wstawi膰 
-                                             hiper艂膮cze do Overleaf: \over...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte "87.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 	Korzystaj膮c z makra, mo偶esz wstawi膰 
-                                             hiper艂膮cze do Overleaf: \over...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...卌 z makra, mo偶esz wstawi膰 hiper艂膮cze 
-                                                  do Overleaf: \overleaflink
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte sequence (腬expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...卌 z makra, mo偶esz wstawi膰 hiper艂膮cze 
-                                                  do Overleaf: \overleaflink
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/OpisTechnologi.tex:29: LaTeX Error: Invalid UTF-8 byte "85.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...卌 z makra, mo偶esz wstawi膰 hiper艂膮cze 
-                                                  do Overleaf: \overleaflink
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[9
-
-]) [10]
-Rozdzia\l  4.
-(./Chapters/Usprawnienieformatowaniaiestetyki.tex
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 7.
-
-[11
-
-]
-
-LaTeX Warning: Reference `sec:grafika' on page 12 undefined on input line 17.
-
-
-LaTeX Warning: Reference `sec:tabel' on page 12 undefined on input line 17.
-
-[12]
-
-LaTeX Warning: Reference `sec:Wzory' on page 13 undefined on input line 24.
-
-) [13] [14]
-Rozdzia\l  5.
-(./Chapters/Automatyzacjastrukturydokumentu.tex)
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 17.
-
-[15
-
-]
-Rozdzia\l  6.
-(./Chapters/Zarz膮dzanie Bibliografi膮 i Przypisami.tex
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 26.
-
-[16
-
-]) [17]
-Rozdzia\l  7.
-(./Chapters/Wspieranie Pracy w J臋zyku Polskim.tex
-
-./Chapters/Wspieranie Pracy w J臋zyku Polskim.tex:8: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \newcommand{\acronymstitle}{Wykaz skr贸t贸w 
-                                                i symboli}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/Wspieranie Pracy w J臋zyku Polskim.tex:8: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \newcommand{\acronymstitle}{Wykaz skr贸t贸w 
-                                                i symboli}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/Wspieranie Pracy w J臋zyku Polskim.tex:8: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \newcommand{\acronymstitle}{Wykaz skr贸t贸w 
-                                                i symboli}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/Wspieranie Pracy w J臋zyku Polskim.tex:8: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \newcommand{\acronymstitle}{Wykaz skr贸t贸w 
-                                                i symboli}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-)
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 23.
-
-[18
-
-]
-Rozdzia\l  8.
-(./Chapters/Projekt.tex
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 21.
-
-[19
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]) [20]
-Rozdzia\l  9.
-(./Chapters/Implementacja.tex
-
-LaTeX Warning: Reference `sec:kompilator_lokalny' on page 21 undefined on input line 2.
-
-<IMAGE/Obraz1.png, id=272, 222.07968pt x 73.02281pt>
-File: IMAGE/Obraz1.png Graphic file (type png)
-<use IMAGE/Obraz1.png>
-Package pdftex.def Info: IMAGE/Obraz1.png  used on input line 6.
-(pdftex.def)             Requested size: 222.07913pt x 73.02261pt.
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 20.
 
-[21
+[8
 
- <./IMAGE/Obraz1.png>] [22
+] [9] [10]) [11]
+Rozdzia艂 3.
+(./Chapters/Projekt.tex)
 
-]
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 26.
 
-LaTeX Warning: Reference `lst:G艂贸wna struktura dokumentu' on page 23 undefined on input line 82.
+[12
 
-[23
+] [13]
+Rozdzia艂 4.
+(./Chapters/Implementacja.tex)
 
-]
-Overfull \hbox (17.2607pt too wide) in paragraph at lines 108--109
-[][][][][][] 
- []
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 29.
 
-
-Overfull \hbox (17.2607pt too wide) in paragraph at lines 111--112
-[][][][][][] 
- []
-
-
-Overfull \hbox (17.2607pt too wide) in paragraph at lines 125--126
-[][][][][][] 
- []
-
-
-Overfull \hbox (17.2607pt too wide) in paragraph at lines 128--129
-[][][][][][] 
- []
-
-
-./Chapters/Implementacja.tex:133: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 \slowakluczowe{Sk艂ad 
-                            tekstu \LaTeX, Praca Dyplomowa, Narz臋dzia i 艣r...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/Implementacja.tex:133: LaTeX Error: Invalid UTF-8 byte sequence (腬expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 ...kstu \LaTeX, Praca Dyplomowa, Narz臋dzia 
-                                                  i 艣rodowiska pracy}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/Implementacja.tex:133: LaTeX Error: Invalid UTF-8 byte sequence (臷lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 ...raca Dyplomowa, Narz臋dzia i 艣rodowiska 
-                                                  pracy}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[24]
-Overfull \hbox (17.2607pt too wide) in paragraph at lines 141--142
-[][][][][][] 
- []
-
-
-Overfull \hbox (17.2607pt too wide) in paragraph at lines 143--144
-[][][][][][] 
- []
-
-
-./Chapters/Implementacja.tex:145: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 	% Strony nagl贸wkowe
-                           
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/Implementacja.tex:145: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 	% Strony nagl贸wkowe
-                           
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/Implementacja.tex:161: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 	% Spis rysunk贸w
-                       
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./Chapters/Implementacja.tex:161: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 	% Spis rysunk贸w
-                       
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (17.2607pt too wide) in paragraph at lines 173--175
-[][][][][][] 
- []
-
-[25]
-<IMAGE/Strona tytu艂owa pracy.png, id=442, 414.79968pt x 592.46344pt>
-File: IMAGE/Strona tytu艂owa pracy.png Graphic file (type png)
-<use IMAGE/Strona tytu艂owa pracy.png>
-Package pdftex.def Info: IMAGE/Strona tytu艂owa pracy.png  used on input line 221.
-(pdftex.def)             Requested size: 227.62206pt x 325.1146pt.
-
-
-LaTeX Warning: Reference `rys:Strona tytu艂owa pracy' on page 26 undefined on input line 225.
-
-[26] [27 <./IMAGE/Strona tytu艂owa pracy.png>]
-
-LaTeX Warning: Reference `lst:Kod prostej tabeli' on page 28 undefined on input line 266.
-
-
-LaTeX Warning: Reference `sec:grafika' on page 28 undefined on input line 266.
-
-
-LaTeX Warning: Reference `lst:Kod prostej tabeli' on page 28 undefined on input line 276.
-
-[28] [29{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
-
- []
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 354.
-
-
-LaTeX Warning: Reference `lst:Kod' on page 31 undefined on input line 368.
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-) (./SRC/Kod.c [31
+[14
 
 ]
-
-./SRC/Kod.c:50: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 		printf("Zadaj przedzia艂 
-                                losowanych licz\n");
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-)
-
-LaTeX Warning: Reference `fig:Funkcja kwadratowa' on page 32 undefined on input line 383.
-
-[32]
-
-LaTeX Warning: Reference `fig:multiplot' on page 33 undefined on input line 420.
-
-
-LaTeX Warning: Reference `lst:Wykrez wczytany z pliku' on page 33 undefined on input line 420.
-
-Package pgfplots info on input line 432: Using 'lua backend=false' for axis: x coord trafo unsupported.
-PGFPlots: reading {charts/bar_data1.txt}
-PGFPlots: reading {charts/bar_data3.txt}
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 465--467
-
- []
-
-
-LaTeX Warning: Reference `fig:funkcja' on page 34 undefined on input line 471.
-
-
-LaTeX Warning: Reference `fig:schemat' on page 34 undefined on input line 471.
-
-[34
-
-]
-\absvshift=\dimen361
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--513
-
- []
-
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 526.
-[35] [36]
-
-LaTeX Warning: Reference `lst:Tworzenie pustego slajdu w prezentacji' on page 37 undefined on input line 582.
-
-
-./Chapters/Implementacja.tex:585: LaTeX Error: Invalid UTF-8 byte sequence (臷expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.585 	\frametitle{Tytu艂 
-                          slajdu}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-LaTeX Warning: Reference `sec:Wzory' on page 37 undefined on input line 590.
-
-
-LaTeX Warning: Reference `sec:grafika' on page 37 undefined on input line 590.
-
-
-LaTeX Warning: Reference `sec:tabel' on page 37 undefined on input line 590.
-
-[37]
-<IMAGE/Strona tytu艂owa prezentacji.png, id=705, 880.03781pt x 499.8675pt>
-File: IMAGE/Strona tytu艂owa prezentacji.png Graphic file (type png)
-<use IMAGE/Strona tytu艂owa prezentacji.png>
-Package pdftex.def Info: IMAGE/Strona tytu艂owa prezentacji.png  used on input line 599.
-(pdftex.def)             Requested size: 455.24411pt x 258.58255pt.
-) [38 <./IMAGE/Strona tytu艂owa prezentacji.png>]
-Rozdzia\l  10.
+Rozdzia艂 5.
 (./Chapters/Podsumowanie.tex))
 
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 80.
-
-[39
-
-]
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 80.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 80.
+LaTeX Warning: Empty bibliography on input line 79.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 85.
+(fancyhdr)                Please consider using the `twoside' option on input line 84.
 
-[40
+[15
 
-]
-No file Dyplom.lof.
+] (./Dyplom.lof)
 \tf@lof=\write11
 \openout11 = `Dyplom.lof'.
 
 
+
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 90.
+(fancyhdr)                Please consider using the `twoside' option on input line 89.
 
-[41
+[16
 
 
 
-]
-No file Dyplom.lot.
+] (./Dyplom.lot)
 \tf@lot=\write12
 \openout12 = `Dyplom.lot'.
 
 
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 93.
 
-[42
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 92.
+
+[17
 
 
 ] (./Dyplom.lol)
@@ -2339,9 +1651,9 @@ This document will not have a glossary.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 97.
+(fancyhdr)                Please consider using the `twoside' option on input line 96.
 
-[43
+[18
 
 
 ] (./Dyplom.aux)
@@ -2349,43 +1661,19 @@ Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is usel
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Dyplom.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Dyplom.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  40CE2975195E1ECC5A277EBC801A6E2F;5694.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Dyplom
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `Dyplom.out' has not changed.
+(rerunfilecheck)             Checksum: 60F5F6F7F5A7802CAF7566204A0AE6B7;4353.
 Package logreq Info: Writing requests to 'Dyplom.run.xml'.
 \openout1 = `Dyplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 70439 strings out of 474222
- 1664309 string characters out of 5748733
- 3243623 words of memory out of 5000000
- 91253 multiletter control sequences out of 15000+600000
- 641572 words of font info for 104 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 132i,20n,135p,2598b,2357s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb>
-Output written on Dyplom.pdf (43 pages, 669071 bytes).
-PDF statistics:
- 973 PDF objects out of 1000 (max. 8388607)
- 859 compressed objects within 9 object streams
- 458 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70238 strings out of 474878
+ 1722907 string characters out of 5762516
+ 3166048 words of memory out of 5000000
+ 91268 multiletter control sequences out of 15000+600000
+ 563702 words of font info for 111 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 114i,12n,131p,2399b,3951s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on Dyplom.xdv (18 pages, 260348 bytes).

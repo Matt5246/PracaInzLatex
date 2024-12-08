@@ -1,39 +1,38 @@
-\babel@toc {polish}{}\relax 
-\babel@toc {polish}{}\relax 
+\xpginauxfiletrue 
 \thispagestyle {empty}
-\contentsline {chapter}{\numberline {1}Wprowadzenie}{4}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Cel i zakres pracy}{6}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Opis technologii}{8}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Usprawnienie formatowania i estetyki}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Marginesy i układ strony }{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Czcionka i interlinia}{12}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Nagłówki i stopki}{12}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Numeracja rozdziałów i sekcji}{12}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Rozmieszczenie grafik i tabel}{13}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Kolory i formatowanie}{13}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Obsługa wzorów matematycznych}{13}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Automatyzacja struktury dokumentu}{15}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Zarządzanie bibliografią i przypisami}{16}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Wspieranie pracy w języku polskim}{18}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Projekt szablonu pracy dyplomowej}{19}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Opracowanie szablonu pracy dyplomowej}{21}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Rysunki}{26}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Odwołania do literatury}{27}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Tabele}{28}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Wzory}{29}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Kody Żródłowe}{31}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Grafy, schematy, rysunki techniczne}{32}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Dodatki}{35}{section.9.7}%
-\contentsline {subsection}{\numberline {9.7.1}Podstawowe style tekstu}{35}{subsection.9.7.1}%
-\contentsline {subsection}{\numberline {9.7.2}Wiszące znaki}{35}{subsection.9.7.2}%
-\contentsline {subsection}{\numberline {9.7.3}Wyliczenia}{36}{subsection.9.7.3}%
-\contentsline {subsection}{\numberline {9.7.4}Akronimy i~symbole}{36}{subsection.9.7.4}%
-\contentsline {subsection}{\numberline {9.7.5}Ozdobniki graficzne w~opisie oprogramowania}{36}{subsection.9.7.5}%
-\contentsline {subsection}{\numberline {9.7.6}Kompilator lokalny}{36}{subsection.9.7.6}%
-\contentsline {subsection}{\numberline {9.7.7}Oświadczenia i wnioski}{37}{subsection.9.7.7}%
-\contentsline {section}{\numberline {9.8}Prezentacja}{37}{section.9.8}%
-\contentsline {chapter}{\numberline {10}Podsumowanie}{39}{chapter.10}%
-\contentsline {chapter}{Bibliografia}{39}{section*.8}%
-\contentsline {chapter}{Spis rysunk\'ow}{41}{chapter*.10}%
-\contentsline {chapter}{Spis tabel}{42}{chapter*.11}%
+\selectlanguage *{polish}
+\contentsline {chapter}{\numberline {1}Wprowadzenie}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Cel i zakres pracy}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cel pracy}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Zakres pracy}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Przegląd aktualnych rozwiązań}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Anki}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Language Reactor }{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Trancy}{10}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Projekt}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wprowadzenie}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}interfejs użytkownika}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Widok startowy}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Strona Nauki}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Strona Profilu}{13}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Strona Słownika}{13}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Strona Statystyk}{13}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Strona logowania oraz rejestracji}{13}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Strona oglądania filmów}{13}{subsection.3.2.7}%
+\contentsline {chapter}{\numberline {4}Implementacja}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Wprowadzenie}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Środowisko i narzędzia programistyczne}{14}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Opis technologii}{14}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Baza danych}{14}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Backend}{14}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Frontend}{14}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Testy}{14}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Problemy implementacyjne}{14}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Podsumowanie}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Wnioski}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Kierunki dalszego rozwoju}{15}{section.5.2}%
+\contentsline {chapter}{Bibliografia}{15}{section*.2}%
+\contentsline {chapter}{Spis rysunków}{16}{chapter*.3}%
+\contentsline {chapter}{Spis tabel}{17}{chapter*.4}%
+\xpginauxfilefalse 
 \contentsfinish 

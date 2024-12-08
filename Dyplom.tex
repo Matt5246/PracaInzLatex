@@ -1,13 +1,12 @@
 % !TEX program = xelatex
-% !TeX encoding = utf8
+% !TeX encoding = UTF-8
 % !TeX spellcheck = pl-PL
 
 % Wybierz rodzaj pracy dyplomowej 
 % Pick thesis type 
 \documentclass[thesis=inz]{TemplateCore/Dyplom}
-\usepackage[utf8]{inputenc}  
-\usepackage[T1]{fontenc}     
-\usepackage[polish]{babel} 
+
+% \UseRawInputEncoding
 
 % thesis=[inz|mgr|bsc|msc]
 %  * inz - praca inżynierska
@@ -31,9 +30,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kierunek{Informatyka}
 %\specjalnosc{Sieci}
-\title{Szablon \LaTeX\ do pracy dyplomowej i prezentacji
+\title{Aplikacja do nauki języków z napisów do filmów udostępnianych na platformie YouTube
 }
-\engtitle{Szablon \LaTeX\ do pracy dyplomowej i prezentacji
+\engtitle{Aplikacja do nauki języków z napisów do filmów udostępnianych na platformie YouTube
 }
 \album{102488}
 \author{Paweł Niziołek}
@@ -68,31 +67,31 @@ The practical part of the work presents a ready-made template with a demonstrati
 % Tu zaczyna się dokument
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-    % Strony nagłówkowe
-    % Headers
-    \frontpages
-    % Właściwa treść jest w pliku Chapters/main.tex
-    % Real contents is in Chapters/main.tex
-    \input{Chapters/main}
+% Strony nagłówkowe
+% Headers
+\frontpages
+% Właściwa treść jest w pliku Chapters/main.tex
+% Real contents is in Chapters/main.tex
+\input{Chapters/main}
 
-    % Bibliografia - musi być
-    % Bibliography - must exist
-    \bibliografia
+% Bibliografia - musi być
+% Bibliography - must exist
+\bibliografia
 
-    % Strony końcowe - można zakomentować, jeśli zbędne
-    % Additional pages - comment out if not needed
-    
-   \clearpage
-    % Spis rysunków
-     \clearpage
-    \listoffigures
-    % Spis tabel
-     \clearpage
-    \listoftables
-    
-     \clearpage
-    \lstlistoflistings
-    
+% Strony końcowe - można zakomentować, jeśli zbędne
+% Additional pages - comment out if not needed
+
+\clearpage
+% Spis rysunków
+\clearpage
+\listoffigures
+% Spis tabel
+\clearpage
+\listoftables
+
+\clearpage
+\lstlistoflistings
+
 
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

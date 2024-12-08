@@ -1,28 +1,78 @@
+\section{Cel pracy}
+Głównym celem niniejszej pracy jest zaprojektowanie i implementacja aplikacji webowej wspomagającej naukę języków obcych poprzez oglądanie filmów i seriali. Aplikacja ma umożliwiać użytkownikom naukę wybranego języka obcego podczas oglądania treści multimedialnych własnego wyboru. Główne założenia to:
 
-Celem niniejszej pracy jest stworzenie szablonu do prezentacji i pracy dyplomowej z wykorzystaniem środowiska \LaTeX. 
-Głównymi celami podczas tworzenia szablonów są usprawnienie formatowania i estetyki. 
-W kontekście \LaTeX\ dotyczy gwarancji, że szablon spełnia reguły formatowania pracy naukowej równiej jest czytelny profesjonalny i estetyczny. Aspekty które należy uwzględnić, aby usprawnić formatowanie i estetykę to: 
+\begin{enumerate}
+    \item \textbf{Łatwość w nauce}: Umożliwienie użytkownikom nauki języków poprzez napisy w filmach i serialach
+          bez potrzeby tworzenia kart do nauki w innych aplikacjach,
+          takich jak Anki oszczędzając przy tym dużo czasu użytkownika.
+    \item \textbf{Połączenie nauki z rozrywką}: Użytkownicy będą mogli uczyć się języka podczas oglądania swoich ulubionych filmów i seriali,
+          co czyni naukę bardziej przyjemną i efektowną.
+    \item \textbf{Baza danych}: Umożliwienie użytkownikom zapisywania trudnych słów do bazy danych,
+          unikając duplikacji słów za pomocą blokady w bazie danych do wyciągnięcia z tego 100\% skuteczności pomagać będzie lematyzacja słów,
+          czyli proces upraszczania słowa do jego formy słownikowej.
+    \item \textbf{Spersonalizowane środowisko nauki}: Dostęp do panelu użytkownika z podsumowaniem postępów w nauce,
+          różnorodne metody nauki słownictwa i gramatyki (fiszki, quizy, gry edukacyjne),
+          możliwość śledzenia statystyk i wykresów przedstawiających postępy w nauce,
+          a także gamifikacja procesu nauki poprzez nagradzanie użytkowników za osiągnięcia.
+    \item \textbf{Różne sposoby nauki}: Wgląd do danych za pomocą różnych metod jak flashcards, moduł do edycji napisów, quiz, wpisywania tłumaczenia słowa itp.
+    \item \textbf{Motywacja i śledzenie postępów}: Aplikacja będzie motywować użytkowników do nauki poprzez wizualizację ich postępów za pomocą statystyk, wykresów i informacji widocznych na profilu użytkownika.
+    \item \textbf{Zapewnienie kompatybilności}: Aplikacja bedzie dostępna z różnych przeglądarek internetowymi i urządzeń.
+    \item \textbf{Innowacyjne rozwiązania technologiczne}: Wykorzystanie sztucznej inteligencji do tłumaczenia napisów i ich przetwarzanie przy użyciu NLP,
+          oraz zastosowanie nowoczesnych technologii webowych do zapewnienia płynnego działania aplikacji.
+\end{enumerate}
+
+\section{Zakres pracy}
+Zakres pracy obejmuje szczegółowe opisanie i realizację następujących etapów:
 
 \begin{itemize}
-\item[--] marginesy i układ strony,
-\item[--] czcionka i interlinia, 
-\item[--] nagłówki i stopki,
-\item[--] numeracja rozdziałów i sekcji,
-\item[--] rozmieszczenie grafik i tabel,
-\item[--] kolory i formatowanie,
-\item[--] obsługa wzorów matematycznych,
-\item[--] dostosowanie do polskich standardów. 
+    \item \textbf{Opracowanie architektury systemu}.
+    \item \textbf{Projektowanie i implementacja bazy danych}.
+    \item \textbf{Tworzenie logiki aplikacji oraz jej frontendu i backendu}.
+    \item \textbf{Zabezpieczenie aplikacji przed redundancją danych oraz niepoprawnymi wpisami}.
+    \item \textbf{Umożliwienie użytkownikom logowania z różnych urządzeń obsługujących przeglądarki}.
+    \item \textbf{Implementacja różnych metod nauki (słownik, flashcards, edycja napisów) oraz elementów gamifikacji}.
 \end{itemize}
-Szerzej zostanie to omówione w późniejszych rozdziałach. 
-Zastosowanie wymienionych elementów umożliwi spełnienie wymogów narzuconych odgórnie przez uczelnię, ale także przedstawia się czytelnie jaki i profesjonalnie. Całość powinna być spójna i zgodna z specyfiką pracy dyplomowej.
+Na rynku dostępne są różne aplikacje wspomagające naukę języków obcych, takie jak Duolingo, Anki, Quizlet, Memrise, Babbel, Rosetta Stone, LingQ, FluentU, Clozemaster, itp.
+\section{Przegląd aktualnych rozwiązań}
 
-Zautomatyzowanie struktury dokumentu w \LaTeX\ powinno być tak skonfigurowane, aby umożliwić autorowi skupieniu się na głównie na treści bez potrzeby ręcznego dostosowywania struktury. Dlatego wiele aspektów powinno być zautomatyzowane. Elementy takie jak rozdziały, sekcje, podsekcje, spis treści, biografia, numeracja stron, rozmieszczenie rysunków i tabel i nagłówki oraz style stron. Dzięki zmechanizowaniu wymienionych elementów autor może skoncentrować się na treści, a struktura dokumentu zostanie utrzymana w spójny sposób. Zautomatyzowanie układu dokumentów w \LaTeX{u} jest jednym z kluczowych aspektów, z powodu którego wielu studentów i naukowców wybiera ten system celem składania tekstu różnego typu prac.
+\subsection{Anki}
+Anki to popularna aplikacja edukacyjna oparta na systemie powtórek rozłożonych w czasie (Spaced Repetition System – SRS). Dzięki temu mechanizmowi nauka jest bardziej efektywna, ponieważ aplikacja prezentuje użytkownikowi informacje w odpowiednich odstępach czasowych, co pomaga w utrwaleniu materiału. Anki wyróżnia się uniwersalnością i możliwością dostosowania do różnych potrzeb, takich jak nauka języków obcych, przygotowanie do egzaminów czy zapamiętywanie faktów w innych dziedzinach. \\
+\textbf{Funkcjonalności}:
+\begin{itemize}
+    \item Możliwość ręcznego dodawania kart z różnymi typami treści, w tym tekstów, obrazów, dźwięków i nagrań wideo.
+    \item Obsługa dodatków (pluginów), które rozszerzają możliwości aplikacji, np. importowanie napisów filmowych.
+    \item Analiza postępów użytkownika z wykorzystaniem statystyk i wykresów.
+\end{itemize}
+\textbf{Ograniczenia}: \\
+Podczas oglądania filmu użytkownik musi ręcznie przerywać oglądanie, aby dodawać niezbędne informacje do kart. Utrudnia to płynność procesu i może obniżać komfort nauki. Mimo tych niedogodności Anki pozostaje dobrym rozwiązaniem do nauki języków, szczególnie dzięki możliwości personalizacji kart i śledzenia postępów.
 
-Zarządzanie bibliografią i przypisami jest kolejnym z kluczowych elementów w tworzeniu pracy. \LaTeX\ dostarcza narzędzia takie jak \texttt{BibTex} czy \texttt{biber} które wspomagają organizację cytowań. Dzięki narzędziom \LaTeX\ zarządzanie bibliografią i przypisami staje się mniej skomplikowanie i efektywniejsze. Trzeba zwrócić uwagę, że aby \LaTeX\ poprawnie odnosił się do cytowania i tworzenia spisu bibliograficznego należy po każdym dodaniu pozycji ponownie skompilować dokument. 
+\subsection{Language Reactor }
+Language Reactor to narzędzie edukacyjne, które umożliwia naukę języków obcych w sposób przyjemny i efektywny poprzez oglądanie filmów i seriali. Aplikacja oferuje interaktywne napisy, które umożliwiają tłumaczenie słów i zwrotów bezpośrednio na ekranie. Dzięki tej funkcji użytkownicy mogą szybko sprawdzić znaczenie nowego słowa, klikając na nie podczas oglądania, lub oznaczyć jako słowo do nauki, ale jest to możliwe dopiero po zapłaceniu za usługę “pro” na stronie. \\
+\textbf{Funkcjonalności}:
+\begin{itemize}
+    \item {\textbf{Interaktywne napisy}}: Jedną z głównych zalet Language Reactor jest możliwość wyświetlania tłumaczeń słów i zwrotów w trakcie oglądania, co sprawia, że nauka odbywa się w naturalnym kontekście. Dzięki temu użytkownik może natychmiast zobaczyć, jak dane słowo funkcjonuje w zdaniu.
+    \item {\textbf{Integracja z platformami streamingowymi}}: Aplikacja działa z popularnymi serwisami, takimi jak YouTube, Netflix czy Disney+, co oznacza, że użytkownicy mogą korzystać z niej podczas oglądania ulubionych filmów i seriali w obcym języku.
+    \item {\textbf{Słownik i lematyzacja}}: Language Reactor automatycznie przetwarza słowa na ich formy podstawowe (lematy), co pomaga w nauce gramatyki oraz zapamiętywaniu nowych słówek bez względu na ich odmianę.
+    \item {\textbf{Baza słówek}}: Użytkownicy mogą zapisywać słówka, które napotkali podczas oglądania, tworząc spersonalizowaną listę do późniejszego przyswajania. To rozwiązanie pozwala na systematyczną naukę i powtórki.
+    \item {\textbf{System powtórek SRS}}: Aplikacja wprowadza system powtórek rozłożonych w czasie, co wspomaga długotrwałe zapamiętywanie materiału, podobnie jak w przypadku Anki.
+    \item {\textbf{ifDostosowanie poziomu trudności}}: Użytkownicy mogą dostosować poziom trudności materiałów, co pozwala na naukę dostosowaną do ich umiejętności i tempa.
+\end{itemize}
+\textbf{Ograniczenia}: \\
+Płatna subskrypcja daje nam możliwość nauki na stronie, bezpłatnie możemy tylko zobaczyć film z przetłumaczonymi napisami.
 
-Dostosowanie do wymagań uczelni polega na spełnieniu określanych standardów, w tym przypadku wymogów Politechniki Opolskiej dotyczących formatowania i struktury prac dyplomowych. Obejmuje to przede wszystkim logo politechniki, układ stron, styl bibliografii czy inne aspekty pracy.
-
-Wspieranie różnych języków pracy szablon umożliwia pisanie pracy zarówno w języku polskim jak i w języku angielskim. Wymaga to przede wszystkim dostosowania szablonu do specyfiki obu języków. Dostosowania takich elementów jak strona tytułowa, cytowania, numeracja rozdziałów itp. wymaga zastosowania odpowiednich komend, a także spójności i precyzji w uwzględnianiu zasad gramatyki czy stylistyki.
-
-Przyjazność dla użytkownika polega to na dostosowaniu szablonu tak żeby nie był zbyt skomplikowany pod względem pracy z nim. Powinien ułatwiać pracę szczególnie tym użytkownikom, którzy nie mieli wcześniej styczności z \LaTeX{em}. W procesie tworzenia przyjaznego szablonu w LaTeX, takie elementy jak czytelność kodu, dokumentacja i intuicyjna modyfikacja są kluczowe. Jest to jedno z głównych założeń pracy.
-Zakres pracy obejmuje realizacje wyżej wymienione punkty a ponadto szablonu z udziałem użytkownika celem wyłapania niedociągnięć czy uwzględnia sugestii. 
+Możliwość nauki tylko z wybranych kanałów youtube nie można wybrać filmu który nie jest na liście strony internetowej.
+\subsection{Trancy}
+Trancy to aplikacja stworzona z myślą o nauce języków obcych, która integruje naukę słówek z oglądaniem filmów, seriali i innych materiałów wideo. Aplikacja oferuje funkcje, które pozwalają użytkownikom uczyć się języka poprzez interaktywne napisy, tłumaczenia oraz dodatkowe ćwiczenia, co sprawia, że proces nauki staje się bardziej angażujący i efektywny. \\
+\textbf{Funkcjonalności}:
+\begin{itemize}
+    \item \textbf{Interaktywne napisy}: Trancy umożliwia wyświetlanie napisów w różnych językach, z tłumaczeniami słów i zwrotów. Dzięki temu użytkownicy mogą szybko zrozumieć, co oznacza dane słowo, a także zobaczyć je w kontekście. Napisy są dostosowane do poziomu zaawansowania użytkownika, co pozwala na naukę w sposób dostosowany do indywidualnych potrzeb.
+    \item \textbf{Zbieranie słówek}: Użytkownicy mogą zapisywać napotkane słówka, które następnie mogą zostać przekształcone w fiszki do nauki. Taki system pozwala na systematyczne utrwalanie materiału i umożliwia szybkie powtórki w dogodnym czasie.
+    \item \textbf{Tłumaczenia i definicje}: Aplikacja oferuje tłumaczenie słów na różne języki oraz wyświetlanie ich definicji, co wspomaga naukę gramatyki i budowanie słownictwa. Użytkownicy mogą korzystać z wbudowanego słownika, aby na bieżąco zgłębiać znaczenie nowych wyrazów.
+    \item \textbf{Fiszki SRS}: Trancy wykorzystuje system powtórek rozłożonych w czasie (SRS), który pomaga w długotrwałym zapamiętywaniu słówek. Użytkownik dostaje powiadomienia o konieczności powtórki, co pozwala na regularne utrwalanie materiału i skuteczniejszą naukę.
+\end{itemize}
+\textbf{Ograniczenia}:
+\begin{itemize}
+    \item \textbf{Wymaga płatnej subskrypcji}: Aby w pełni skorzystać z funkcji aplikacji, użytkownik musi zapłacić, w wersji darmowej są tylko niezbędne narzędzia jak tłumaczenie i limit do 100 słów do zapisania.
+    \item \textbf{Ograniczona integracja z platformami}: Trancy oferuje integrację z wybranymi platformami streamingowymi, i nie daje możliwości nauki z własnych zapisanych filmów.
+    \item \textbf{Wymagana wtyczka w przeglądarce}: Żeby dodawać słowa lub oglądać filmy musimy robić to poza stroną Trancy z użyciem wtyczki Trancy.
+\end{itemize}
