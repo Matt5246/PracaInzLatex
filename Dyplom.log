@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.7)  8 DEC 2024 23:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.7)  12 DEC 2024 22:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1571,50 +1571,61 @@ Rozdział 1.
 (./Chapters/Wprowadzenie.tex
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 8.
+(fancyhdr)                Please consider using the `twoside' option on input line 9.
 
 [5
 
-] [6]) [7]
+] [6] [7]
+File: IMAGE/LanguageReactor.png Graphic file (type bmp)
+<IMAGE/LanguageReactor.png>
+ [8] [9]) [10]
 Rozdział 2.
 (./Chapters/CeliZakres.tex
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 20.
 
-[8
+[11
 
-] [9] [10]) [11]
+]) [12]
 Rozdział 3.
 (./Chapters/Projekt.tex)
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 26.
 
-[12
+[13
 
-] [13]
+] [14]
 Rozdział 4.
-(./Chapters/Implementacja.tex)
+(./Chapters/Implementacja.tex
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 29.
+(fancyhdr)                Please consider using the `twoside' option on input line 28.
 
-[14
+[15
 
-]
+] [16] [17] [18]) [19]
 Rozdział 5.
 (./Chapters/Podsumowanie.tex))
 
-LaTeX Warning: Empty bibliography on input line 79.
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 79.
 
+[20
+
+]
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 84.
 
-[15
+[21
 
-] (./Dyplom.lof)
+] (./Dyplom.lof
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+)
 \tf@lof=\write11
 \openout11 = `Dyplom.lof'.
 
@@ -1623,11 +1634,15 @@ Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is usel
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 89.
 
-[16
+[22
 
 
 
-] (./Dyplom.lot)
+] (./Dyplom.lot
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+)
 \tf@lot=\write12
 \openout12 = `Dyplom.lot'.
 
@@ -1636,7 +1651,7 @@ Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is usel
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 92.
 
-[17
+[23
 
 
 ] (./Dyplom.lol)
@@ -1653,7 +1668,7 @@ This document will not have a glossary.
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 96.
 
-[18
+[24
 
 
 ] (./Dyplom.aux)
@@ -1662,18 +1677,18 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Dyplom.out' has not changed.
-(rerunfilecheck)             Checksum: 60F5F6F7F5A7802CAF7566204A0AE6B7;4353.
+(rerunfilecheck)             Checksum: 2566018AC475F9698A264C4B2E3AC1FF;5207.
 Package logreq Info: Writing requests to 'Dyplom.run.xml'.
 \openout1 = `Dyplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 70238 strings out of 474878
- 1722907 string characters out of 5762516
- 3166048 words of memory out of 5000000
- 91268 multiletter control sequences out of 15000+600000
- 563702 words of font info for 111 fonts, out of 8000000 for 9000
+ 70489 strings out of 474878
+ 1728303 string characters out of 5762516
+ 3167211 words of memory out of 5000000
+ 91514 multiletter control sequences out of 15000+600000
+ 563726 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,131p,2399b,3951s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,11n,131p,2399b,5028s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Dyplom.xdv (18 pages, 260348 bytes).
+Output written on Dyplom.xdv (24 pages, 384896 bytes).

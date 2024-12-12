@@ -6,13 +6,107 @@
 
 
 \section{Wprowadzenie}
+W tej sekcji przedstawiono szczegółowy opis implementacji projektu, w tym wybór technologii, narzędzi programistycznych oraz środowiska, w którym został zrealizowany. Omówione zostaną również kluczowe aspekty techniczne, takie jak struktura bazy danych, architektura backendu i frontendu, a także proces testowania i napotkane problemy implementacyjne. Celem tej sekcji jest dostarczenie pełnego obrazu technicznego projektu oraz uzasadnienie wyboru poszczególnych rozwiązań technologicznych.
+
+
 \section{Środowisko i narzędzia programistyczne}
+
+\subsection{Środowisko programistyczne}
+Do implementacji projektu wykorzystano następujące narzędzia i środowiska programistyczne:
+\begin{itemize}
+    \item \textbf{Visual Studio Code:} Środowisko programistyczne do tworzenia aplikacji internetowych w JavaScript i Python.
+    \item \textbf{Git:} System kontroli wersji do zarządzania kodem źródłowym projektu.
+    \item \textbf{MongoDB Atlas:} Usługa do hostowania bazy danych MongoDB w chmurze.
+    \item \textbf{Flask:} Środowisko do tworzenia aplikacji webowych w Pythonie.
+    \item \textbf{TypeScript:} Język programowania, który kompiluje się do JavaScriptu i dodaje typy danych w kodzie.
+\end{itemize}
+\subsection{Wybór technologii}
+W trakcie realizacji projektu wykorzystano następujące technologie:
+\begin{itemize}
+    \item \textbf{Next.js:} Framework do tworzenia aplikacji internetowych w React, który oferuje wiele wbudowanych funkcji, takich jak routing, server-side rendering czy generowanie statyczne \cite{nextjs}.
+    \item \textbf{Python:} Język programowania, który wykorzystałem do implementacji algorytmów przetwarzania języka naturalnego (NLP).
+    \item \textbf{React Virtuoso:} Biblioteka do wirtualizacji list w aplikacjach internetowych.
+    \item \textbf{Node.js:} Środowisko uruchomieniowe JavaScript, które pozwala na tworzenie aplikacji serwerowych.
+    \item \textbf{MongoDB:} Baza danych NoSQL, która umożliwia przechowywanie danych w formacie JSON.
+    \item \textbf{React.js:} Biblioteka do tworzenia interfejsów użytkownika w aplikacjach internetowych.
+    \item \textbf{Shadcn:} Bibloteka gotowych komponentów do budowy interfejsu użytkownika w React.
+\end{itemize}
+
 \subsection{Opis technologii}
+\subsubsection{Next.js}
+Next.js to framework do tworzenia aplikacji internetowych w React, który oferuje wiele wbudowanych funkcji, takich jak routing, server-side rendering czy generowanie statyczne. Dzięki temu można tworzyć wydajne i skalowalne aplikacje internetowe, które są przyjazne dla SEO i łatwe w utrzymaniu. Next.js oferuje również wiele gotowych rozwiązań, takich jak automatyczne generowanie ścieżek, obsługa dynamicznych routów czy optymalizacja obrazów. Dzięki temu można skupić się na tworzeniu funkcjonalności, zamiast martwić się o konfigurację i optymalizację aplikacji \cite{nextjs}.
+
+\subsubsection{Python}
+Python to język programowania, który wykorzystałem do implementacji algorytmów przetwarzania języka naturalnego (NLP). Python jest popularny w dziedzinie analizy danych i uczenia maszynowego, dzięki czemu można znaleźć wiele gotowych bibliotek i narzędzi do przetwarzania tekstu. W moim projekcie wykorzystałem biblioteki takie jak NLTK, spaCy czy TextBlob do lematyzacji, oznaczania części mowy i analizy sentymentu tekstu.
+
+\subsubsection{React Virtuoso}
+React Virtuoso to biblioteka do wirtualizacji list w aplikacjach internetowych. Umożliwia renderowanie długich list danych w sposób efektywny i wydajny, co przyczynia się do poprawy wydajności i płynności interfejsu użytkownika. Dzięki React Virtuoso można renderować tylko widoczne elementy i kilka dodatkowych poza obszarem.
+
+\subsubsection{Node.js}
+Node.js to środowisko uruchomieniowe JavaScript, które pozwala na tworzenie aplikacji serwerowych. Dzięki Node.js można pisać zarówno frontend, jak i backend w jednym języku programowania, co ułatwia rozwój i utrzymanie aplikacji. Node.js oferuje również wiele gotowych modułów i bibliotek, które ułatwiają tworzenie aplikacji internetowych, takich jak Express.js, Socket.io czy Mongoose.
+
+\subsubsection{MongoDB}
+MongoDB to baza danych NoSQL, umożliwiająca przechowywanie danych w formacie JSON. Baza jest skalowalna i elastyczna, co pozwala na przechowywanie różnych typów danych i szybki dostęp do nich. W projekcie baza danych została wykorzystana do przechowywania danych o użytkownikach, słowach do nauki, napisach oraz postępach w nauce.
+
+\subsubsection{React.js}
+React.js to biblioteka do tworzenia interfejsów użytkownika w aplikacjach internetowych. React.js oferuje wiele funkcji i narzędzi, które ułatwiają tworzenie interaktywnych i responsywnych interfejsów. Dzięki React.js można tworzyć komponenty UI, zarządzać stanem aplikacji i reagować na interakcje użytkownika w sposób efektywny i wydajny.
+
+\subsubsection{Shadcn}
+Shadcn to kolekcja komponentów, które można kopiować i wklejać do swoich aplikacji. Nie jest to biblioteka komponentów, którą można zainstalować jako zależność. Shadcn nie jest dostępny ani dystrybuowany przez npm (node package manager). Użytkownik wybiera potrzebne komponenty, kopiuje i wkleja kod do swojego projektu, a następnie dostosowuje go do swoich potrzeb. Kod jest własnością użytkownika. Shadcn może służyć jako odniesienie do budowy własnych bibliotek komponentów. do rozbudowy interfejsu użytkownika w React. Shadcn oferuje wiele gotowych rozwiązań, takich jak przyciski, formularze, tabele czy karty, które można łatwo dostosować do własnych potrzeb. Dzięki Shadcn można tworzyć interfejsy użytkownika w sposób szybki i efektywny, co przyczynia się do skrócenia czasu potrzebnego na rozwój aplikacji.
+
+
+
+
 \section{Baza danych}
 \section{Backend}
 \section{Frontend}
 \section{Testy}
 \section{Problemy implementacyjne}
+\subsection{Wirtualizacja List}
+Wirtualizacja listy w aplikacjach internetowych to technika, która optymalizuje renderowanie długich list danych. Bez niej aplikacja renderuje wszystkie elementy listy na raz, co może prowadzić do problemów z wydajnością, zwłaszcza gdy lista jest duża. Virtualizacja polega na renderowaniu jedynie tych elementów, które aktualnie są widoczne w przeglądarce użytkownika, dzięki czemu zużycie zasobów jest minimalne, a aplikacja działa płynniej. Bez wirtualizacji listy, użytkownik mógłby doświadczać opóźnień w interakcji z interfejsem, tym większych im dłuższa lista danych przy 2 tysiącach wierszy opóźnienie stawało się uciążliwe ponieważ czekało sie pare sekund na reakcje interfejsu listy i pokazanie okna dodawania trudnych słów do systemu.
+
+\subsection*{Jak działa wirtualizacja listy}
+\begin{itemize}
+    \item \textbf{Obserwacja widocznych elementów:} Komponent śledzi pozycję widoku użytkownika w liście. Renderowane są tylko te elementy, które mieszczą się w aktualnie widocznym obszarze (viewport) oraz kilka dodatkowych elementów „na zapas” wokół tego obszaru.
+    \item \textbf{Renderowanie na żądanie:} Gdy użytkownik przewija listę, niewidoczne elementy są dynamicznie usuwane z DOM-u, a nowe – wczytywane na ich miejsce.
+    \item \textbf{Stała wysokość elementów (lub szacowana):} Dla prawidłowego działania, komponent wirtualizujący często wymaga, aby elementy listy miały stałą lub przynajmniej przewidywalną wysokość. Dzięki temu może łatwo obliczać, które elementy powinny być aktualnie wyświetlane.
+    \item \textbf{Oszczędność zasobów:} Dzięki renderowaniu tylko niewielkiej liczby elementów, zmniejsza się zużycie pamięci i obciążenie procesora, co prowadzi do szybszego działania aplikacji.
+\end{itemize}
+
+\subsection*{Dlaczego React Virtuoso}
+React Virtuoso jest biblioteką do wirtualizacji list, która znacznie upraszcza implementację tego mechanizmu w React. Automatycznie obsługuje:
+\begin{itemize}
+    \item \textbf{Przewijanie:} Zajmuje się wykrywaniem widocznych elementów, reagując na przewijanie użytkownika.
+    \item \textbf{Niestandardowe wysokości elementów:} Obsługuje zarówno stałe, jak i zmienne wysokości elementów, co czyni go bardziej elastycznym.
+    \item \textbf{Lazy loading:} Umożliwia ładowanie danych w locie, co jest kluczowe dla dużych list z elementami, które mogą być dynamicznie ładowane z serwera.
+\end{itemize}
+
+\subsection*{Zastosowania}
+Virtualizacja listy jest szczególnie przydatna w przypadku:
+\begin{itemize}
+    \item \textbf{Długich list:} Kiedy lista zawiera setki lub tysiące elementów.
+    \item \textbf{Aplikacji mobilnych:} Gdzie zasoby są ograniczone i każda optymalizacja wydajności jest istotna.
+    \item \textbf{Interfejsów użytkownika z dużą ilością dynamicznych danych:} Takich jak portale społecznościowe, aplikacje e-commerce czy dashboardy.
+\end{itemize}
+
+\subsection*{Wady}
+Mimo licznych zalet, wirtualizacja listy ma również pewne wady:
+\begin{itemize}
+    \item \textbf{Złożoność implementacji:} Wprowadzenie wirtualizacji może wymagać dodatkowego kodu i konfiguracji, co może zwiększyć złożoność projektu.
+    \item \textbf{Problemy z dostępnością:} Renderowanie dynamiczne może wpływać na narzędzia do czytania ekranu i inne technologie wspomagające, co może utrudniać dostępność aplikacji.
+\end{itemize}
+
+Wykorzystanie React Virtuoso przyczyniło się do poprawy wydajności i płynności interfejsu użytkownika  aplikacji, co miało kluczowe znaczenie dla zadowolenia użytkowników i jakości doświadczenia użytkownika.
+
+\subsection{Przetwarzanie języka naturalnego (NLP)}
+W pracy inżynierskiej zastosowano techniki lematyzacji oraz oznaczania części mowy (POS tagging) w ramach przetwarzania języka naturalnego (NLP). Obie te techniki odegrały kluczową rolę w analizie tekstu i umożliwiły bardziej precyzyjne przetwarzanie danych z napisów, przy zapisywaniu wybranych przez użytkownika słów do nauki, lub przy wyświetlaniu częstości występowania słów w napisach \cite{NLPforNLP}.
+
+\subsection*{Lematyzacja}
+\subsection*{Lematyzacja}
+Proces lematyzacji polega na sprowadzaniu różnych form gramatycznych wyrazów do ich podstawowej formy, zwanej lematem. Dzięki temu możliwe jest ujednolicenie wyrazów, które w zależności od kontekstu występują w różnych odmianach gramatycznych. Przykładowo, formy takie jak "chodzę", "chodził" czy "chodziliśmy" są sprowadzane do podstawowej formy "chodzić". Umożliwia to bardziej spójne analizowanie tekstów i wyciąganie wniosków na temat ich zawartości, np. poprzez obliczanie częstotliwości występowania poszczególnych słów \cite{NLPforNLP}.
+
+\subsection*{POS Tagging (oznaczanie części mowy)}
+Drugą techniką było oznaczanie części mowy, czyli przypisywanie każdemu słowu w tekście odpowiedniej etykiety gramatycznej (rzeczownik, czasownik, przymiotnik itd.)  \cite{NLPforNLP}. Dzięki temu możliwe było lepsze zrozumienie struktury zdań oraz funkcji słów w kontekście. Oznaczanie części mowy okazało się kluczowe w procesie analizy tekstu, umożliwiając podział słów na kategorie zależne od ich funkcji gramatycznej. W przyszłości może to być przydatne do tworzenia funkcji umożliwiających użytkownikom wybór nauki określonych kategorii słów, takich jak czasowniki czy przymiotniki itd.
 
 
 

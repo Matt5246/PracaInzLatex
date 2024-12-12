@@ -2,37 +2,49 @@
 \thispagestyle {empty}
 \selectlanguage *{polish}
 \contentsline {chapter}{\numberline {1}Wprowadzenie}{5}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Cel i zakres pracy}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Cel pracy}{8}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Zakres pracy}{9}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Przegląd aktualnych rozwiązań}{9}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Anki}{9}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Language Reactor }{10}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Trancy}{10}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Projekt}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Wprowadzenie}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}interfejs użytkownika}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Widok startowy}{12}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Strona Nauki}{12}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Strona Profilu}{13}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Strona Słownika}{13}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Strona Statystyk}{13}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Strona logowania oraz rejestracji}{13}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Strona oglądania filmów}{13}{subsection.3.2.7}%
-\contentsline {chapter}{\numberline {4}Implementacja}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Wprowadzenie}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Środowisko i narzędzia programistyczne}{14}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Opis technologii}{14}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Baza danych}{14}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Backend}{14}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Frontend}{14}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Testy}{14}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Problemy implementacyjne}{14}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Podsumowanie}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Wnioski}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Kierunki dalszego rozwoju}{15}{section.5.2}%
-\contentsline {chapter}{Bibliografia}{15}{section*.2}%
-\contentsline {chapter}{Spis rysunków}{16}{chapter*.3}%
-\contentsline {chapter}{Spis tabel}{17}{chapter*.4}%
+\contentsline {section}{\numberline {1.1}Wstęp}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Przegląd aktualnych rozwiązań}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Anki}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Language Reactor}{8}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Trancy}{9}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Cel i zakres pracy}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cel pracy}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Zakres pracy}{12}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Projekt}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wprowadzenie}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}interfejs użytkownika}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Widok startowy}{13}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Strona Nauki}{13}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Strona Profilu}{14}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Strona Słownika}{14}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Strona Statystyk}{14}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Strona logowania oraz rejestracji}{14}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Strona oglądania filmów}{14}{subsection.3.2.7}%
+\contentsline {chapter}{\numberline {4}Implementacja}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Wprowadzenie}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Środowisko i narzędzia programistyczne}{15}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Środowisko programistyczne}{15}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Wybór technologii}{15}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Opis technologii}{16}{subsection.4.2.3}%
+\contentsline {subsubsection}{Next.js}{16}{section*.3}%
+\contentsline {subsubsection}{Python}{16}{section*.4}%
+\contentsline {subsubsection}{React Virtuoso}{16}{section*.5}%
+\contentsline {subsubsection}{Node.js}{16}{section*.6}%
+\contentsline {subsubsection}{MongoDB}{17}{section*.7}%
+\contentsline {subsubsection}{React.js}{17}{section*.8}%
+\contentsline {subsubsection}{Shadcn}{17}{section*.9}%
+\contentsline {section}{\numberline {4.3}Baza danych}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Backend}{17}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Frontend}{17}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Testy}{17}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Problemy implementacyjne}{17}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Wirtualizacja List}{17}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Przetwarzanie języka naturalnego (NLP)}{19}{subsection.4.7.2}%
+\contentsline {chapter}{\numberline {5}Podsumowanie}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Wnioski}{20}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Kierunki dalszego rozwoju}{20}{section.5.2}%
+\contentsline {chapter}{Bibliografia}{20}{section*.17}%
+\contentsline {chapter}{Spis rysunków}{22}{chapter*.19}%
+\contentsline {chapter}{Spis tabel}{23}{chapter*.20}%
 \xpginauxfilefalse 
 \contentsfinish 

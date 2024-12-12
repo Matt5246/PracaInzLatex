@@ -1,18 +1,19 @@
 # Fdb version 4
-["biber Dyplom"] 1733693943.48226 "Dyplom.bcf" "Dyplom.bbl" "Dyplom" 1733698452.40931 0
-  "Dyplom.bcf" 1733698451.88427 107949 e0fe2bda43e655f8ee5d3bb79cd24727 "xelatex"
+["biber Dyplom"] 1734037402.11029 "Dyplom.bcf" "Dyplom.bbl" "Dyplom" 1734037485.2563 0
+  "Dyplom.bcf" 1734037483.8965 108263 b01ddc763b0bcf409de4d2ce2610140f "xelatex"
+  "Dyplom.bib" 1734027951.92147 5529 54f1067598069d647a1a9eec7ef8f54d ""
   (generated)
   "Dyplom.bbl"
   "Dyplom.blg"
   (rewritten before read)
-["xdvipdfmx"] 1733698452.02138 "Dyplom.xdv" "Dyplom.pdf" "Dyplom" 1733698452.41372 0
-  "Dyplom.xdv" 1733698451.88427 260348 425f2f2685d985edf67f670298a1b9ad "xelatex"
+["xdvipdfmx"] 1734037484.04261 "Dyplom.xdv" "Dyplom.pdf" "Dyplom" 1734037485.26066 0
+  "Dyplom.xdv" 1734037483.8965 384896 5171f8b5346f7ebb125569645599638b "xelatex"
   (generated)
   "Dyplom.pdf"
   (rewritten before read)
-["xelatex"] 1733698449.53699 "/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex" "Dyplom.xdv" "Dyplom" 1733698452.40938 0
+["xelatex"] 1734037481.05253 "/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex" "Dyplom.xdv" "Dyplom" 1734037485.25644 0
   "/etc/texmf/web2c/texmf.cnf" 1733572533.48761 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex" 1733696978.54061 4162 ed791e65e8ad412b57c420a1c4e24b56 ""
+  "/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex" 1734025181.6107 4156 865e0184cac98dcf5c41990e16867daf ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -329,22 +330,23 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1733576596 10843707 552d59004f50094f1b91a0ad51fc0bdd ""
-  "Chapters/CeliZakres.tex" 1733693351.62875 9203 ee35287e3173de5b7ff6cc80b489c59e ""
-  "Chapters/Implementacja.tex" 1733698427.42839 224 956c6ac5cdfcc42228c7546983cc3be8 ""
+  "Chapters/CeliZakres.tex" 1733747882.70114 3231 58ef11a9a6bacf8e9150a379e64854e4 ""
+  "Chapters/Implementacja.tex" 1734037480.73401 11448 ad414a932c1c3f4ab14c09cbe8f4f75e ""
   "Chapters/Podsumowanie.tex" 1733694992.80736 843 3d994420a63e30fce7b998d651de508f ""
   "Chapters/Projekt.tex" 1733698102.33469 1699 acff6a9786ff984a3e48f0f680d8392e ""
-  "Chapters/Wprowadzenie.tex" 1733690644.50909 7078 22fdf77ebdfd873c8a159e0a14c4720b ""
-  "Chapters/main.tex" 1733698432.96114 744 5f4ef7a09f05fa6f384083504b01ec2c ""
-  "Dyplom.aux" 1733698451.88427 5146 a650d9fc8e324c5b95c761ac035a4fd8 "xelatex"
-  "Dyplom.bbl" 1733693944.26924 466 ee04f40f768daeed26442158e95aba61 "biber Dyplom"
-  "Dyplom.lof" 1733698451.88427 173 7f7c6f2cbb4adc9495d69fce3c57586f "xelatex"
-  "Dyplom.lol" 1733698451.8737 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "Dyplom.lot" 1733698451.88427 173 7f7c6f2cbb4adc9495d69fce3c57586f "xelatex"
-  "Dyplom.out" 1733698451.88427 4353 60f5f6f7f5a7802caf7566204a0ae6b7 "xelatex"
-  "Dyplom.run.xml" 1733698451.88427 2481 875b9ba55f838aece1ed52e3fb01f203 "xelatex"
-  "Dyplom.tex" 1733696978.54061 4162 ed791e65e8ad412b57c420a1c4e24b56 ""
-  "Dyplom.toc" 1733698451.88427 2645 9f530610626be8878b5b884ef004c376 "xelatex"
+  "Chapters/Wprowadzenie.tex" 1733845313.08752 13663 62eb804719ee47ce1393b2355ad98e8d ""
+  "Chapters/main.tex" 1734026040.73111 744 5f4ef7a09f05fa6f384083504b01ec2c ""
+  "Dyplom.aux" 1734037483.8862 7340 dff125ce5bcdeceb4864fb9798a7b938 "xelatex"
+  "Dyplom.bbl" 1734037403.09183 4708 61e826ce1a23e63f259176e91f934274 "biber Dyplom"
+  "Dyplom.lof" 1734037483.8965 327 da90dd3387817e1392e988a1e5de8e98 "xelatex"
+  "Dyplom.lol" 1734037483.8862 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "Dyplom.lot" 1734037483.8965 202 d81453953ef6fee533fdc91486212c78 "xelatex"
+  "Dyplom.out" 1734037483.8862 5207 2566018ac475f9698a264c4b2e3ac1ff "xelatex"
+  "Dyplom.run.xml" 1734037483.8965 2481 875b9ba55f838aece1ed52e3fb01f203 "xelatex"
+  "Dyplom.tex" 1734025181.6107 4156 865e0184cac98dcf5c41990e16867daf ""
+  "Dyplom.toc" 1734037483.8965 3498 8ac55e73791cced0d72a3e606f0250ce "xelatex"
   "Glossary.tex" 1733573168.01561 73 ad66cb07fb863111ee3518e0206ac69e ""
+  "IMAGE/LanguageReactor.png" 1733746257.8287 1024638 122d5105f8fcd26bc6e090e8a026d743 ""
   "TemplateCore/Dyplom.cls" 1733573168.26031 9514 3cb63b9f539630b9c9567cc64bc7a3c2 ""
   "TemplateCore/Dyplom.sty" 1733573168.26031 6531 67f5f6adfff9e9ae7502fd8a0e480cdd ""
   "TemplateCore/PNG/HeadPL.png" 1733573168.33167 21569 7ff71d40949017aab1e6ce309be7503b ""

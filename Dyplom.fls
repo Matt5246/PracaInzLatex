@@ -624,6 +624,9 @@ INPUT ./Chapters/Wprowadzenie.tex
 INPUT ./Chapters/Wprowadzenie.tex
 INPUT ./Chapters/Wprowadzenie.tex
 INPUT Chapters/Wprowadzenie.tex
+INPUT ./IMAGE/LanguageReactor.png
+INPUT ./IMAGE/LanguageReactor.png
+INPUT ./IMAGE/LanguageReactor.png
 INPUT ./Chapters/CeliZakres.tex
 INPUT ./Chapters/CeliZakres.tex
 INPUT ./Chapters/CeliZakres.tex
