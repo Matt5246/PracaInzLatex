@@ -3,19 +3,48 @@
 
 
 \section{Wprowadzenie}
-Celem tego rozdziału jest przedstawienie procesu implementacji aplikacji webowej wspomagającej naukę języków obcych za pomocą filmów i seriali. W kolejnych sekcjach opisano architekturę systemu, projekt bazy danych, implementację logiki aplikacji oraz jej frontendu i backendu, zabezpieczenia przed redundancją danych oraz niepoprawnymi wpisami, możliwość logowania z różnych urządzeń obsługujących przeglądarki, implementację różnych metod nauki oraz elementów gamifikacji.
-\section{interfejs użytkownika}
-Interfejs użytkownika aplikacji składa się z kilku głównych widoków, które umożliwiają użytkownikom korzystanie z różnych funkcji. Wszystkie widoki zostały zaprojektowane z myślą o prostocie i intuicyjności, aby zapewnić użytkownikom łatwą nawigację i szybki dostęp do potrzebnych informacji. Poniżej przedstawiono najważniejsze elementy interfejsu użytkownika.
-\subsection{Widok startowy}
-Strona główna aplikacji zawiera przyciski kierujace do innych sekcji aplikacji, takich jak nauka, słownik, statystyki, profil użytkownika, ustawienia, itp. Użytkownicy mogą również przeglądać najnowsze filmy i seriale dostępne w aplikacji oraz korzystać z wyszukiwarki, aby znaleźć interesujące ich treści.
-\subsection{Strona Nauki}
-Strona Nauki to główne miejsce, w którym użytkownicy mogą korzystać z różnych metod nauki, takich jak fiszki, quizy, gry edukacyjne, wpisywanie tłumaczenia słowa itp.
-\subsection{Strona Profilu}
-\subsection{Strona Słownika}
-\subsection{Strona Statystyk}
-\subsection{Strona logowania oraz rejestracji}
-\subsection{Strona oglądania filmów}
+Celem tego rozdziału jest przedstawienie pracy projektowej aplikacji webowej wspomagającej naukę języków obcych za pomocą filmów i seriali. W kolejnych sekcjach opisano architekturę systemu, projekt bazy danych, implementację logiki aplikacji oraz jej frontendu i backendu, zabezpieczenia przed redundancją danych oraz niepoprawnymi wpisami, możliwość logowania z różnych urządzeń obsługujących przeglądarki, implementację różnych metod nauki oraz elementów gamifikacji.
+\section{Przypadki użycia}
+
+\section{Baza danych}
+
+\subsection{Wprowadzenie}
+Do przechowywania danych aplikacji wykorzystano bazę danych NoSQL MongoDB Atlas. Baza danych składa się z kilku kolekcji, które przechowują informacje o użytkownikach, napisach, słowach. Wszystkie kolekcje są połączone relacjami, które umożliwiają szybkie wyszukiwanie i filtrowanie danych.
+
+MongoDB Atlas to usługa bazodanowa w chmurze oferowana przez firmę MongoDB. Jest to w pełni zarządzana platforma, która umożliwia łatwe tworzenie, zarządzanie i skalowanie baz danych MongoDB. Atlas oferuje wiele funkcji, takich jak automatyczne tworzenie kopii zapasowych, monitorowanie wydajności, automatyczne skalowanie, a także wysoki poziom bezpieczeństwa dzięki szyfrowaniu danych w spoczynku i w tranzycie.
+
+Jedną z głównych zalet MongoDB Atlas jest jego elastyczność i skalowalność. Użytkownicy mogą łatwo dostosować zasoby bazy danych do swoich potrzeb, zwiększając lub zmniejszając moc obliczeniową oraz przestrzeń dyskową w zależności od wymagań aplikacji. Atlas obsługuje również replikację danych, co zapewnia wysoką dostępność i odporność na awarie.
+
+MongoDB Atlas integruje się z wieloma popularnymi platformami chmurowymi, takimi jak AWS, Google Cloud Platform i Microsoft Azure, co pozwala na łatwe wdrożenie bazy danych w preferowanym środowisku chmurowym. Dodatkowo, Atlas oferuje narzędzia do analizy danych, takie jak MongoDB Charts, które umożliwiają tworzenie interaktywnych wizualizacji danych bezpośrednio z bazy danych. 
 
 
+\subsection{Struktura}
+W kontekście aplikacji, MongoDB Atlas zapewnia niezawodne i skalowalne rozwiązanie do przechowywania danych użytkowników, sesji użytkownika, napisów, słów oraz zdań, co umożliwia szybkie i efektywne wyszukiwanie oraz filtrowanie informacji. Dane są przechowywane w kolekcjach, które zawierają dokumenty w formacie JSON (JavaScript Object Notation). Każda kolekcja może zawierać dokumenty o różnej strukturze, co zapewnia dużą elastyczność w przechowywaniu danych.
+
+Aby przyspieszyć wyszukiwanie danych, MongoDB umożliwia tworzenie indeksów na polach dokumentów. Indeksy mogą znacznie poprawić wydajność zapytań, zwłaszcza w przypadku dużych zbiorów danych. W aplikacji wykorzystano indeksy domyślnie na relacjach i kluczach obcych, aby zapewnić szybkie wyszukiwanie i filtrowanie danych.
+MongoDB jest bazą danych schemaless, co oznacza, że dokumenty w tej samej kolekcji mogą mieć różne struktury. Dzięki temu możemy łatwo dostosowywać strukturę danych do zmieniających się wymagań aplikacji.
+
+Dodatkowo, MongoDB zapewnia wysoką dostępność i skalowalność poprzez replikację i sharding. Replikacja polega na utrzymywaniu wielu kopii danych na różnych serwerach, co zwiększa niezawodność i dostępność bazy danych. Sharding pozwala na podział danych na mniejsze fragmenty, które są przechowywane na różnych serwerach, co umożliwia skalowanie poziome bazy danych.
+
+Poniżej przedstawiono diagram struktury bazy danych, który ilustruje relacje między poszczególnymi kolekcjami.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{IMAGE/DatabaseDiagram.png}
+    \caption{Diagram struktury bazy danych}
+    \label{fig:StrukturaBazyDanych}
+\end{figure}
+\subsection{Metody zapobiegania redundancji danych}
+W celu zapobiegania redundancji danych w aplikacji zastosowano kilka metod. Przede wszystkim, projekt bazy danych został starannie zaplanowany, aby zminimalizować duplikację danych. Wykorzystano normalizację danych, która polega na podziale danych na mniejsze, logicznie powiązane tabele lub kolekcje, co pozwala na uniknięcie powtarzania tych samych informacji w różnych miejscach.
+
+Dodatkowo, w aplikacji zaimplementowano mechanizmy walidacji danych, które sprawdzają poprawność i spójność danych przed ich zapisaniem do bazy. Dzięki temu możliwe jest wykrycie i eliminacja ewentualnych duplikatów na etapie wprowadzania danych. Poza jednym duplikatem, którym jest kolekcja zdania "sentence" gdy użytkownik usunie napisy z kolekcji "subtitles" to wtedy w kolekcji "sentence" pozostanie zdanie, które w trakcie nauki z słowami pozostaną bezpiecznie w bazie.
+
+Wykorzystano również indeksy unikalne, które zapewniają, że w danej kolekcji nie mogą istnieć dwa dokumenty z identycznymi wartościami w polach, które powinny być unikalne. Na przykład, w kolekcji użytkowników zastosowano indeks unikalny na polu adresu e-mail, co zapobiega rejestracji dwóch użytkowników z tym samym adresem e-mail. W kolekcji słów zastosowano indeks unikalny na polu słowa "word", co zapobiega dodaniu dwóch  identycznych słów przez jednego użytkownika. To samo dotyczy kolekcji napisów, gdzie zastosowano indeks unikalny na polu tytułowym "subtitleTitle" w połączeniu z odcinkiem "episode" co nie pozwala przypadkowo dodać dwa takie same tytuły w połączeniu z odcinkiem.
+
+Kolejną metodą zapobiegania redundancji jest stosowanie referencji między kolekcjami. Zamiast przechowywać duplikaty danych, dokumenty w jednej kolekcji mogą zawierać referencje do dokumentów w innych kolekcjach. Na przykład, dokumenty w kolekcji sesji użytkownika mogą zawierać referencje do dokumentów w kolekcji użytkowników, co pozwala na przechowywanie informacji o użytkownikach w jednym miejscu i uniknięcie redundancji.
+
+Wszystkie te metody razem zapewniają, że dane w bazie są przechowywane w sposób efektywny i bez zbędnej redundancji, co przekłada się na lepszą wydajność i spójność danych.
+
+\input{Chapters/InterfejsUzytkownika}
 
 
+\section{Podsumowanie}

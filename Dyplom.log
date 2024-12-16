@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.7)  12 DEC 2024 22:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.7)  17 DEC 2024 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1397,30 +1397,30 @@ Package: relsize 2013/03/29 ver 4.1
 )) (./Dyplom.aux)
 \openout1 = `Dyplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 66.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
@@ -1452,8 +1452,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Dyplom.bbl' found.
  (./Dyplom.bbl)
-Package biblatex Info: Reference section=0 on input line 69.
-Package biblatex Info: Reference segment=0 on input line 69.
+Package biblatex Info: Reference section=0 on input line 66.
+Package biblatex Info: Reference segment=0 on input line 66.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1493,15 +1493,15 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 66.
 (./Dyplom.out) (./Dyplom.out)
 \@outlinefile=\write9
 \openout9 = `Dyplom.out'.
 
 \c@lstlisting=\count541
-LaTeX Info: Redefining \rmfamily on input line 69.
-LaTeX Info: Redefining \sffamily on input line 69.
-LaTeX Info: Redefining \ttfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 66.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 66.
 
 Package fontspec Info: Font family 'LatinModernSans(1)' created for font
 (fontspec)             'Latin Modern Sans' with options
@@ -1532,25 +1532,24 @@ File: TemplateCore/PNG/inzhead.png Graphic file (type bmp)
 
 \openout3 = `Dyplom.ist'.
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+esint on input line 72.
- (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
-File: uesint.fd 
-) [2
+] [2
 
 ] (./Dyplom.toc
 LaTeX Info: Redefining \rmfamily on input line 3.
 LaTeX Info: Redefining \sffamily on input line 3.
 LaTeX Info: Redefining \ttfamily on input line 3.
- [3
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+esint on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+) [3
 
 
 ])
@@ -1560,11 +1559,11 @@ LaTeX Info: Redefining \ttfamily on input line 3.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 72.
+(fancyhdr)                Please consider using the `twoside' option on input line 69.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 72.
+(fancyhdr)                Please consider using the `twoside' option on input line 69.
 
 (./Chapters/main.tex [4]
 Rozdział 1.
@@ -1575,56 +1574,136 @@ Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is usel
 
 [5
 
-] [6] [7]
+] [6]
+File: IMAGE/Anki.png Graphic file (type bmp)
+<IMAGE/Anki.png>
+ [7]
 File: IMAGE/LanguageReactor.png Graphic file (type bmp)
 <IMAGE/LanguageReactor.png>
- [8] [9]) [10]
+ [8]
+File: IMAGE/Trancy.png Graphic file (type bmp)
+<IMAGE/Trancy.png>
+) [9] [10]
 Rozdział 2.
 (./Chapters/CeliZakres.tex
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 20.
+(fancyhdr)                Please consider using the `twoside' option on input line 14.
 
 [11
 
 ]) [12]
 Rozdział 3.
-(./Chapters/Projekt.tex)
+(./Chapters/Projekt.tex
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 26.
+(fancyhdr)                Please consider using the `twoside' option on input line 19.
 
 [13
 
-] [14]
+]
+File: IMAGE/DatabaseDiagram.png Graphic file (type bmp)
+<IMAGE/DatabaseDiagram.png>
+ [14] [15] (./Chapters/InterfejsUzytkownika.tex
+File: IMAGE/HomePage.png Graphic file (type bmp)
+<IMAGE/HomePage.png>
+ [16]
+File: IMAGE/FlashCards.png Graphic file (type bmp)
+<IMAGE/FlashCards.png>
+File: IMAGE/Subtitles.png Graphic file (type bmp)
+<IMAGE/Subtitles.png>
+ [17]
+File: IMAGE/SubtitlesSelected.png Graphic file (type bmp)
+<IMAGE/SubtitlesSelected.png>
+ [18]
+File: IMAGE/WordBank.png Graphic file (type bmp)
+<IMAGE/WordBank.png>
+ [19]
+File: IMAGE/Progress.png Graphic file (type bmp)
+<IMAGE/Progress.png>
+ [20]
+File: IMAGE/LoginPage.png Graphic file (type bmp)
+<IMAGE/LoginPage.png>
+ [21] [22]
+File: IMAGE/videoPlayer.png Graphic file (type bmp)
+<IMAGE/videoPlayer.png>
+)) [23]
 Rozdział 4.
 (./Chapters/Implementacja.tex
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 28.
+(fancyhdr)                Please consider using the `twoside' option on input line 22.
 
-[15
+[24
 
-] [16] [17] [18]) [19]
+] [25] [26] (./Chapters/Backend.tex [27] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 24.
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernMono(0)/b/n' undefined
+(Font)              using `TU/LatinModernMono(0)/m/n' instead on input line 36.
+
+[28] [29]) [30]
+File: IMAGE/FlashcardsLearn.png Graphic file (type bmp)
+<IMAGE/FlashcardsLearn.png>
+ [31] [32] (./Chapters/ProblemyImplementacyjne.tex [33] [34] [35])) [36]
 Rozdział 5.
 (./Chapters/Podsumowanie.tex))
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 79.
+(fancyhdr)                Please consider using the `twoside' option on input line 76.
 
-[20
+[37
 
 ]
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 84.
+(fancyhdr)                Please consider using the `twoside' option on input line 81.
 
-[21
+[38
 
 ] (./Dyplom.lof
 LaTeX Info: Redefining \rmfamily on input line 3.
 LaTeX Info: Redefining \sffamily on input line 3.
 LaTeX Info: Redefining \ttfamily on input line 3.
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+LaTeX Info: Redefining \rmfamily on input line 7.
+LaTeX Info: Redefining \sffamily on input line 7.
+LaTeX Info: Redefining \ttfamily on input line 7.
+LaTeX Info: Redefining \rmfamily on input line 11.
+LaTeX Info: Redefining \sffamily on input line 11.
+LaTeX Info: Redefining \ttfamily on input line 11.
+LaTeX Info: Redefining \rmfamily on input line 13.
+LaTeX Info: Redefining \sffamily on input line 13.
+LaTeX Info: Redefining \ttfamily on input line 13.
+LaTeX Info: Redefining \rmfamily on input line 15.
+LaTeX Info: Redefining \sffamily on input line 15.
+LaTeX Info: Redefining \ttfamily on input line 15.
+LaTeX Info: Redefining \rmfamily on input line 17.
+LaTeX Info: Redefining \sffamily on input line 17.
+LaTeX Info: Redefining \ttfamily on input line 17.
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
+LaTeX Info: Redefining \rmfamily on input line 21.
+LaTeX Info: Redefining \sffamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 27.
+LaTeX Info: Redefining \sffamily on input line 27.
+LaTeX Info: Redefining \ttfamily on input line 27.
+LaTeX Info: Redefining \rmfamily on input line 30.
+LaTeX Info: Redefining \sffamily on input line 30.
+LaTeX Info: Redefining \ttfamily on input line 30.
 )
 \tf@lof=\write11
 \openout11 = `Dyplom.lof'.
@@ -1632,9 +1711,9 @@ LaTeX Info: Redefining \ttfamily on input line 3.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 89.
+(fancyhdr)                Please consider using the `twoside' option on input line 86.
 
-[22
+[39
 
 
 
@@ -1642,6 +1721,42 @@ Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is usel
 LaTeX Info: Redefining \rmfamily on input line 3.
 LaTeX Info: Redefining \sffamily on input line 3.
 LaTeX Info: Redefining \ttfamily on input line 3.
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+LaTeX Info: Redefining \rmfamily on input line 9.
+LaTeX Info: Redefining \sffamily on input line 9.
+LaTeX Info: Redefining \ttfamily on input line 9.
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \sffamily on input line 10.
+LaTeX Info: Redefining \ttfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 11.
+LaTeX Info: Redefining \sffamily on input line 11.
+LaTeX Info: Redefining \ttfamily on input line 11.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+LaTeX Info: Redefining \rmfamily on input line 13.
+LaTeX Info: Redefining \sffamily on input line 13.
+LaTeX Info: Redefining \ttfamily on input line 13.
+LaTeX Info: Redefining \rmfamily on input line 14.
+LaTeX Info: Redefining \sffamily on input line 14.
+LaTeX Info: Redefining \ttfamily on input line 14.
+LaTeX Info: Redefining \rmfamily on input line 15.
+LaTeX Info: Redefining \sffamily on input line 15.
+LaTeX Info: Redefining \ttfamily on input line 15.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \sffamily on input line 18.
+LaTeX Info: Redefining \ttfamily on input line 18.
 )
 \tf@lot=\write12
 \openout12 = `Dyplom.lot'.
@@ -1649,9 +1764,9 @@ LaTeX Info: Redefining \ttfamily on input line 3.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 92.
+(fancyhdr)                Please consider using the `twoside' option on input line 89.
 
-[23
+[40
 
 
 ] (./Dyplom.lol)
@@ -1666,9 +1781,9 @@ This document will not have a glossary.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 96.
+(fancyhdr)                Please consider using the `twoside' option on input line 93.
 
-[24
+[41
 
 
 ] (./Dyplom.aux)
@@ -1676,19 +1791,23 @@ Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is usel
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `Dyplom.out' has not changed.
-(rerunfilecheck)             Checksum: 2566018AC475F9698A264C4B2E3AC1FF;5207.
+(rerunfilecheck)             Checksum: EAD81C82ED0630F94D38EDC38A1A553D;6851.
 Package logreq Info: Writing requests to 'Dyplom.run.xml'.
 \openout1 = `Dyplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 70489 strings out of 474878
- 1728303 string characters out of 5762516
- 3167211 words of memory out of 5000000
- 91514 multiletter control sequences out of 15000+600000
- 563726 words of font info for 114 fonts, out of 8000000 for 9000
+ 70917 strings out of 474878
+ 1735573 string characters out of 5762516
+ 3519125 words of memory out of 5000000
+ 91914 multiletter control sequences out of 15000+600000
+ 563758 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,11n,131p,2399b,5028s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,131p,2399b,5026s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Dyplom.xdv (24 pages, 384896 bytes).
+Output written on Dyplom.xdv (41 pages, 697292 bytes).

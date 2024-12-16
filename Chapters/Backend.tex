@@ -1,0 +1,100 @@
+
+\section{Backend}
+Backend aplikacji został zrealizowany przy użyciu dwóch technologii: Next.js oraz Flask. Każda z tych technologii pełni inną rolę w architekturze aplikacji, co pozwala na wykorzystanie ich mocnych stron w Flask został wykonany moduł pełniący funkcje lemmatyzacji i pos taggingu ponieważ modele NLP są tam bardzo mocno rozwinięte. W Next.js zostały wykonane endpointy do komunikacji z bazą danych oraz do obsługi logiki biznesowej aplikacji. Dzięki temu możliwe jest oddzielenie części serwerowej od frontendowej, co pozwala wykorzystać zalety szybkiego serwowania stron statycznych. Poniżej przedstawiono architekturę backendu z wykorzystaniem Next.js i Flask. Dodatkowo został wykorzystany moduł LibretTranslate do tłumaczenia maszynowego w aplikacji.
+
+\subsubsection{Next.js}
+Next.js jest wykorzystywany do obsługi części serwerowej aplikacji, która jest odpowiedzialna za renderowanie stron po stronie serwera (server-side rendering) oraz generowanie statycznych stron (static site generation). Dzięki temu aplikacja jest szybka i przyjazna dla SEO. Next.js umożliwia również łatwe zarządzanie ścieżkami strony które są wyświetlane w pasku url przeglądarki. Głównym celem w projekcie jest obsługa żądań HTTP, komunikacja z bazą danych MongoDB oraz wykonywanie operacji związanych z komunikacją z modułami NLP w Flask jak i modułem LibretTranslate do tłumaczenia maszynowego w aplikacji. Next.js oferuje również wsparcie dla różnych metod autoryzacji i uwierzytelniania, co zapewnia bezpieczeństwo aplikacji jak i szybkość działania i implementacji.
+\subsection{Struktura backendu w Next.js}
+Struktura backendu w Next.js została podzielona na kilka głównych katalogów, z których każdy odpowiada za określoną część aplikacji. Wszystkie pliki związane z budową backendu znajdują się w katalogu \texttt{src/app/api}, który zawiera następujące podkatalogi:
+
+\begin{itemize}
+    \item \textbf{auth:} Obsługuje autoryzację i uwierzytelnianie użytkowników.
+    \item \textbf{captions:} Zajmuje się pobieraniem napisów z youtube.
+    \item \textbf{hardWords:} Zajmuje się zarządzaniem trudnymi słowami.
+    \item \textbf{profile:} Obsługuje aktualizacje profilu użytkownika.
+    \item \textbf{sentence:} Zajmuje się aktualizacjami zdań.
+    \item \textbf{signup:} Obsługuje rejestrację nowych użytkowników.
+    \item \textbf{subtitles:} Zajmuje się zarządzaniem napisami do filmów.
+\end{itemize}
+
+\subsection{Struktura backendu w Flask}
+Flask jest wykorzystywany do tworzenia API oraz logiki biznesowej aplikacji. Flask to lekki framework webowy dla Pythona, który umożliwia szybkie tworzenie i rozwijanie aplikacji webowych. W projekcie Flask jest odpowiedzialny za przetwarzanie żądań HTTP, oraz wykonywanie operacji związanych z przetwarzaniem języka naturalnego (NLP).
+użyte do tego zostały modele:
+
+\begin{lstlisting}[language=Python, caption=kod do importowania modeli NLP]
+    nlp_de = spacy.load('de_core_news_md')
+    nlp_ja = spacy.load('ja_core_news_md')
+    nlp_en = spacy.load('en_core_web_md')
+    nlp_pl = spacy.load('pl_core_news_md')
+    
+\end{lstlisting}
+
+zostały one użyte do przetwarzania języka naturalnego w aplikacji. Dzięki temu możliwe jest lemmatyzacja i pos tagging słów w różnych językach. Do projektu zostały wykorzystane modele językowe dla języków: niemieckiego, japońskiego, angielskiego i polskiego. Reszta języków nie jest obsługiwana w aplikacji, ale można dodać nowe modele językowe w przyszłości.
+
+\begin{lstlisting}[language=Python, caption=kod do obsługi lemmatyzacji i pos taggingu]
+    @app.post("/nlp")
+    async def analyze_text(request: AnalyzeTextRequest):
+        word = request.word
+        sourceLang = request.sourceLang
+        doc = None
+    
+        if not sourceLang:
+            raise HTTPException(status_code=400, detail="Source language is required")
+        if sourceLang == 'de':
+            doc = nlp_de(word)
+        elif sourceLang == 'ja':
+            doc = nlp_ja(word)
+        elif sourceLang == 'en':
+            doc = nlp_en(word)
+        elif sourceLang == 'pl':
+            doc = nlp_pl(word)
+        elif sourceLang == 'auto':
+            doc = nlp_de(word)
+        else:
+            raise HTTPException(status_code=400, detail=f"Source language is not currently used: {sourceLang}")
+        
+        tokens_with_pos = {'lemma': doc[0].lemma_, 'pos': doc[0].pos_}
+        return {'result': tokens_with_pos}
+\end{lstlisting}
+
+% Funkcja \texttt{analyze_text} przyjmuje żądanie zawierające słowo oraz język źródłowy,
+a następnie przetwarza tekst przy użyciu odpowiedniego modelu językowego. W przypadku braku określenia języka źródłowego lub podania nieobsługiwanego języka, zwracany jest odpowiedni komunikat błędu.
+Wynikiem przetwarzania jest lemat naszego słowa oraz oznaczenie części mowy w obu przypadkach wybrane są te najbardziej prawdopobone w przetworzonym dokumencie który zwrócił model NLP.
+
+
+\subsection{LibretTranslate}
+LibretTranslate to otwartoźródłowy system tłumaczenia maszynowego, który umożliwia tłumaczenie tekstów pomiędzy różnymi językami. W projekcie został wykorzystany do tłumaczenia tekstów w aplikacji, co pozwala na obsługę użytkowników mówiących różnymi językami. LibretTranslate wspiera wiele języków, co czyni go wszechstronnym narzędziem do tłumaczeń.
+
+\subsubsection{Integracja LibretTranslate}
+Integracja LibretTranslate w aplikacji została zrealizowana poprzez stworzenie funkcji w Next.js, która komunikuje się z API LibretTranslate. Dzięki temu możliwe jest wysyłanie napisów do przetłumaczenia oraz odbieranie przetłumaczonych wyników bezpośrednio w aplikacji. Poniżej przedstawiono przykładowy kod obsługujący tłumaczenie napisów za pomocą LibretTranslate:
+
+\begin{lstlisting}[ caption=Przykładowy kod integracji LibretTranslate w Next.js]
+import axios from 'axios';
+
+export default async function translateText(req, res) {
+    async function translateSubtitleData(subtitleData: SubtitleData[], targetLang: string) {
+    try {
+        const texts = subtitleData.map(subtitle => subtitle?.text);
+        const response = await axios.post("http://127.0.0.1:5000/translate", {
+            q: texts,
+            source: "auto" ,
+            target: targetLang || "en",
+            format: "text"
+        });
+        let detectedLanguage = "auto";
+        if(response.data.detectedLanguage[0].language){
+            detectedLanguage = response.data.detectedLanguage[0].language;
+        }
+        return {
+            translatedSubtitleData: response.data.translatedText,
+            detectedLanguage
+        };
+    } catch (error) {
+        console.error('Error translating subtitles:', error);
+        throw new Error('Failed to translate subtitles');
+    }
+}
+}
+\end{lstlisting}
+
+Funkcja \texttt{translateSubtitleData} przyjmuje dane napisów oraz język docelowy, a następnie wysyła zapytanie do API LibretTranslate w celu przetłumaczenia tekstu. Odpowiedź zawiera przetłumaczone napisy oraz wykryty język źródłowy, co pozwala na dalsze przetwarzanie danych w aplikacji.
