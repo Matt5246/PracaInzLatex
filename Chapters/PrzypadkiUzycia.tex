@@ -1,0 +1,95 @@
+\section{Przypadki użycia}
+Przypadki użycia (ang. use cases) są techniką modelowania funkcjonalności systemu z perspektywy użytkownika. Służą do opisywania interakcji między użytkownikami (aktorami) a systemem, które prowadzą do osiągnięcia określonego celu. Każdy przypadek użycia opisuje sekwencję kroków, które użytkownik wykonuje, aby osiągnąć zamierzony rezultat.
+
+Przypadki użycia są często wykorzystywane w procesie analizy wymagań, ponieważ pomagają zrozumieć, jakie funkcje systemu są potrzebne i jak będą one wykorzystywane przez użytkowników. Mogą być również używane do tworzenia scenariuszy testowych, które sprawdzają, czy system spełnia określone wymagania.
+
+Podstawowe elementy przypadku użycia to:
+\begin{itemize}
+    \item \textbf{Aktorzy} - osoby, organizacje lub systemy, które wchodzą w interakcję z systemem.
+    \item \textbf{Cel} - rezultat, który aktor chce osiągnąć.
+    \item \textbf{Scenariusz} - sekwencja kroków, które prowadzą do osiągnięcia celu.
+\end{itemize}
+
+Przypadki użycia mogą być przedstawiane w formie tekstowej lub graficznej (diagramy przypadków użycia). Diagramy przypadków użycia są częścią języka UML (Unified Modeling Language) i składają się z aktorów, przypadków użycia oraz relacji między nimi.
+
+Poniżej przedstawiono przykładowe przypadki użycia dla aplikacji webowej wspomagającej naukę języków obcych za pomocą filmów i seriali.
+\subsection{Przypadek użycia: Rejestracja}
+\begin{itemize}
+    \item \textbf{Aktorzy:} Użytkownik
+    \item \textbf{Cel:} Utworzenie nowego konta użytkownika
+    \item \textbf{Scenariusz:}
+          \begin{enumerate}
+              \item Użytkownik otwiera stronę rejestracji.
+              \item Użytkownik wprowadza adres e-mail, hasło i potwierdzenie hasła.
+              \item Użytkownik klika przycisk "Zarejestruj się".
+              \item System weryfikuje poprawność danych rejestracyjnych.
+              \item System tworzy nowe konto użytkownika i przekierowuje go do strony głównej aplikacji.
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Przypadek użycia: Logowanie}
+\begin{itemize}
+    \item \textbf{Aktorzy:} Użytkownik
+    \item \textbf{Cel:} Zalogowanie się do aplikacji
+    \item \textbf{Scenariusz:}
+          \begin{enumerate}
+              \item Użytkownik otwiera stronę logowania.
+              \item Użytkownik wybiera metodę logowania:
+                    \begin{itemize}
+                        \item \textbf{Logowanie za pomocą adresu e-mail i hasła:}
+                              \begin{enumerate}
+                                  \item Użytkownik wprowadza adres e-mail i hasło.
+                                  \item Użytkownik klika przycisk "Zaloguj się".
+                                  \item System weryfikuje dane logowania.
+                              \end{enumerate}
+                        \item \textbf{Logowanie za pomocą konta Google:}
+                              \begin{enumerate}
+                                  \item Użytkownik klika przycisk "Zaloguj się przez Google".
+                                  \item System przekierowuje użytkownika do strony logowania Google.
+                                  \item Użytkownik wprowadza dane logowania do konta Google.
+                                  \item Google weryfikuje dane logowania.
+                              \end{enumerate}
+                    \end{itemize}
+              \item System autoryzuje użytkownika i przekierowuje go do strony głównej aplikacji.
+          \end{enumerate}
+\end{itemize}
+
+\subsection{Przypadek użycia: oglądanie filmów}
+\begin{itemize}
+    \item \textbf{Aktorzy:} Użytkownik
+    \item \textbf{Cel:} Oglądanie zapisanych filmów i seriali
+    \item \textbf{Scenariusz:}
+          \begin{itemize}
+              \item Użytkownik otwiera stronę oglądania filmów.
+              \item \textbf{Użytkownik wybiera film z listy youtube:}
+                    \begin{enumerate}
+                        \item Użytkownik wybiera film z listy.
+                        \item System odtwarza wybrany film w oknie odtwarzacza.
+                        \item Użytkownik może zmieniać język napisów, przewijać film oraz dodawać słowa do bazy danych.
+                    \end{enumerate}
+              \item \textbf{Użytkownik wybiera film z listy:}
+                    \begin{enumerate}
+                        \item Użytkownik wybiera napisy z listy.
+                        \item Poniżej odtwarzacza wybiera odpowiedni film z swojego dysku.
+                        \item System odtwarza wybrany film w oknie odtwarzacza.
+                        \item Użytkownik może zmieniać język napisów, przewijać film oraz dodawać słowa do bazy danych.
+                    \end{enumerate}
+          \end{itemize}
+\end{itemize}
+
+\subsection{Przypadek użycia: Nauka słówek}
+\begin{itemize}
+    \item \textbf{Aktorzy:} Użytkownik
+    \item \textbf{Cel:} Nauka słówek za pomocą fiszek
+    \item \textbf{Scenariusz:}
+          \begin{enumerate}
+              \item Użytkownik otwiera stronę nauki słówek (FlashCards).
+              \item Użytkownik wybiera zestaw fiszek do nauki.
+              \item System wyświetla fiszki z wybranego zestawu.
+              \item Użytkownik przegląda fiszki i próbuje odgadnąć tłumaczenie.
+              \item Użytkownik sprawdza poprawność tłumaczenia i ocenia swoją odpowiedź.
+              \item System zapisuje wynik i przechodzi do kolejnej fiszki.
+              \item Po zakończeniu nauki system zapisuje postępy.
+          \end{enumerate}
+\end{itemize}
+

@@ -1,62 +1,66 @@
 \xpginauxfiletrue 
 \thispagestyle {empty}
 \selectlanguage *{polish}
-\contentsline {chapter}{\numberline {1}Wprowadzenie}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Wstęp}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Przegląd aktualnych rozwiązań}{6}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Anki}{6}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Language Reactor}{7}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Trancy}{9}{subsection.1.2.3}%
-\contentsline {chapter}{\numberline {2}Cel i zakres pracy}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Cel pracy}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Zakres pracy}{11}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Projekt}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Wprowadzenie}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Przypadki użycia}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Baza danych}{13}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Wprowadzenie}{13}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Struktura}{14}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Metody zapobiegania redundancji danych}{15}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}interfejs użytkownika}{16}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Widok startowy}{16}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Strona Nauki}{17}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Strona Napisów}{18}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Strona Słownika}{20}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Strona Statystyk}{21}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Strona logowania oraz rejestracji}{22}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Strona oglądania filmów}{23}{subsection.3.4.7}%
-\contentsline {section}{\numberline {3.5}Podsumowanie}{23}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Implementacja}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Wprowadzenie}{24}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Środowisko i narzędzia programistyczne}{24}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Środowisko programistyczne}{24}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Wybór technologii}{24}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Opis technologii}{25}{subsection.4.2.3}%
-\contentsline {subsubsection}{Next.js}{25}{section*.14}%
-\contentsline {subsubsection}{Python}{25}{section*.15}%
-\contentsline {subsubsection}{React Virtuoso}{26}{section*.16}%
-\contentsline {subsubsection}{Node.js}{26}{section*.17}%
-\contentsline {subsubsection}{MongoDB}{26}{section*.18}%
-\contentsline {subsubsection}{React.js}{26}{section*.19}%
-\contentsline {subsubsection}{Shadcn}{26}{section*.20}%
-\contentsline {section}{\numberline {4.3}Baza danych}{27}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Backend}{27}{section.4.4}%
-\contentsline {subsubsection}{Next.js}{27}{section*.21}%
-\contentsline {subsection}{\numberline {4.4.1}Struktura backendu w Next.js}{27}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Struktura backendu w Flask}{28}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}LibretTranslate}{29}{subsection.4.4.3}%
-\contentsline {subsubsection}{Integracja LibretTranslate}{29}{section*.22}%
-\contentsline {section}{\numberline {4.5}Frontend}{30}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Struktura projektu}{30}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Panel nauki Fiszek}{32}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Problemy implementacyjne}{33}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Wirtualizacja List}{33}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Przetwarzanie języka naturalnego (NLP)}{36}{subsection.4.6.2}%
-\contentsline {chapter}{\numberline {5}Podsumowanie}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Wnioski}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Kierunki dalszego rozwoju}{37}{section.5.2}%
-\contentsline {chapter}{Bibliografia}{37}{section*.32}%
-\contentsline {chapter}{Spis rysunków}{39}{chapter*.34}%
-\contentsline {chapter}{Spis tabel}{40}{chapter*.35}%
+\contentsline {chapter}{\numberline {1}Wprowadzenie}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Wstęp}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Przegląd aktualnych rozwiązań}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Anki}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Language Reactor}{8}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Trancy}{10}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Cel i zakres pracy}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cel pracy}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Zakres pracy}{12}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Projekt}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wprowadzenie}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Przypadki użycia}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Przypadek użycia: Rejestracja}{15}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Przypadek użycia: Logowanie}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Przypadek użycia: oglądanie filmów}{15}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Przypadek użycia: Nauka słówek}{16}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Baza danych}{16}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Wprowadzenie}{16}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Struktura}{17}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Metody zapobiegania redundancji danych}{18}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Interfejs użytkownika}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Widok startowy}{20}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Strona Nauki}{21}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Strona Napisów}{22}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Strona Słownika}{24}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Strona Statystyk}{25}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Strona logowania oraz rejestracji}{26}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Strona oglądania filmów}{27}{subsection.3.4.7}%
+\contentsline {section}{\numberline {3.5}Podsumowanie}{27}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Implementacja}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Wprowadzenie}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Środowisko i narzędzia programistyczne}{28}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Środowisko programistyczne}{28}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Wybór technologii}{28}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Opis technologii}{29}{subsection.4.2.3}%
+\contentsline {subsubsection}{Next.js}{29}{section*.14}%
+\contentsline {subsubsection}{Python}{29}{section*.15}%
+\contentsline {subsubsection}{React Virtuoso}{30}{section*.16}%
+\contentsline {subsubsection}{Node.js}{30}{section*.17}%
+\contentsline {subsubsection}{MongoDB}{30}{section*.18}%
+\contentsline {subsubsection}{React.js}{30}{section*.19}%
+\contentsline {subsubsection}{Shadcn}{30}{section*.20}%
+\contentsline {section}{\numberline {4.3}Baza danych}{31}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Backend}{31}{section.4.4}%
+\contentsline {subsubsection}{Next.js}{31}{section*.21}%
+\contentsline {subsection}{\numberline {4.4.1}Struktura backendu w Next.js}{31}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Struktura backendu w Flask}{32}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}LibretTranslate}{33}{subsection.4.4.3}%
+\contentsline {subsubsection}{Integracja LibretTranslate}{33}{section*.22}%
+\contentsline {section}{\numberline {4.5}Frontend}{34}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Struktura projektu}{34}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Panel nauki Fiszek}{36}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Problemy implementacyjne}{37}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Wirtualizacja List}{37}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Przetwarzanie języka naturalnego (NLP)}{40}{subsection.4.6.2}%
+\contentsline {chapter}{\numberline {5}Podsumowanie}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Wnioski}{41}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Kierunki dalszego rozwoju}{41}{section.5.2}%
+\contentsline {chapter}{Bibliografia}{41}{section*.32}%
+\contentsline {chapter}{Spis rysunków}{43}{chapter*.34}%
+\contentsline {chapter}{Spis tabel}{44}{chapter*.35}%
 \xpginauxfilefalse 
 \contentsfinish 

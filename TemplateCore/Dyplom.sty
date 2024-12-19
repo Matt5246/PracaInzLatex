@@ -5,8 +5,8 @@
 %###########################################
 \RequirePackage{kvoptions}
 \RequirePackage[backend=biber,
-style=ieee,
-citestyle=numeric-comp
+    style=ieee,
+    citestyle=numeric-comp
 ]{biblatex}
 \DeclareStringOption[none]{sorting}
 \DeclareStringOption{bibfile}
@@ -14,32 +14,32 @@ citestyle=numeric-comp
 \ProcessKeyvalOptions*
 
 \edef\tempa{%
-	\noexpand\ExecuteBibliographyOptions{%
-		sorting=\Dyplom@sorting}%
+    \noexpand\ExecuteBibliographyOptions{%
+        sorting=\Dyplom@sorting}%
 }
 \tempa
 
 \edef\tempb{%
-	\noexpand\addbibresource{\Dyplom@bibfile.bib}%
+    \noexpand\addbibresource{\Dyplom@bibfile.bib}%
 }
 \tempb
 
 \newcommand{\bibliografia}{
-	
-	\phantomsection
-	\addcontentsline{toc}{chapter}{\refname}
-	{
-		\sloppy
-		\printbibliography
-	}
+
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\refname}
+    {
+        \sloppy
+        \printbibliography
+    }
 }
 
 % Zdefiniuj format imienia i nazwiska
 \DeclareNameFormat{default}{%
-	\mkbibbold{%
-		\usebibmacro{name:given-family}{\namepartfamily}{\namepartgiven}{\namepartprefix}{\namepartsuffix}%
-	}%
-	\usebibmacro{name:andothers}%
+    \mkbibbold{%
+        \usebibmacro{name:given-family}{\namepartfamily}{\namepartgiven}{\namepartprefix}{\namepartsuffix}%
+    }%
+    \usebibmacro{name:andothers}%
 }
 \usepackage{chngcntr}
 
@@ -117,8 +117,8 @@ citestyle=numeric-comp
 % Tytuły tabel i podpisy rysunków
 % -------------------------------------------------------------------
 \RequirePackage[format=plain, labelfont=bf, labelsep=period,
-            font=small, justification=justified]
-        {caption}
+    font=small, justification=justified]
+{caption}
 \RequirePackage{subcaption}
 \floatstyle{plaintop}
 \restylefloat{table}
@@ -149,22 +149,22 @@ citestyle=numeric-comp
 % Klikalne linki
 % -------------------------------------------------------------------
 \RequirePackage{hyperref}
-\hypersetup{ 
-    unicode=true,          
-    pdftoolbar=true,        
-    pdfmenubar=true,        
-    pdffitwindow=false,     
-    pdfstartview={FitH},    
-    linktoc=all,            
-    pdfnewwindow=true,      
-    colorlinks=true,        
-    linkcolor=Black,   
-    citecolor=Black,   
-    filecolor=Black,   
-    urlcolor=Black,    
-    linkbordercolor={1 0 0},     
-    citebordercolor={0 1 0},     
-    urlbordercolor={0 1 1},     
+\hypersetup{
+    unicode=true,
+    pdftoolbar=true,
+    pdfmenubar=true,
+    pdffitwindow=false,
+    pdfstartview={FitH},
+    linktoc=all,
+    pdfnewwindow=true,
+    colorlinks=true,
+    linkcolor=Black,
+    citecolor=Black,
+    filecolor=Black,
+    urlcolor=Black,
+    linkbordercolor={1 0 0},
+    citebordercolor={0 1 0},
+    urlbordercolor={0 1 1},
 }
 
 % -------------------------------------------------------------------
@@ -185,6 +185,18 @@ citestyle=numeric-comp
 % Listingi programów
 % -------------------------------------------------------------------
 \RequirePackage{listings}
+\lstdefinelanguage{JavaScript}{
+    keywords={break, case, catch, continue, debugger, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with, class, const, let, export, import, yield, enum, await, implements, package, protected, static, interface, private, public},
+    sensitive=true,
+    comment=[l]{//},
+    morecomment=[s]{/*}{*/},
+    morestring=[b]',
+    morestring=[b]",
+    morestring=[b]`,
+    ndkeywords={true, false, null, undefined, NaN, Infinity},
+    alsoletter={-},
+    alsodigit={.}
+}
 \lstdefinestyle{Style}{
     backgroundcolor=\color{white},
     commentstyle=\color{BlueDark},
@@ -197,8 +209,8 @@ citestyle=numeric-comp
     captionpos=t,
     keepspaces=true,
     numbers=left,
-    firstnumber=1, 
-    stepnumber=1, 
+    firstnumber=1,
+    stepnumber=1,
     numbersep=5pt,
     showspaces=false,
     showstringspaces=false,

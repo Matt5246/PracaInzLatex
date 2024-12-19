@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber Dyplom"] 1734371772.32628 "Dyplom.bcf" "Dyplom.bbl" "Dyplom" 1734391366.54796 0
-  "Dyplom.bcf" 1734391360.41404 108263 b01ddc763b0bcf409de4d2ce2610140f "xelatex"
+["biber Dyplom"] 1734371772.32628 "Dyplom.bcf" "Dyplom.bbl" "Dyplom" 1734641722.06574 0
+  "Dyplom.bcf" 1734641716.82904 108263 b01ddc763b0bcf409de4d2ce2610140f "xelatex"
   "Dyplom.bib" 1734027951.92147 5529 54f1067598069d647a1a9eec7ef8f54d ""
   (generated)
   "Dyplom.bbl"
   "Dyplom.blg"
   (rewritten before read)
-["xdvipdfmx"] 1734391360.58422 "Dyplom.xdv" "Dyplom.pdf" "Dyplom" 1734391366.55413 0
-  "Dyplom.xdv" 1734391360.41404 697292 4dac42f1f144eeafeb29a88d671a276e "xelatex"
+["xdvipdfmx"] 1734641716.99098 "Dyplom.xdv" "Dyplom.pdf" "Dyplom" 1734641722.07058 0
+  "Dyplom.xdv" 1734641716.8393 747956 f3c48d2bf94c3dbb2937216758b3b4ac "xelatex"
   (generated)
   "Dyplom.pdf"
   (rewritten before read)
-["xelatex"] 1734391356.36971 "/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex" "Dyplom.xdv" "Dyplom" 1734391366.54806 0
+["xelatex"] 1734641712.94699 "/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex" "Dyplom.xdv" "Dyplom" 1734641722.06585 0
   "/etc/texmf/web2c/texmf.cnf" 1733572533.48761 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex" 1734216436.04537 3320 06153bacdd3a4076a74f5336ee004e17 ""
+  "/home/matt5246/github/SzablonPracyDyplomowej/Dyplom.tex" 1734469429.64411 3334 fdc716fd07bef2497060a801d48aa568 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -331,27 +331,28 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1733576596 10843707 552d59004f50094f1b91a0ad51fc0bdd ""
-  "Chapters/Backend.tex" 1734390723.25457 7206 66a38836d6287c5e6b2a531a891ec568 ""
+  "Chapters/Backend.tex" 1734473031.76416 7225 4f823bd3e40b818508d78d960c320bc2 ""
   "Chapters/CeliZakres.tex" 1734391130.89536 2469 d26224e39d6a82e2008b5ccb1ee612ed ""
   "Chapters/Implementacja.tex" 1734388340.75429 13756 5ce46654c559700a5f87e34a41893aa7 ""
-  "Chapters/InterfejsUzytkownika.tex" 1734390640.67618 4814 e01ef6e05fa52fed90b0e660e8bf23bf ""
+  "Chapters/InterfejsUzytkownika.tex" 1734469846.18411 4814 a1b4fe998553f06b22adeb779fca2248 ""
   "Chapters/Podsumowanie.tex" 1734383915.84363 1419 2273e14af53fa0661382d8895eab00a0 ""
-  "Chapters/ProblemyImplementacyjne.tex" 1734391351.77405 8053 3ffc93c860364e5edba0fe67b0d13f80 ""
-  "Chapters/Projekt.tex" 1734373193.81125 6271 e753e60d9b3f16aaea5fa8ce10945176 ""
+  "Chapters/ProblemyImplementacyjne.tex" 1734471769.58411 8073 bfca6a42042443b3e3137e4c48244871 ""
+  "Chapters/Projekt.tex" 1734638032.28797 6278 bdd55364a80de26bd54f6c504c1541f3 ""
+  "Chapters/PrzypadkiUzycia.tex" 1734641712.63397 5669 44cf74164e8f97edb86c56c41705b51a ""
   "Chapters/Wprowadzenie.tex" 1734200743.26506 11517 1260dc89ea3db079dd5ccb4b9d79f9f0 ""
   "Chapters/main.tex" 1734026040.73111 744 5f4ef7a09f05fa6f384083504b01ec2c ""
-  "Dyplom.aux" 1734391360.41404 13459 9af21d52e723a3084a8ae629ce930fe3 "xelatex"
+  "Dyplom.aux" 1734641716.82904 14036 ba56323c47c45643bd069cc29cd6115b "xelatex"
   "Dyplom.bbl" 1734371773.38044 4708 61e826ce1a23e63f259176e91f934274 "biber Dyplom"
-  "Dyplom.lof" 1734391360.41404 1927 8a1f386f37d643efef2da6c22fedb003 "xelatex"
-  "Dyplom.lol" 1734391360.41404 489 5ace3396da2adafaf08ecea581c777d1 "xelatex"
-  "Dyplom.lot" 1734391360.41404 550 6163db3fc3aa15fa7e9da764b6d46ccd "xelatex"
-  "Dyplom.out" 1734391360.41404 6851 ead81c82ed0630f94d38edc38a1a553d "xelatex"
-  "Dyplom.run.xml" 1734391360.41404 2481 875b9ba55f838aece1ed52e3fb01f203 "xelatex"
-  "Dyplom.tex" 1734216436.04537 3320 06153bacdd3a4076a74f5336ee004e17 ""
-  "Dyplom.toc" 1734391360.41404 4528 e29d0e86829d58d868c1b15474742aec "xelatex"
+  "Dyplom.lof" 1734641716.8393 1927 6cbbab50f3b459b373b30d9fe3a6a8a6 "xelatex"
+  "Dyplom.lol" 1734641716.8393 489 cd932e7cdc0814b78e7494bc37f92252 "xelatex"
+  "Dyplom.lot" 1734641716.8393 550 6163db3fc3aa15fa7e9da764b6d46ccd "xelatex"
+  "Dyplom.out" 1734641716.82904 7753 026c988c1f8910ab57e945c9256013f8 "xelatex"
+  "Dyplom.run.xml" 1734641716.8393 2481 875b9ba55f838aece1ed52e3fb01f203 "xelatex"
+  "Dyplom.tex" 1734469429.64411 3334 fdc716fd07bef2497060a801d48aa568 ""
+  "Dyplom.toc" 1734641716.8393 4941 cdedf057cb654368d4d2e551d550323d "xelatex"
   "Glossary.tex" 1733573168.01561 73 ad66cb07fb863111ee3518e0206ac69e ""
   "IMAGE/Anki.png" 1734269428.72993 104584 01cdaa8e2fa731943fedbe7bad2b0bb4 ""
-  "IMAGE/DatabaseDiagram.png" 1734203868.14346 429134 3fffd700f71fe3c563a951eb31d2991b ""
+  "IMAGE/DatabaseDiagram.png" 1734637411.70361 81190 6f7a763e42ca230b47804ed7467d1075 ""
   "IMAGE/FlashCards.png" 1734371648.66062 195580 9fd6bac3770c170cb89b322e55266d24 ""
   "IMAGE/FlashcardsLearn.png" 1734382817.04967 83720 549035a9d809e578d8587b0bba1d6740 ""
   "IMAGE/HomePage.png" 1734372120.81152 147008 94590073eacfb3db161e82a62127125d ""
@@ -363,8 +364,8 @@
   "IMAGE/Trancy.png" 1734179730.14126 1043195 8eb552854892774bcd0813598bb96db5 ""
   "IMAGE/WordBank.png" 1734371648.23651 66835 78350fb5794074f5adcd2619553a98e8 ""
   "IMAGE/videoPlayer.png" 1734371648.6076 895355 0a4bc960c5034ee76d8dd0dda924b58a ""
-  "TemplateCore/Dyplom.cls" 1733573168.26031 9514 3cb63b9f539630b9c9567cc64bc7a3c2 ""
-  "TemplateCore/Dyplom.sty" 1733573168.26031 6531 67f5f6adfff9e9ae7502fd8a0e480cdd ""
+  "TemplateCore/Dyplom.cls" 1734469448.84411 9419 e01bea620336ccdcaf6bd44a71f7199e ""
+  "TemplateCore/Dyplom.sty" 1734473023.11415 7068 4f39de19aace0fe1cd36294d92e3e242 ""
   "TemplateCore/PNG/HeadPL.png" 1733573168.33167 21569 7ff71d40949017aab1e6ce309be7503b ""
   "TemplateCore/PNG/inzhead.png" 1733573168.33167 88940 1c2f5347f8a44c61a8aebc1ad906f3ab ""
   (generated)

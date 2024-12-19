@@ -643,6 +643,9 @@ INPUT ./Chapters/Projekt.tex
 INPUT ./Chapters/Projekt.tex
 INPUT ./Chapters/Projekt.tex
 INPUT Chapters/Projekt.tex
+INPUT ./Chapters/PrzypadkiUzycia.tex
+INPUT ./Chapters/PrzypadkiUzycia.tex
+INPUT Chapters/PrzypadkiUzycia.tex
 INPUT ./IMAGE/DatabaseDiagram.png
 INPUT ./IMAGE/DatabaseDiagram.png
 INPUT ./IMAGE/DatabaseDiagram.png

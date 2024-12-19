@@ -13,7 +13,7 @@ Wirtualizacja listy w aplikacjach internetowych to technika, która optymalizuje
 \subsection*{Przykładowy kod JavaScript}
 Poniżej przedstawiono przykładowy kod tabeli Tanstack, który ilustruje operowanie na wierszach tabeli, takie jak śledzenie aktualnego do filmu wiersza napisów. Wiersz jest automatycznie przewijany do środkowego obszaru widocznego dla użytkownika, co ułatwia śledzenie napisów w czasie rzeczywistym. A index wiersza jest wybierany na podstawie czasu odtwarzania filmu, wybierany jest pierwszy wiersz na początek a potem przechodzi się na kolejny jeśli czas przekroczy wartość czasu w sekundach kolejnego wiersza.
 
-\begin{lstlisting}[ caption=Tablica Tanstack do wirtualizacji listy]
+\begin{lstlisting}[language=JavaScript, caption=Tablica Tanstack do wirtualizacji listy]
     export function DataTable<TData, TValue>({ captions, height }: { captions: Caption[], height: string }) {
         const [sorting, setSorting] = useState<SortingState>([]);
         const [currentIndex, setCurrentIndex] = useState<number>(0);

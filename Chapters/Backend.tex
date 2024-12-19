@@ -68,9 +68,8 @@ LibretTranslate to otwartoźródłowy system tłumaczenia maszynowego, który um
 \subsubsection{Integracja LibretTranslate}
 Integracja LibretTranslate w aplikacji została zrealizowana poprzez stworzenie funkcji w Next.js, która komunikuje się z API LibretTranslate. Dzięki temu możliwe jest wysyłanie napisów do przetłumaczenia oraz odbieranie przetłumaczonych wyników bezpośrednio w aplikacji. Poniżej przedstawiono przykładowy kod obsługujący tłumaczenie napisów za pomocą LibretTranslate:
 
-\begin{lstlisting}[ caption=Przykładowy kod integracji LibretTranslate w Next.js]
+\begin{lstlisting}[language=JavaScript, caption=Przykładowy kod integracji LibretTranslate w Next.js]
 import axios from 'axios';
-
 export default async function translateText(req, res) {
     async function translateSubtitleData(subtitleData: SubtitleData[], targetLang: string) {
     try {

@@ -40,7 +40,7 @@
 \setglossarysection{section}
 \makeglossaries
 \loadglsentries{Glossary}
-\ifnum\strcmp{\locallang}{PL} = 0 
+\ifnum\strcmp{\locallang}{PL} = 0
     \newcommand{\acronymstitle}{Wykaz skrótów i symboli}
 \else
     \newcommand{\acronymstitle}{List of Abbreviations and Symbols}
@@ -61,7 +61,7 @@
     \setromanfont{Latin Modern Roman}
     \setsansfont{Latin Modern Sans}
     \setmonofont{Latin Modern Mono}
-    
+
 \else
     \RequirePackage{lmodern}
     \renewcommand*\familydefault{\sfdefault}
@@ -81,17 +81,17 @@
 % -------------------------------------------------------------------
 \ifXeTeX
     \RequirePackage{polyglossia}
-    \ifnum\strcmp{\locallang}{PL} = 0 
+    \ifnum\strcmp{\locallang}{PL} = 0
         \setdefaultlanguage{polish}
     \else
         \setdefaultlanguage{english}
     \fi
     \setotherlanguage{polish}
     \setotherlanguage{english}
-  
+
 \else
     \RequirePackage[MeX]{polski}
-    \ifnum\strcmp{\locallang}{PL} = 0 
+    \ifnum\strcmp{\locallang}{PL} = 0
         \RequirePackage[english,polish]{babel}
         \selectlanguage{polish}
     \else
@@ -118,10 +118,10 @@
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \definecolor{mysamplecolor}{rgb}{0.123, 0.456, 0.789}
 
-\definecolor{Blue}{cmyk}{0.50, 0.30, 0, 0}            
-\definecolor{BlueLight}{cmyk}{0.14, 0.04, 0.03, 0}    
-\definecolor{BlueDark}{cmyk}{0.73, 0.55, 0.35, 0.32}  
-\definecolor{Orange}{cmyk}{0.02, 0.41, 0.94, 0}       
+\definecolor{Blue}{cmyk}{0.50, 0.30, 0, 0}
+\definecolor{BlueLight}{cmyk}{0.14, 0.04, 0.03, 0}
+\definecolor{BlueDark}{cmyk}{0.73, 0.55, 0.35, 0.32}
+\definecolor{Orange}{cmyk}{0.02, 0.41, 0.94, 0}
 \definecolor{Tangerine}{RGB}{255, 119, 0}
 \definecolor{Gold}{RGB}{255, 209, 0}
 \definecolor{Azure}{RGB}{0, 136, 255}
@@ -152,7 +152,7 @@
 % -------------------------------------------------------------------
 \RequirePackage{etoolbox}
 %\RequirePackage[titletoc]{appendix}
-\ifnum\strcmp{\locallang}{PL} = 0 
+\ifnum\strcmp{\locallang}{PL} = 0
     \newcommand{\appendiceslisttitle}{Spis załączników}
     \newcommand{\appendixprefix}{Załącznik}
 \else
@@ -166,7 +166,7 @@
 \newlength\docparskip
 \setlength{\docparskip}{\parskip}
 \setlist[itemize,1]{nosep,
-        label=$\bullet$,    
+    label=$\bullet$,
 }
 \setlist[itemize,2]{nosep,label=--}
 \setlist[itemize,3]{nosep,label=-}
@@ -218,7 +218,7 @@
     %\newcommand{\specjalnosclocal}{w~specjalności }
     \newcommand{\titlelocal}{\@title }
     \newcommand{\albumlocal}{numer~albumu }
-    \newcommand{\promotorlocal}{promotor}
+    \newcommand{\promotorlocal}{Promotor}
     \newcommand{\citylocal}{Opole, }
 \fi
 \ifnum\strcmp{\locallang}{EN} = 0
@@ -247,9 +247,9 @@
 
     \thispagestyle{empty}
     \begin{center}
-    \includegraphics[width=0.6\textwidth]{\poheader}
+        \includegraphics[width=0.6\textwidth]{\poheader}
         \vskip 3em
-       
+
         \vskip 3em
         \includegraphics[width=\linewidth]{\frontpageheader}
         \vskip 1em
@@ -291,28 +291,28 @@
     \thispagestyle{empty}
     \begin{center}
         \textbf{\large\@title}
-        
+
         \textbf{Streszczenie}
     \end{center}
     \@streszczeniepracy
-    
+
     \vskip 2em
     \noindent\textbf{Słowa kluczowe: }
     \@slowakluczowe
-    
+
 }
 
 % Abstract angielski
 \newcommand{\abstractpage}{
-    
+    \clearpage
     \thispagestyle{empty}
     \begin{center}
         \textbf{\large\@engtitle}
-        
+
         \textbf{Abstract}
     \end{center}
     \@thesisabstract
-    
+
     \vskip 2em
     \noindent\textbf{Keywords: }
     \@thesiskeywords
@@ -332,14 +332,14 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}}
 \newcommand{\frontpages}{
-    \counterwithout{lstlisting}{chapter} 
+    \counterwithout{lstlisting}{chapter}
     \pagestyle{empty}
     \maketitle
     \abstractpages
     \tableofcontents
-    
+
     \pagestyle{headings}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -354,20 +354,20 @@
     \printglossary[type=symbols,title={}]
 
 }   %
-   
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\newcommand{\tailpages}{
-    % wykaz symboli i skrótów
- %   \acronymslist
+% wykaz symboli i skrótów
+%   \acronymslist
 
-    % spis rysunków
-  %  \listoffigures
+% spis rysunków
+%  \listoffigures
 
-    % spis tabel
-   % \listoftables
+% spis tabel
+% \listoftables
 
-    %\easyappendices
+%\easyappendices
 %}
 
