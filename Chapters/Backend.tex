@@ -97,3 +97,15 @@ export default async function translateText(req, res) {
 \end{lstlisting}
 
 Funkcja \texttt{translateSubtitleData} przyjmuje dane napisów oraz język docelowy, a następnie wysyła zapytanie do API LibretTranslate w celu przetłumaczenia tekstu. Odpowiedź zawiera przetłumaczone napisy oraz wykryty język źródłowy, co pozwala na dalsze przetwarzanie danych w aplikacji.
+
+\subsection{Przetwarzanie języka naturalnego (NLP)}
+W pracy inżynierskiej zastosowano techniki lematyzacji oraz oznaczania części mowy (POS tagging) w ramach przetwarzania języka naturalnego (NLP). Obie te techniki odegrały kluczową rolę w analizie tekstu i umożliwiły bardziej precyzyjne przetwarzanie danych z napisów, przy zapisywaniu wybranych przez użytkownika słów do nauki, lub przy wyświetlaniu częstości występowania słów w napisach \cite{NLPforNLP}.
+
+\subsection*{Lematyzacja}
+Proces lematyzacji polega na sprowadzaniu różnych form gramatycznych wyrazów do ich podstawowej formy, zwanej lematem. Dzięki temu możliwe jest ujednolicenie wyrazów, które w zależności od kontekstu występują w różnych odmianach gramatycznych. Przykładowo, formy takie jak "chodzę", "chodził" czy "chodziliśmy" są sprowadzane do podstawowej formy "chodzić". Umożliwia to bardziej spójne analizowanie tekstów i wyciąganie wniosków na temat ich zawartości, np. poprzez obliczanie częstotliwości występowania poszczególnych słów \cite{NLPforNLP}.
+
+\subsection*{POS Tagging (oznaczanie części mowy)}
+Drugą techniką było oznaczanie części mowy, czyli przypisywanie każdemu słowu w tekście odpowiedniej etykiety gramatycznej (rzeczownik, czasownik, przymiotnik itd.)  \cite{NLPforNLP}. Dzięki temu możliwe było lepsze zrozumienie struktury zdań oraz funkcji słów w kontekście. Oznaczanie części mowy okazało się kluczowe w procesie analizy tekstu, umożliwiając podział słów na kategorie zależne od ich funkcji gramatycznej. W przyszłości może to być przydatne do tworzenia funkcji umożliwiających użytkownikom wybór nauki określonych kategorii słów, takich jak czasowniki czy przymiotniki itd.
+
+
+

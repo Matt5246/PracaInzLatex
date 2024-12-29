@@ -80,16 +80,25 @@ Poniżej przedstawiono przykładowe przypadki użycia dla aplikacji webowej wspo
 \subsection{Przypadek użycia: Nauka słówek}
 \begin{itemize}
     \item \textbf{Aktorzy:} Użytkownik
-    \item \textbf{Cel:} Nauka słówek za pomocą fiszek
+    \item \textbf{Cel:} Nauka słówek za pomocą fiszek lub quizu
     \item \textbf{Scenariusz:}
-          \begin{enumerate}
-              \item Użytkownik otwiera stronę nauki słówek (FlashCards).
-              \item Użytkownik wybiera zestaw fiszek do nauki.
-              \item System wyświetla fiszki z wybranego zestawu.
-              \item Użytkownik przegląda fiszki i próbuje odgadnąć tłumaczenie.
-              \item Użytkownik sprawdza poprawność tłumaczenia i ocenia swoją odpowiedź.
-              \item System zapisuje wynik i przechodzi do kolejnej fiszki.
+          \begin{itemize}
+              \item Użytkownik otwiera wybraną stronę nauki.
+              \item \textbf{Fiszki:}
+                    \begin{enumerate}
+                        \item Użytkownik wybiera zestaw fiszek do nauki.
+                        \item System wyświetla fiszki z wybranego zestawu.
+                        \item Użytkownik przegląda fiszki i próbuje odgadnąć tłumaczenie.
+                        \item Użytkownik sprawdza poprawność tłumaczenia i ocenia swoją odpowiedź.
+                    \end{enumerate}
+              \item \textbf{Quiz:}
+                    \begin{enumerate}
+                        \item Użytkownik wybiera ilość słówek do quizu.
+                        \item System wyświetla pytania quizowe z różnymi odpowiedziami.
+                        \item Użytkownik odpowiada na pytania quizowe.
+                        \item System sprawdza poprawność odpowiedzi i wyświetla wynik.
+                    \end{enumerate}
               \item Po zakończeniu nauki system zapisuje postępy.
-          \end{enumerate}
+          \end{itemize}
 \end{itemize}
 

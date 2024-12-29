@@ -29,38 +29,37 @@
 \contentsline {subsection}{\numberline {3.4.5}Strona Statystyk}{25}{subsection.3.4.5}%
 \contentsline {subsection}{\numberline {3.4.6}Strona logowania oraz rejestracji}{26}{subsection.3.4.6}%
 \contentsline {subsection}{\numberline {3.4.7}Strona oglądania filmów}{27}{subsection.3.4.7}%
-\contentsline {section}{\numberline {3.5}Podsumowanie}{27}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Implementacja}{28}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Wprowadzenie}{28}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Środowisko i narzędzia programistyczne}{28}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Środowisko programistyczne}{28}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Wybór technologii}{28}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Opis technologii}{29}{subsection.4.2.3}%
-\contentsline {subsubsection}{Next.js}{29}{section*.14}%
-\contentsline {subsubsection}{Python}{29}{section*.15}%
-\contentsline {subsubsection}{React Virtuoso}{30}{section*.16}%
-\contentsline {subsubsection}{Node.js}{30}{section*.17}%
-\contentsline {subsubsection}{MongoDB}{30}{section*.18}%
-\contentsline {subsubsection}{React.js}{30}{section*.19}%
-\contentsline {subsubsection}{Shadcn}{30}{section*.20}%
+\contentsline {subsubsection}{Next.js}{29}{section*.15}%
+\contentsline {subsubsection}{Python}{29}{section*.16}%
+\contentsline {subsubsection}{React Virtuoso}{30}{section*.17}%
+\contentsline {subsubsection}{Node.js}{30}{section*.18}%
+\contentsline {subsubsection}{MongoDB}{30}{section*.19}%
+\contentsline {subsubsection}{React.js}{30}{section*.20}%
+\contentsline {subsubsection}{Shadcn}{30}{section*.21}%
 \contentsline {section}{\numberline {4.3}Baza danych}{31}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Backend}{31}{section.4.4}%
-\contentsline {subsubsection}{Next.js}{31}{section*.21}%
+\contentsline {subsubsection}{Next.js}{31}{section*.22}%
 \contentsline {subsection}{\numberline {4.4.1}Struktura backendu w Next.js}{31}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Struktura backendu w Flask}{32}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}LibretTranslate}{33}{subsection.4.4.3}%
-\contentsline {subsubsection}{Integracja LibretTranslate}{33}{section*.22}%
-\contentsline {section}{\numberline {4.5}Frontend}{34}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Struktura projektu}{34}{subsection.4.5.1}%
+\contentsline {subsubsection}{Integracja LibretTranslate}{33}{section*.23}%
+\contentsline {subsection}{\numberline {4.4.4}Przetwarzanie języka naturalnego (NLP)}{34}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Frontend}{35}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Struktura projektu}{35}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Panel nauki Fiszek}{36}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Problemy implementacyjne}{37}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Wirtualizacja List}{37}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Przetwarzanie języka naturalnego (NLP)}{40}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.5.3}Wirtualizacja List}{37}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Problemy implementacyjne}{40}{section.4.6}%
 \contentsline {chapter}{\numberline {5}Podsumowanie}{41}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Wnioski}{41}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Kierunki dalszego rozwoju}{41}{section.5.2}%
-\contentsline {chapter}{Bibliografia}{41}{section*.32}%
-\contentsline {chapter}{Spis rysunków}{43}{chapter*.34}%
-\contentsline {chapter}{Spis tabel}{44}{chapter*.35}%
+\contentsline {chapter}{Bibliografia}{41}{section*.33}%
+\contentsline {chapter}{Spis rysunków}{43}{chapter*.35}%
+\contentsline {chapter}{Spis tabel}{44}{chapter*.36}%
 \xpginauxfilefalse 
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.7)  19 DEC 2024 21:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.12.7)  29 DEC 2024 23:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1612,10 +1612,11 @@ File: IMAGE/HomePage.png Graphic file (type bmp)
  [19]
 File: IMAGE/FlashCards.png Graphic file (type bmp)
 <IMAGE/FlashCards.png>
- [20]
+File: IMAGE/Quiz.png Graphic file (type bmp)
+<IMAGE/Quiz.png>
+ [20] [21]
 File: IMAGE/Subtitles.png Graphic file (type bmp)
 <IMAGE/Subtitles.png>
- [21]
 File: IMAGE/SubtitlesSelected.png Graphic file (type bmp)
 <IMAGE/SubtitlesSelected.png>
  [22]
@@ -1648,10 +1649,10 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 LaTeX Font Warning: Font shape `TU/LatinModernMono(0)/b/n' undefined
 (Font)              using `TU/LatinModernMono(0)/m/n' instead on input line 36.
 
-[32] [33]) [34]
+[32] [33]) [34] [35]
 File: IMAGE/FlashcardsLearn.png Graphic file (type bmp)
 <IMAGE/FlashcardsLearn.png>
- [35] [36] (./Chapters/ProblemyImplementacyjne.tex [37] [38] [39])) [40]
+ [36] [37] [38] [39] (./Chapters/ProblemyImplementacyjne.tex)) [40]
 Rozdział 5.
 (./Chapters/Podsumowanie.tex))
 
@@ -1704,9 +1705,12 @@ LaTeX Info: Redefining \ttfamily on input line 25.
 LaTeX Info: Redefining \rmfamily on input line 27.
 LaTeX Info: Redefining \sffamily on input line 27.
 LaTeX Info: Redefining \ttfamily on input line 27.
-LaTeX Info: Redefining \rmfamily on input line 30.
-LaTeX Info: Redefining \sffamily on input line 30.
-LaTeX Info: Redefining \ttfamily on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 29.
+LaTeX Info: Redefining \sffamily on input line 29.
+LaTeX Info: Redefining \ttfamily on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 32.
+LaTeX Info: Redefining \sffamily on input line 32.
+LaTeX Info: Redefining \ttfamily on input line 32.
 )
 \tf@lof=\write11
 \openout11 = `Dyplom.lof'.
@@ -1757,9 +1761,12 @@ LaTeX Info: Redefining \ttfamily on input line 15.
 LaTeX Info: Redefining \rmfamily on input line 16.
 LaTeX Info: Redefining \sffamily on input line 16.
 LaTeX Info: Redefining \ttfamily on input line 16.
-LaTeX Info: Redefining \rmfamily on input line 18.
-LaTeX Info: Redefining \sffamily on input line 18.
-LaTeX Info: Redefining \ttfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 17.
+LaTeX Info: Redefining \sffamily on input line 17.
+LaTeX Info: Redefining \ttfamily on input line 17.
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
 )
 \tf@lot=\write12
 \openout12 = `Dyplom.lot'.
@@ -1799,18 +1806,18 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Dyplom.out' has not changed.
-(rerunfilecheck)             Checksum: 026C988C1F8910AB57E945C9256013F8;7753.
+(rerunfilecheck)             Checksum: B58C220D91982F21A8B2CC3D6CDB41F3;7638.
 Package logreq Info: Writing requests to 'Dyplom.run.xml'.
 \openout1 = `Dyplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 70957 strings out of 474878
- 1736423 string characters out of 5762516
- 3511660 words of memory out of 5000000
- 91950 multiletter control sequences out of 15000+600000
- 563766 words of font info for 119 fonts, out of 8000000 for 9000
+ 70963 strings out of 474878
+ 1736485 string characters out of 5762516
+ 3450715 words of memory out of 5000000
+ 91956 multiletter control sequences out of 15000+600000
+ 563758 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,131p,2399b,5026s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Dyplom.xdv (45 pages, 747956 bytes).
+Output written on Dyplom.xdv (45 pages, 752784 bytes).

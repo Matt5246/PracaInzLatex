@@ -101,6 +101,89 @@ W panelu nauki użytkownik ma dostęp do różnych zestawów fiszek, które mog�
 
 Dzięki zastosowaniu systemu SRS, panel nauki w aplikacji zapewnia skuteczną metodę nauki języka, która pozwala na osiąganie lepszych wyników w krótszym czasie. System automatycznie dostosowuje interwały powtórek na podstawie wyników użytkownika, co optymalizuje proces nauki bez konieczności ręcznej ingerencji.
 
+\subsection{Wirtualizacja List}
+Wirtualizacja listy w aplikacjach internetowych to technika, która optymalizuje renderowanie długich list danych. Bez niej aplikacja renderuje wszystkie elementy listy na raz, co może prowadzić do problemów z wydajnością, zwłaszcza gdy lista jest duża. Virtualizacja polega na renderowaniu jedynie tych elementów, które aktualnie są widoczne w przeglądarce użytkownika, dzięki czemu zużycie zasobów jest minimalne, a aplikacja działa płynniej. Bez wirtualizacji listy, użytkownik mógłby doświadczać opóźnień w interakcji z interfejsem, tym większych im dłuższa lista danych przy 2 tysiącach wierszy opóźnienie stawało się uciążliwe ponieważ czekało sie pare sekund na reakcje interfejsu listy i pokazanie okna dodawania trudnych słów do systemu.
+
+\subsection*{Mechanizm działania wirtualizacji listy}
+\begin{itemize}
+    \item \textbf{Obserwacja widocznych elementów:} Komponent śledzi pozycję widoku użytkownika w liście. Renderowane są tylko te elementy, które mieszczą się w aktualnie widocznym obszarze (viewport) oraz kilka dodatkowych elementów „na zapas” wokół tego obszaru.
+    \item \textbf{Renderowanie na żądanie:} Gdy użytkownik przewija listę, niewidoczne elementy są dynamicznie usuwane z DOM-u, a nowe – wczytywane na ich miejsce.
+    \item \textbf{Stała wysokość elementów (lub szacowana):} Dla prawidłowego działania, komponent wirtualizujący często wymaga, aby elementy listy miały stałą lub przynajmniej przewidywalną wysokość. Dzięki temu może łatwo obliczać, które elementy powinny być aktualnie wyświetlane.
+    \item \textbf{Oszczędność zasobów:} Dzięki renderowaniu tylko niewielkiej liczby elementów, zmniejsza się zużycie pamięci i obciążenie procesora, co prowadzi do szybszego działania aplikacji.
+\end{itemize}
+\subsection*{Przykładowy kod JavaScript}
+Poniżej przedstawiono przykładowy kod tabeli Tanstack, który ilustruje operowanie na wierszach tabeli, takie jak śledzenie aktualnego do filmu wiersza napisów. Wiersz jest automatycznie przewijany do środkowego obszaru widocznego dla użytkownika, co ułatwia śledzenie napisów w czasie rzeczywistym. A index wiersza jest wybierany na podstawie czasu odtwarzania filmu, wybierany jest pierwszy wiersz na początek a potem przechodzi się na kolejny jeśli czas przekroczy wartość czasu w sekundach kolejnego wiersza.
+
+\begin{lstlisting}[language=JavaScript, caption=Tablica Tanstack do wirtualizacji listy]
+    export function DataTable<TData, TValue>({ captions, height }: { captions: Caption[], height: string }) {
+        const [sorting, setSorting] = useState<SortingState>([]);
+        const [currentIndex, setCurrentIndex] = useState<number>(0);
+        const playedSeconds = useSelector((state: any) => state.subtitle.playedSeconds);
+        const autoScrollEnabled = useSelector((state: any) => state.subtitle.autoScrollEnabled);
+        const tableRef = useRef<TableVirtuosoHandle>(null);
+        const table = useReactTable({
+            data: captions,
+            columns: columns,
+            state: {
+                sorting,
+            },
+            onSortingChange: setSorting,
+            getCoreRowModel: getCoreRowModel(),
+            getSortedRowModel: getSortedRowModel(),
+        });
+        const { rows } = table.getRowModel()
+        useEffect(() => {
+            if (rows.length > 0) {
+                let newIndex = -1;
+                for (let i = 0; i < rows.length; i++) {
+                    const row = rows[i];
+                    const startTime = row.original.start ?? 0;
+                    const nextStartTime = rows[i + 1]?.original.start ?? Infinity;
+                    if (playedSeconds >= startTime && playedSeconds < nextStartTime) {
+                        newIndex = i;
+                        break;
+                    }
+                }
+
+                if (newIndex === -1) {
+                    newIndex = 0;
+                }
+                setCurrentIndex(newIndex);
+                if (autoScrollEnabled && tableRef.current && newIndex !== -1) {
+                    tableRef.current.scrollToIndex({
+                        index: newIndex,
+                        align: "center",
+                        behavior: "smooth",
+                    });
+                }
+            }
+        }, [playedSeconds, rows, autoScrollEnabled]);
+\end{lstlisting}
+
+\subsection*{Dlaczego React Virtuoso}
+React Virtuoso jest biblioteką do wirtualizacji list, która znacznie upraszcza implementację tego mechanizmu w React. Automatycznie obsługuje:
+\begin{itemize}
+    \item \textbf{Przewijanie:} Zajmuje się wykrywaniem widocznych elementów, reagując na przewijanie użytkownika.
+    \item \textbf{Niestandardowe wysokości elementów:} Obsługuje zarówno stałe, jak i zmienne wysokości elementów, co czyni go bardziej elastycznym.
+    \item \textbf{Lazy loading:} Umożliwia ładowanie danych w locie, co jest kluczowe dla dużych list z elementami, które mogą być dynamicznie ładowane z serwera.
+\end{itemize}
+
+\subsection*{Zastosowania}
+Virtualizacja listy jest szczególnie przydatna w przypadku:
+\begin{itemize}
+    \item \textbf{Długich list:} Kiedy lista zawiera setki lub tysiące elementów.
+    \item \textbf{Aplikacji mobilnych:} Gdzie zasoby są ograniczone i każda optymalizacja wydajności jest istotna.
+    \item \textbf{Interfejsów użytkownika z dużą ilością dynamicznych danych:} Takich jak portale społecznościowe, aplikacje e-commerce czy dashboardy.
+\end{itemize}
+
+\subsection*{Wady}
+Mimo licznych zalet, wirtualizacja listy ma również pewne wady:
+\begin{itemize}
+    \item \textbf{Złożoność implementacji:} Wprowadzenie wirtualizacji może wymagać dodatkowego kodu i konfiguracji, co może zwiększyć złożoność projektu.
+    \item \textbf{Problemy z dostępnością:} Renderowanie dynamiczne może wpływać na narzędzia do czytania ekranu i inne technologie wspomagające, co może utrudniać dostępność aplikacji.
+\end{itemize}
+
+Wykorzystanie React Virtuoso przyczyniło się do poprawy wydajności i płynności interfejsu użytkownika  aplikacji, co miało kluczowe znaczenie dla zadowolenia użytkowników i jakości doświadczenia użytkownika.
 
 \input{Chapters/ProblemyImplementacyjne.tex}
 
