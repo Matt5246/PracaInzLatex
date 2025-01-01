@@ -1,3 +1,13 @@
+
 \section{Problemy implementacyjne}
+\subsection{Zacinający się interfejs tablicy napisów}
+
+Podczas implementacji napotkano problem zacinającego się interfejsu tablicy napisów. Problem ten wynika z braku wirtualizacji listy, która polega na renderowaniu jedynie tych elementów, które są aktualnie widoczne na ekranie, zamiast renderowania całej listy na raz. Brak tej optymalizacji powoduje, że interfejs staje się mniej responsywny, zwłaszcza gdy lista zawiera dużą liczbę elementów.
+
+W celu rozwiązania tego problemu, konieczne jest zaimplementowanie mechanizmu wirtualizacji, który dynamicznie renderuje i usuwa elementy listy w miarę przewijania. Dzięki temu interfejs będzie działał płynnie, a użytkownik nie będzie doświadczał opóźnień ani zacięć.
+
+\subsection{Błędy w tłumaczeniach}
+
+Podczas testowania aplikacji napotkano problemy z jakością tłumaczeń maszynowych. W niektórych przypadkach tłumaczenia były niepoprawne lub niezrozumiałe, co utrudniało korzystanie z aplikacji. Problem ten wynika z ograniczeń algorytmów tłumaczenia maszynowego, które nie zawsze są w stanie zapewnić dokładne i precyzyjne tłumaczenia. Jedyne rozwiązanie tego problemu to danie użytkownikowi możliwości ręcznego edytowania tłumaczeń, co pozwoli na poprawienie błędów i dostosowanie tłumaczeń do własnych potrzeb.
 
 

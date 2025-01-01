@@ -3,7 +3,7 @@
 Backend aplikacji został zrealizowany przy użyciu dwóch technologii: Next.js oraz Flask. Każda z tych technologii pełni inną rolę w architekturze aplikacji, co pozwala na wykorzystanie ich mocnych stron w Flask został wykonany moduł pełniący funkcje lemmatyzacji i pos taggingu ponieważ modele NLP są tam bardzo mocno rozwinięte. W Next.js zostały wykonane endpointy do komunikacji z bazą danych oraz do obsługi logiki biznesowej aplikacji. Dzięki temu możliwe jest oddzielenie części serwerowej od frontendowej, co pozwala wykorzystać zalety szybkiego serwowania stron statycznych. Poniżej przedstawiono architekturę backendu z wykorzystaniem Next.js i Flask. Dodatkowo został wykorzystany moduł LibretTranslate do tłumaczenia maszynowego w aplikacji.
 
 \subsubsection{Next.js}
-Next.js jest wykorzystywany do obsługi części serwerowej aplikacji, która jest odpowiedzialna za renderowanie stron po stronie serwera (server-side rendering) oraz generowanie statycznych stron (static site generation). Dzięki temu aplikacja jest szybka i przyjazna dla SEO. Next.js umożliwia również łatwe zarządzanie ścieżkami strony które są wyświetlane w pasku url przeglądarki. Głównym celem w projekcie jest obsługa żądań HTTP, komunikacja z bazą danych MongoDB oraz wykonywanie operacji związanych z komunikacją z modułami NLP w Flask jak i modułem LibretTranslate do tłumaczenia maszynowego w aplikacji. Next.js oferuje również wsparcie dla różnych metod autoryzacji i uwierzytelniania, co zapewnia bezpieczeństwo aplikacji jak i szybkość działania i implementacji.
+Next.js jest wykorzystywany do obsługi części serwerowej aplikacji, która jest odpowiedzialna za renderowanie stron po stronie serwera (server-side rendering) oraz generowanie statycznych stron (static site generation) \cite{bui2023next}. Dzięki temu aplikacja jest szybka i przyjazna dla SEO. Next.js umożliwia również łatwe zarządzanie ścieżkami strony które są wyświetlane w pasku url przeglądarki. Głównym celem w projekcie jest obsługa żądań HTTP, komunikacja z bazą danych MongoDB oraz wykonywanie operacji związanych z komunikacją z modułami NLP w Flask jak i modułem LibretTranslate do tłumaczenia maszynowego w aplikacji. Next.js oferuje również wsparcie dla różnych metod autoryzacji i uwierzytelniania, co zapewnia bezpieczeństwo aplikacji jak i szybkość działania i implementacji \cite{bugl2024modern}.
 \subsection{Struktura backendu w Next.js}
 Struktura backendu w Next.js została podzielona na kilka głównych katalogów, z których każdy odpowiada za określoną część aplikacji. Wszystkie pliki związane z budową backendu znajdują się w katalogu \texttt{src/app/api}, który zawiera następujące podkatalogi:
 
@@ -18,7 +18,7 @@ Struktura backendu w Next.js została podzielona na kilka głównych katalogów,
 \end{itemize}
 
 \subsection{Struktura backendu w Flask}
-Flask jest wykorzystywany do tworzenia API oraz logiki biznesowej aplikacji. Flask to lekki framework webowy dla Pythona, który umożliwia szybkie tworzenie i rozwijanie aplikacji webowych. W projekcie Flask jest odpowiedzialny za przetwarzanie żądań HTTP, oraz wykonywanie operacji związanych z przetwarzaniem języka naturalnego (NLP).
+Flask jest wykorzystywany do tworzenia API oraz logiki biznesowej aplikacji. Flask to lekki framework webowy dla Pythona, który umożliwia szybkie tworzenie i rozwijanie aplikacji webowych. W projekcie Flask jest odpowiedzialny za przetwarzanie żądań HTTP, oraz wykonywanie operacji związanych z przetwarzaniem języka naturalnego (NLP) \cite{fountoulakis2024evaluating} \cite{abusahyon2023ai}.
 użyte do tego zostały modele:
 
 \begin{lstlisting}[language=Python, caption=kod do importowania modeli NLP]
@@ -57,7 +57,7 @@ zostały one użyte do przetwarzania języka naturalnego w aplikacji. Dzięki te
         return {'result': tokens_with_pos}
 \end{lstlisting}
 
-% Funkcja \texttt{analyze_text} przyjmuje żądanie zawierające słowo oraz język źródłowy,
+Funkcja \texttt{analyze\_text} przyjmuje żądanie zawierające słowo oraz język źródłowy,
 a następnie przetwarza tekst przy użyciu odpowiedniego modelu językowego. W przypadku braku określenia języka źródłowego lub podania nieobsługiwanego języka, zwracany jest odpowiedni komunikat błędu.
 Wynikiem przetwarzania jest lemat naszego słowa oraz oznaczenie części mowy w obu przypadkach wybrane są te najbardziej prawdopobone w przetworzonym dokumencie który zwrócił model NLP.
 

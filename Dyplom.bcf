@@ -2365,11 +2365,30 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Dyplom.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">nextjs</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">nextjs</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">NLPforNLP</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">NLPforNLP</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">NLPforNLP</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">tekalp2023effects</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">ko2014learner</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">talavan2006using</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">6827214</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">bui2023next</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">tekalp2023effects</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">kovacs2014smart</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">talavan2006using</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">mallett2012benefits</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">nextjs</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">nextjs</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">bui2023next</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">bugl2024modern</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">dinku2022react</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">bui2023next</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">bugl2024modern</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">fountoulakis2024evaluating</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">abusahyon2023ai</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">NLPforNLP</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">NLPforNLP</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">NLPforNLP</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">mallett2012benefits</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">mallett2012benefits</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">weng2004approach</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -42,24 +42,24 @@
 \contentsline {subsubsection}{MongoDB}{30}{section*.19}%
 \contentsline {subsubsection}{React.js}{30}{section*.20}%
 \contentsline {subsubsection}{Shadcn}{30}{section*.21}%
-\contentsline {section}{\numberline {4.3}Baza danych}{31}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Backend}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.3}Backend}{31}{section.4.3}%
 \contentsline {subsubsection}{Next.js}{31}{section*.22}%
-\contentsline {subsection}{\numberline {4.4.1}Struktura backendu w Next.js}{31}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Struktura backendu w Flask}{32}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}LibretTranslate}{33}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Struktura backendu w Next.js}{31}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Struktura backendu w Flask}{31}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}LibretTranslate}{33}{subsection.4.3.3}%
 \contentsline {subsubsection}{Integracja LibretTranslate}{33}{section*.23}%
-\contentsline {subsection}{\numberline {4.4.4}Przetwarzanie języka naturalnego (NLP)}{34}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Frontend}{35}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Struktura projektu}{35}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Panel nauki Fiszek}{36}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Wirtualizacja List}{37}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Problemy implementacyjne}{40}{section.4.6}%
+\contentsline {subsection}{\numberline {4.3.4}Przetwarzanie języka naturalnego (NLP)}{34}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Frontend}{34}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Struktura projektu}{34}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Panel nauki Fiszek}{36}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Wirtualizacja List}{37}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Problemy implementacyjne}{40}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Zacinający się interfejs tablicy napisów}{40}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Błędy w tłumaczeniach}{40}{subsection.4.5.2}%
 \contentsline {chapter}{\numberline {5}Podsumowanie}{41}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Wnioski}{41}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Kierunki dalszego rozwoju}{41}{section.5.2}%
-\contentsline {chapter}{Bibliografia}{41}{section*.33}%
-\contentsline {chapter}{Spis rysunków}{43}{chapter*.35}%
-\contentsline {chapter}{Spis tabel}{44}{chapter*.36}%
+\contentsline {chapter}{Bibliografia}{42}{section*.33}%
+\contentsline {chapter}{Spis rysunków}{45}{chapter*.35}%
 \xpginauxfilefalse 
 \contentsfinish 

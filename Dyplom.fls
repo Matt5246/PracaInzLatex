@@ -709,10 +709,6 @@ INPUT ./Dyplom.lof
 INPUT ./Dyplom.lof
 INPUT Dyplom.lof
 OUTPUT Dyplom.lof
-INPUT ./Dyplom.lot
-INPUT ./Dyplom.lot
-INPUT Dyplom.lot
-OUTPUT Dyplom.lot
 INPUT ./Dyplom.lol
 INPUT ./Dyplom.lol
 INPUT Dyplom.lol

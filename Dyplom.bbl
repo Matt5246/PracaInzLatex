@@ -19,6 +19,286 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{abusahyon2023ai}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0c9c3de532d882d14d77a41916c9414e}{%
+           family={AbuSahyon},
+           familyi={A\bibinitperiod},
+           given={ASAE},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f42b3e704973fe686460865b91532cfc}{%
+           family={Alzyoud},
+           familyi={A\bibinitperiod},
+           given={Abdelhadi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1c73341c5a314acb0e87f761001b9814}{%
+           family={Alshorman},
+           familyi={A\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1a32fa78ff624fa12ebb1655b5bf6185}{%
+           family={Al-Absi},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={Basim},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{419dcf2e0a80b86a335928c861e19720}
+      \strng{fullhash}{68a808b0c3f053a817326eb31069da4a}
+      \strng{bibnamehash}{68a808b0c3f053a817326eb31069da4a}
+      \strng{authorbibnamehash}{68a808b0c3f053a817326eb31069da4a}
+      \strng{authornamehash}{419dcf2e0a80b86a335928c861e19720}
+      \strng{authorfullhash}{68a808b0c3f053a817326eb31069da4a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Membrane Science and Technology}
+      \field{number}{1}
+      \field{title}{AI-driven Technology and Chatbots as Tools for Enhancing English Language Learning in the Context of Second Language Acquisition: A Review Study}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{pages}{1209\bibrangedash 1223}
+      \range{pages}{15}
+    \endentry
+    \entry{bugl2024modern}{book}{}
+      \name{author}{1}{}{%
+        {{hash=101b8e47361981e22b3224aeaf03740f}{%
+           family={Bugl},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{101b8e47361981e22b3224aeaf03740f}
+      \strng{fullhash}{101b8e47361981e22b3224aeaf03740f}
+      \strng{bibnamehash}{101b8e47361981e22b3224aeaf03740f}
+      \strng{authorbibnamehash}{101b8e47361981e22b3224aeaf03740f}
+      \strng{authornamehash}{101b8e47361981e22b3224aeaf03740f}
+      \strng{authorfullhash}{101b8e47361981e22b3224aeaf03740f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modern Full-Stack React Projects: Build, maintain, and deploy modern web apps using MongoDB, Express, React, and Node. js}
+      \field{year}{2024}
+    \endentry
+    \entry{bui2023next}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3f2053e8d0527c4fcc20cd05c190dd3e}{%
+           family={Bui},
+           familyi={B\bibinitperiod},
+           given={Duy\bibnamedelima Dinh},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e0b01638b962d9656b186181ac6edee2}{%
+           family={Bui},
+           familyi={B\bibinitperiod},
+           given={Dinh},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3677a3022403434ffe4abe6cdbab4}
+      \strng{fullhash}{b3b3677a3022403434ffe4abe6cdbab4}
+      \strng{bibnamehash}{b3b3677a3022403434ffe4abe6cdbab4}
+      \strng{authorbibnamehash}{b3b3677a3022403434ffe4abe6cdbab4}
+      \strng{authornamehash}{b3b3677a3022403434ffe4abe6cdbab4}
+      \strng{authorfullhash}{b3b3677a3022403434ffe4abe6cdbab4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Next. Js for Front-End and Compatible Backend Solutions}
+      \field{year}{2023}
+    \endentry
+    \entry{dinku2022react}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6b57cb112153c8ab2f08a5016737b3fa}{%
+           family={Dinku},
+           familyi={D\bibinitperiod},
+           given={Zerihun},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b57cb112153c8ab2f08a5016737b3fa}
+      \strng{fullhash}{6b57cb112153c8ab2f08a5016737b3fa}
+      \strng{bibnamehash}{6b57cb112153c8ab2f08a5016737b3fa}
+      \strng{authorbibnamehash}{6b57cb112153c8ab2f08a5016737b3fa}
+      \strng{authornamehash}{6b57cb112153c8ab2f08a5016737b3fa}
+      \strng{authorfullhash}{6b57cb112153c8ab2f08a5016737b3fa}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{React. js vs. Next. js}
+      \field{year}{2022}
+    \endentry
+    \entry{fountoulakis2024evaluating}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4b162f10bf0d9f794ac6569935748134}{%
+           family={Fountoulakis},
+           familyi={F\bibinitperiod},
+           given={Michail\bibnamedelima St},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b162f10bf0d9f794ac6569935748134}
+      \strng{fullhash}{4b162f10bf0d9f794ac6569935748134}
+      \strng{bibnamehash}{4b162f10bf0d9f794ac6569935748134}
+      \strng{authorbibnamehash}{4b162f10bf0d9f794ac6569935748134}
+      \strng{authornamehash}{4b162f10bf0d9f794ac6569935748134}
+      \strng{authorfullhash}{4b162f10bf0d9f794ac6569935748134}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Second and Foreign Language Education}
+      \field{number}{1}
+      \field{title}{Evaluating the impact of AI tools on language proficiency and intercultural communication in second language education}
+      \field{volume}{3}
+      \field{year}{2024}
+      \field{pages}{12\bibrangedash 26}
+      \range{pages}{15}
+    \endentry
+    \entry{6827214}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a7c444f03adfd085d72b56717baaf9f2}{%
+           family={Ibáñez},
+           familyi={I\bibinitperiod},
+           given={María-Blanca},
+           giveni={M\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=853558d441f0029da3243a6e62cdf256}{%
+           family={Di-Serio},
+           familyi={D\bibinithyphendelim S\bibinitperiod},
+           given={Ángela},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=19ff4e4fb13815dd5f941aabe6f6fe69}{%
+           family={Delgado-Kloos},
+           familyi={D\bibinithyphendelim K\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc88b8bb09230b54c31f2084317aed60}
+      \strng{fullhash}{67553d3aa0eb6a9a2f84caf904468e9d}
+      \strng{bibnamehash}{67553d3aa0eb6a9a2f84caf904468e9d}
+      \strng{authorbibnamehash}{67553d3aa0eb6a9a2f84caf904468e9d}
+      \strng{authornamehash}{dc88b8bb09230b54c31f2084317aed60}
+      \strng{authorfullhash}{67553d3aa0eb6a9a2f84caf904468e9d}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Learning Technologies}
+      \field{number}{3}
+      \field{title}{Gamification for Engaging Computer Science Students in Learning Activities: A Case Study}
+      \field{volume}{7}
+      \field{year}{2014}
+      \field{pages}{291\bibrangedash 301}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TLT.2014.2329293
+      \endverb
+      \keyw{Games;Education;Computer languages;Planning;Electronic mail;Communities;E-learning;engagement;game mechanics;game dynamics;gamification}
+    \endentry
+    \entry{ko2014learner}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fce89aa056db850f3c504d51975ae097}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={Myong\bibnamedelima Hee},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {한국멀티미디어언어교육학회}%
+      }
+      \strng{namehash}{fce89aa056db850f3c504d51975ae097}
+      \strng{fullhash}{fce89aa056db850f3c504d51975ae097}
+      \strng{bibnamehash}{fce89aa056db850f3c504d51975ae097}
+      \strng{authorbibnamehash}{fce89aa056db850f3c504d51975ae097}
+      \strng{authornamehash}{fce89aa056db850f3c504d51975ae097}
+      \strng{authorfullhash}{fce89aa056db850f3c504d51975ae097}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Multimedia-Assisted Language Learning}
+      \field{number}{3}
+      \field{title}{Learner perceptions and preferences of device type in vocabulary learning}
+      \field{volume}{17}
+      \field{year}{2014}
+      \field{pages}{37\bibrangedash 68}
+      \range{pages}{32}
+    \endentry
+    \entry{kovacs2014smart}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=8bb2312d07e740b469f1ed73f2f654b7}{%
+           family={Kovacs},
+           familyi={K\bibinitperiod},
+           given={Geza},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7b87d608ec2ce09a14734691e21ed730}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6fa3298c9d660e33acf3cddf8e11c503}
+      \strng{fullhash}{6fa3298c9d660e33acf3cddf8e11c503}
+      \strng{bibnamehash}{6fa3298c9d660e33acf3cddf8e11c503}
+      \strng{authorbibnamehash}{6fa3298c9d660e33acf3cddf8e11c503}
+      \strng{authornamehash}{6fa3298c9d660e33acf3cddf8e11c503}
+      \strng{authorfullhash}{6fa3298c9d660e33acf3cddf8e11c503}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the SIGCHI conference on human factors in computing systems}
+      \field{title}{Smart subtitles for vocabulary learning}
+      \field{year}{2014}
+      \field{pages}{853\bibrangedash 862}
+      \range{pages}{10}
+    \endentry
+    \entry{mallett2012benefits}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8472ae4323bd9b226d2563aca2b1a07a}{%
+           family={Mallett},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4e86781acc55d1cf919267e470f1b0fe}{%
+           family={Hagen-Zanker},
+           familyi={H\bibinithyphendelim Z\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c11e0272539a159d7f4ef904c9d01468}{%
+           family={Slater},
+           familyi={S\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=015e528e2ddde9698446fcb5b3045422}{%
+           family={Duvendack},
+           familyi={D\bibinitperiod},
+           given={Maren},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{971d6b000c4f915d5432f7f15b2dd8ce}
+      \strng{fullhash}{7d89a1b483d27928402133bd708cc152}
+      \strng{bibnamehash}{7d89a1b483d27928402133bd708cc152}
+      \strng{authorbibnamehash}{7d89a1b483d27928402133bd708cc152}
+      \strng{authornamehash}{971d6b000c4f915d5432f7f15b2dd8ce}
+      \strng{authorfullhash}{7d89a1b483d27928402133bd708cc152}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of development effectiveness}
+      \field{number}{3}
+      \field{title}{The benefits and challenges of using systematic reviews in international development research}
+      \field{volume}{4}
+      \field{year}{2012}
+      \field{pages}{445\bibrangedash 455}
+      \range{pages}{11}
+    \endentry
     \entry{NLPforNLP}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=7147443179f5f0b00a44986a0f561f4d}{%
@@ -97,6 +377,120 @@
       \verb{url}
       \verb https://nextjs.org/docs
       \endverb
+    \endentry
+    \entry{talavan2006using}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=d591e21d36f6e711d25ed0e6dbcf6731}{%
+           family={Talaván\bibnamedelima Zanón},
+           familyi={T\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Noa},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de Granada}%
+      }
+      \strng{namehash}{e25f6ab649f338a6a097206408f3d6c0}
+      \strng{fullhash}{e25f6ab649f338a6a097206408f3d6c0}
+      \strng{bibnamehash}{e25f6ab649f338a6a097206408f3d6c0}
+      \strng{authorbibnamehash}{e25f6ab649f338a6a097206408f3d6c0}
+      \strng{authornamehash}{e25f6ab649f338a6a097206408f3d6c0}
+      \strng{authorfullhash}{e25f6ab649f338a6a097206408f3d6c0}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using subtitles to enhance foreign language learning}
+      \field{year}{2006}
+    \endentry
+    \entry{tekalp2023effects}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5b41d3df55af5193af3600217c1171ad}{%
+           family={Tekalp},
+           familyi={T\bibinitperiod},
+           given={Selen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=37bfc2951a548b330c0db55d470a197a}{%
+           family={Yerlikaya},
+           familyi={Y\bibinitperiod},
+           given={Serde},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9fcdcbff51f5ffa1fa183545326e6485}{%
+           family={Polat},
+           familyi={P\bibinitperiod},
+           given={Sibel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2bdaff91eab6fa2ca9ffd6941e91ef5c}
+      \strng{fullhash}{9d4fb47c5ae6c5bc067d9ae184aa9ead}
+      \strng{bibnamehash}{9d4fb47c5ae6c5bc067d9ae184aa9ead}
+      \strng{authorbibnamehash}{9d4fb47c5ae6c5bc067d9ae184aa9ead}
+      \strng{authornamehash}{2bdaff91eab6fa2ca9ffd6941e91ef5c}
+      \strng{authorfullhash}{9d4fb47c5ae6c5bc067d9ae184aa9ead}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Note}
+      \field{number}{1}
+      \field{title}{The Effects of Subtitles on Language Learning}
+      \field{volume}{2}
+      \field{year}{2023}
+      \field{pages}{14}
+      \range{pages}{1}
+    \endentry
+    \entry{weng2004approach}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=7ba3dd3d23e4e39164dc896b459e0974}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=afee460d27bc28b3de96de41aa9fd2b4}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Gagan},
+           giveni={G\bibinitperiod}}}%
+        {{hash=018173421f7055b98c4be896a1a62441}{%
+           family={Catalyurek},
+           familyi={C\bibinitperiod},
+           given={Umit},
+           giveni={U\bibinitperiod}}}%
+        {{hash=87a2fdde29a9d26815b282b320e3e525}{%
+           family={Kur},
+           familyi={K\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=68b11397d8fe9a7d9347252d29d6dc7f}{%
+           family={Narayanan},
+           familyi={N\bibinitperiod},
+           given={Sivaramakrishnan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=53f8a393b098b67a3d649267830c2285}{%
+           family={Saltz},
+           familyi={S\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7601c70a2c933e92e6576dcd57742759}
+      \strng{fullhash}{2c8dfeb7b54faf6b427c93cb453f03b4}
+      \strng{bibnamehash}{2c8dfeb7b54faf6b427c93cb453f03b4}
+      \strng{authorbibnamehash}{2c8dfeb7b54faf6b427c93cb453f03b4}
+      \strng{authornamehash}{7601c70a2c933e92e6576dcd57742759}
+      \strng{authorfullhash}{2c8dfeb7b54faf6b427c93cb453f03b4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 13th IEEE International Symposium on High performance Distributed Computing, 2004.}
+      \field{title}{An approach for automatic data virtualization}
+      \field{year}{2004}
+      \field{pages}{24\bibrangedash 33}
+      \range{pages}{10}
     \endentry
   \enddatalist
 \endrefsection
